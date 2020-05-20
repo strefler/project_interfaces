@@ -32,9 +32,9 @@ This will generate a mapping file, i.e., `mapping_r21m42_AR6DB.csv`,
 to be used with `iamc::write.reportProject` on a combined MIF file:
 
 ```
-Rscript -e 'iamc::write.reportProject("CombindedOutput.mif",
-"mapping_r21m42_AR6DB.csv", "AR6Output.mif")'
+Rscript -e 'iamc::write.reportProject("CombindedOutput.mif", "mapping_r21m42_AR6DB.csv", "AR6Output.mif")'
 ```
 
 Note that it might make sense to run `write.reportProject` from the R
-shell to have a look at the warnings.
+shell to have a look at the warnings (this will tell you which
+variables could not be found and are therefore omitted).
