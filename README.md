@@ -29,12 +29,18 @@ first (working directory is the `shape` folder)
 Rscript generate_mappingfile.R
 ```
 This will generate a mapping file, i.e., `mapping_r21m42_AR6DB.csv`,
-to be used with `iamc::write.reportProject` on a combined MIF file:
+to be used with `iamc::write.reportProject` on a combined MIF file.
+In the R shell:
 
+```{r}
+iamc::write.reportProject("CombindedOutput.mif", "mapping_r21m42_AR6DB.csv", "AR6Output.mif")
 ```
-Rscript -e 'iamc::write.reportProject("CombindedOutput.mif", "mapping_r21m42_AR6DB.csv", "AR6Output.mif")'
-```
+If variables are not found because they are not present in the output, 
+they will be ignored but a warning is produced. This happens, e.g., if
+you use output from standalone runs (MAgPIE variables missing) or runs
+which do not use the new industry or transport modules.
 
-Note that it might make sense to run `write.reportProject` from the R
-shell to have a look at the warnings (this will tell you which
-variables could not be found and are therefore omitted).
+
+It is in any case recommended to **check the warnings** to see which
+variables are ignored.
+
