@@ -45,7 +45,7 @@ avoid confusion.
 
 The workflow to generate AR6-compatible output is as follows:
 
-- if you want to store metadata with your mapping, create a
+- the variable mappings are stored together with metadata in a
   *template*. You can, e.g., copy the `ar6/shape-template.csv` and
   adjust it to your needs.
 - from the template you generate a *mappingfile*.
@@ -53,12 +53,14 @@ The workflow to generate AR6-compatible output is as follows:
   `iamc::write.reportProject` to generate a MIF
   file with AR6 compatible variable names and factors.
 
-Generate the mapping file for the `iamc::write.reportProject` function
-(working directory is the `shape` folder)
+To generate the mapping file for the `iamc::write.reportProject`
+function, open the `ar6/generate_mappingfile.R` script and adjust the
+column names to match the ones in your template and the path to the template.
+Then call (working directory is the `ar6` folder)
 ```
 Rscript generate_mappingfile.R
 ```
-This will generate a mapping file, i.e., `mapping_r21m42_AR6DB.csv`,
+This will generate a mapping file, (e.g, `mapping_r21m42_AR6DB.csv`),
 to be used with `iamc::write.reportProject` on a combined MIF file.
 In the R shell:
 
