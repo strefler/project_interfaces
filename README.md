@@ -53,6 +53,11 @@ The workflow to generate AR6-compatible output is as follows:
   `iamc::write.reportProject` to generate a MIF
   file with AR6 compatible variable names and factors.
 
+
+A *template* is just a file which contains the mapping, optionally a
+factor and a weight column and some metadata. When the mappingfile is
+produced from the template, the metadata is ignored.
+
 To generate the mapping file for the `iamc::write.reportProject`
 function, open the `ar6/generate_mappingfile.R` script and adjust the
 column names to match the ones in your template and the path to the template.
