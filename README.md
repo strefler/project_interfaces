@@ -15,8 +15,8 @@ https://data.ene.iiasa.ac.at/ar6-scenario-submission/#/about
 
 Please check if the model version your runs are based upon is already
 registered with the AR6 DB. At the time of this writing I (Alois, 4.6.20) do
-not know of any automated way to do this. Maybe ask the (DB
-admins)[ipccAR6db.ene.admin@iiasa.ac.at].
+not know of any automated way to do this. Maybe ask the [DB
+admins](ipccAR6db.ene.admin@iiasa.ac.at).
 
 
 For the REMIND model with global coverage, two registration steps are
@@ -25,8 +25,8 @@ required: There is the rapid registration,
 https://forms.office.com/Pages/ResponsePage.aspx?id=C7F5mwcAik6wcq0MjNwapZ2PcWg1iqFLp9EH2Rjz8hZUOTJTNzBaNjdWRUpPWERYWUJGNjEyODNIVi4u
 
 and the more detailed model registration template which is part of the
-Download found under section 2 on the (IIASA help
-page)[https://data.ene.iiasa.ac.at/ar6-scenario-submission/#/about].
+Download found under section 2 on the [IIASA help
+page](https://data.ene.iiasa.ac.at/ar6-scenario-submission/#/about).
 
 Usually you will be reminded after the first step to fill in the more
 detailed template and send it via mail.
