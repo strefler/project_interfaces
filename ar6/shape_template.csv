@@ -689,8 +689,8 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Category,Definition,availabl
 687,Energy Service|Transportation|Aviation,bn vkm/yr,,,,,Energy,Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Aviation,,,,no
 688,Energy Service|Transportation|Freight,bn tkm/yr,ES|Transport|Freight,bn tkm/yr,,,Energy,annual demand for energy services related to freight transportation,yes,endogenous,medium,no
 689,Energy Service|Transportation|Freight|Aviation,bn tkm/yr,,,,,Energy,annual demand for energy services related to freight transportation in aviation,,,,no
-690,Energy Service|Transportation|Freight|International Shipping,bn tkm/yr,ES|Transport|Freight|Shipping,bn tkm/yr,,,Energy,annual demand for energy services related to freight transportation in international shipping,yes,endogenous,medium,no
-691,Energy Service|Transportation|Freight|Navigation,bn tkm/yr,,,,,Energy,annual demand for energy services related to freight transportation in navigation,,,,no
+690,Energy Service|Transportation|Freight|International Shipping,bn tkm/yr,ES|Transport|Freight|International Shipping,bn tkm/yr,,,Energy,annual demand for energy services related to freight transportation in international shipping,yes,endogenous,medium,no
+691,Energy Service|Transportation|Freight|Navigation,bn tkm/yr,ES|Transport|Freight|Navigation,bn tkm/yr,,,Energy,annual demand for energy services related to freight transportation in navigation,,,,no
 692,Energy Service|Transportation|Freight|Other,bn tkm/yr,,,,,Energy,annual demand for energy services related to freight transportation (other),,,,no
 693,Energy Service|Transportation|Freight|Railways,bn tkm/yr,ES|Transport|Freight|Rail,bn tkm/yr,,,Energy,annual demand for energy services related to freight transportation in railways,yes,endogenous,medium,no
 694,Energy Service|Transportation|Freight|Road,bn tkm/yr,ES|Transport|Freight|Road,bn tkm/yr,,,Energy,annual demand for energy services related to freight transportation on roads,yes,endogenous,medium,no
@@ -701,7 +701,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Category,Definition,availabl
 699,Energy Service|Transportation|Passenger|Navigation,bn pkm/yr,,,,,Energy,annual demand for energy services related to passenger transportation in navigation,,,,no
 700,Energy Service|Transportation|Passenger|Other,bn pkm/yr,,,,,Energy,annual demand for energy services related to passenger transportation (other),,,,no
 701,Energy Service|Transportation|Passenger|Railways,bn pkm/yr,ES|Transport|Pass|Rail,bn pkm/yr,,,Energy,annual demand for energy services related to passenger transportation in railways,yes,endogenous,medium,no
-702,Energy Service|Transportation|Passenger|Road,bn pkm/yr,,,,,Energy,annual demand for energy services related to passenger transportation on roads,,,,no
+702,Energy Service|Transportation|Passenger|Road,bn pkm/yr,ES|Transport|Pass|Road,bn pkm/yr,,,Energy,annual demand for energy services related to passenger transportation on roads,,,,no
 703,Energy Service|Transportation|Passenger|Road|2W and 3W,bn pkm/yr,ES|Transport|Pass|Road|LDV|Two-Wheelers,bn pkm/yr,,,Energy,energy service demand for passenger transport on roads (two- and three-wheel vehicles),yes,endogenous,medium,no
 704,Energy Service|Transportation|Passenger|Road|Bus,bn pkm/yr,ES|Transport|Pass|Road|Bus,bn pkm/yr,,,Energy,energy service demand for passenger transport on roads (buses),yes,endogenous,medium,no
 705,Energy Service|Transportation|Passenger|Road|LDV,bn pkm/yr,ES|Transport|Pass|Road|LDV,bn pkm/yr,,,Energy,energy service demand for passenger transport on roads (light-duty vehicles: passenger cars and light trucks/SUVs/vans),yes,endogenous,medium,no
