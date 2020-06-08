@@ -3,7 +3,7 @@ library(data.table)
 ## generate the mapping file from the template that can contain metadata
 ## note that the
 
-TEMPLATE <- "shape_template.csv"
+TEMPLATE <- "mapping_template.csv"
 MAPPING <- "mapping_r21m42_AR6DB.csv"
 REMIND_VAR <- "r21m42"
 REMIND_UNIT <- "r21m42_unit"
