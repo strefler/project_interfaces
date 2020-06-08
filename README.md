@@ -46,7 +46,7 @@ avoid confusion.
 The workflow to generate AR6-compatible output is as follows:
 
 - the variable mappings are stored together with metadata in a
-  *template*. You can, e.g., copy the `ar6/shape-template.csv` and
+  *template*. You can, e.g., copy the `ar6/mapping-template.csv` and
   adjust it to your needs.
 - from the template you generate a *mappingfile*.
 - use the mapping and REMIND and/or MAgPIE output with
@@ -98,6 +98,6 @@ the output)
 
 To facilitate working on the template and enabling version control, 
 the variable list is put into a CSV file together with the additional
-columns (`shape-template.csv`).
+columns (`ar6/shape/shape-template.csv`).
 
 
