@@ -55,8 +55,12 @@ The workflow to generate AR6-compatible output is as follows:
 
 
 A *template* is just a file which contains the mapping, optionally a
-factor and a weight column and some metadata. When the mappingfile is
-produced from the template, the metadata is ignored.
+factor and a weight column and some metadata. For example, for AR6 one
+should report model specifics regarding the accounting for variables
+in a tab called "comments". This column is included in the template
+for convenience.
+
+When the mappingfile is produced from the template, the metadata is ignored.
 
 To generate the mapping file for the `iamc::write.reportProject`
 function, open the `ar6/generate_mappingfile.R` script and adjust the
