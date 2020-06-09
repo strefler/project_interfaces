@@ -74,16 +74,26 @@ to be used with `iamc::write.reportProject` on a combined MIF file.
 In the R shell:
 
 ```{r}
-iamc::write.reportProject("CombindedOutput.mif", "mapping_r21m42_AR6DB.csv", "AR6Output.mif")
+iamc::write.reportProject("CombindedOutput.mif", "mapping_r21m42_AR6DB.csv", "AR6Output.mif", missing_log="missing.log")
 ```
 If variables are not found because they are not present in the output, 
-they will be ignored but a warning is produced. This happens, e.g., if
+they will be ignored appended to `missing.log`. This happens, e.g., if
 you use output from standalone runs (MAgPIE variables missing) or runs
 which do not use the new industry or transport modules.
 
 
-It is in any case recommended to **check the warnings** to see which
-variables are ignored.
+It is in any case recommended to **check the missing variables** to see which
+variables are ignored erringly.
+
+### Automation
+
+If you have many MIFs to process, there is a little helper script,
+`ar6/produce_output.R` to assist you with the process.
+
+You can specify the mappingfile and a directory with MIF files. It
+will produce AR6 compatible outputfiles with a given prefix and will
+also rename the model name (to be consistent with your model registration).
+
 
 ### SHAPE
 

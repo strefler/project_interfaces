@@ -1,25 +1,18 @@
 require(data.table)
+require(devtools)
+load_all("~/git/iamc")
 
 ## replace the model name with MODEL and produce output for all MIF files in directory
 ## based on the MAPPING
 ## the output file gets OUTPUT_PREFIX prepended to the file name.
 ## Warnings are appended to the given logfile.
 
-MODEL <- "REMIND-EDGET 2.1"
+MODEL <- "REMIND-EDGE-Transport 2.1"
 MAPPING <- "~/git/project_interfaces/ar6/mapping_r21m42_AR6DB.csv"
 OUTPUT_PREFIX <- "AR6_"
-LOGFILE <- "warnings.txt"
+LOGFILE <- "missing.log"
 
-## from https://stackoverflow.com/questions/4948361/how-do-i-save-warnings-and-errors-as-output-from-a-function
-catchWarnings <- function(expr) {
-  myWarnings <- NULL
-  wHandler <- function(w) {
-    myWarnings <<- c(myWarnings, w$message)
-    invokeRestart("muffleWarning")
-  }
-  val <- withCallingHandlers(expr, warning = wHandler)
-  myWarnings
-}
+MIF_DIRECTORY <- "."
 
 set_model <- function(mif, model){
   dt <- fread(mif, header=T)
@@ -27,11 +20,10 @@ set_model <- function(mif, model){
   fwrite(dt, mif, sep=";")
 }
 
-flist <- list.files(".", "*.mif")
+flist <- list.files(MIF_DIRECTORY, "*.mif")
 for(fl in flist){
   set_model(fl, MODEL)
-  warns <- catchWarnings(iamc::write.reportProject(fl, MAPPING, paste0(OUTPUT_PREFIX, fl)))
-  write(sprintf("%s: %s\n", fl, paste(warns, collapse="\n")), LOGFILE, ncolumns=1000, append = T)
+  iamc::write.reportProject(fl, MAPPING, paste0(OUTPUT_PREFIX, fl), warning_log=LOGFILE)
 }
 
 
