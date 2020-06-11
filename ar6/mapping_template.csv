@@ -1,9 +1,10 @@
 idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
-0,Fertilizer Use|Nitrogen,Tg N/yr,TODO,Mt N/yr,,,total nitrogen fertilizer use (organic + inorganic)
+0,Fertilizer Use|Nitrogen,Tg N/yr,SDG|SDG06|Fertilizer use,Mt N/yr,,,total nitrogen fertilizer use (organic + inorganic)
+,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Manure,Mt Nr/yr,,,total nitrogen fertilizer use (organic + inorganic)
 1,Fertilizer Use|Phosphorus,Tg P/yr,,,,,total phosphorus fertilizer use (organic + inorganic)
 2,Fertilizer Use|Potassium,Tg K2O/yr,,,,,total potassium fertilizer use (organic + inorganic)
 3,Fertilizer use|Nitrogen|Inorganic,Tg N/yr,SDG|SDG06|Fertilizer use,Mt N/yr,,,Total nitrogen inputs in inorganic fertilizer use
-4,Fertilizer use|Nitrogen|Organic,Tg N/yr,Resources|Nitrogen|Manure,Mt Nr/yr,,,Total nitrogen inputs in organic fertilizer use
+4,Fertilizer use|Nitrogen|Organic,Tg N/yr,Resources|Nitrogen|Manure,Mt Nr/yr,,Mt Nr/yr and Mt N/yr is the same unit. Should be corrected in the MAgPIE reporting.,Total nitrogen inputs in organic fertilizer use
 5,Fertilizer use|Phosphorous|Inorganic,Tg P/yr,,,,,Total phosphorous inputs in inorganic fertilizer use
 6,Fertilizer use|Phosphorous|Organic,Tg P/yr,,,,,Total phosphorous inputs in organic fertilizer use
 7,Fertilizer use|Potassium|Inorganic,Tg K2O/yr,,,,,Total potassium inputs in inorganic fertilizer use
@@ -39,10 +40,10 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 37,Carbon Sequestration|Feedstocks,Mt CO2/yr,,,,,"total carbon dioxide sequestered in feedstocks (e.g., lubricants, asphalt, plastics)"
 38,Carbon Sequestration|Feedstocks|Biomass,Mt CO2/yr,,,,,"total carbon dioxide sequestered in feedstocks from biomass (e.g., lubricants, asphalt, plastics)"
 39,Carbon Sequestration|Feedstocks|Fossil,Mt CO2/yr,,,,,"total carbon dioxide sequestered in feedstocks from fossil (e.g., lubricants, asphalt, plastics)"
-40,Carbon Sequestration|Land Use,Mt CO2/yr,Emi|CO2|CDR|Land-Use Change,Mt CO2/yr,,,"total carbon dioxide sequestered through land-based sinks (e.g., afforestation, soil carbon enhancement, biochar)"
-41,Carbon Sequestration|Land Use|Afforestation,Mt CO2/yr,,,,,total carbon dioxide sequestered through afforestation
+40,Carbon Sequestration|Land Use,Mt CO2/yr,Emi|CO2|CDR|Land-Use Change,Mt CO2/yr,,Check needed. On which MAgPIE variables is this based? Emissions|CO2|Land|Land-use Change|+|Regrowth?,"total carbon dioxide sequestered through land-based sinks (e.g., afforestation, soil carbon enhancement, biochar)"
+41,Carbon Sequestration|Land Use|Afforestation,Mt CO2/yr,TODO,,,Can be filled based on Emissions|CO2|Land|Land-use Change|Regrowth|CO2-price AR,total carbon dioxide sequestered through afforestation
 42,Carbon Sequestration|Land Use|Biochar,Mt CO2/yr,,,,,total carbon dioxide sequestered through biochar
-43,Carbon Sequestration|Land Use|Other,Mt CO2/yr,,,,,total carbon dioxide sequestered through other land-based mitigation techniques
+43,Carbon Sequestration|Land Use|Other,Mt CO2/yr,TODO,,,,total carbon dioxide sequestered through other land-based mitigation techniques
 44,Carbon Sequestration|Land Use|Soil Carbon Management,Mt CO2/yr,,,,,total carbon dioxide sequestered through soil carbon management techniques
 45,Carbon Sequestration|Other,Mt CO2/yr,,Mt CO2/yr,,,total carbon dioxide sequestered through other techniques (please provide a definition of other sources in this category in the 'comments' tab)
 46,Carbon Utilization|CCS|Biomass|Industry,Mt CO2/yr,,,,,"total of CO2 captured and utilized within industry, from biomass-based sources (e.g. biogas)"
@@ -145,9 +146,9 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 143,Policy Cost|GDP Loss,billion US$2010/yr,Policy Cost|GDP Loss,billion US$2005/yr,-1.10774,,GDP loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
 144,Policy Cost|Other,billion US$2010/yr,, ,,,"any other indicator of policy cost (e.g., compensated variation). (please indicate what type of policy cost is measured on the 'comments' tab)"
 145,Policy Cost|Welfare Change,billion US$2010/yr,,,,,Policy cost for welfare change
-146,Price|Agriculture|Corn|Index,Index (2010 = 1),TODO,,,,price index of corn
+146,Price|Agriculture|Corn|Index,Index (2010 = 1),TODO,,,add to MAgPIE reporting function reportPriceFoodIndex,price index of corn
 147,Price|Agriculture|Livestock|Index,Index (2010 = 1),TODO,,,,weighted average price index of livestock
-148,Price|Agriculture|Non-Energy Crops and Livestock|Index,Index (2010 = 1),TODO,,,,weighted average price index of non-energy crops and livestock products
+148,Price|Agriculture|Non-Energy Crops and Livestock|Index,Index (2010 = 1),Prices|Food Price Index,Index 2010=100,,,weighted average price index of non-energy crops and livestock products
 149,Price|Agriculture|Non-Energy Crops|Index,Index (2010 = 1),TODO,,,,weighted average price index of non-energy crops
 150,Price|Agriculture|Rice|Index,Index (2010 = 1),TODO,,,,price index of rice
 151,Price|Agriculture|Soybean|Index,Index (2010 = 1),TODO,,,,price index of soybean
@@ -1210,12 +1211,12 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1214,Trade|Secondary Energy|Liquids|Oil|Volume,EJ/yr,,,,,"net exports of liquid fuels from petroleum including both conventional and unconventional sources, at the global level these should add up to the trade losses only"
 1215,Trade|Uranium|Mass,kt U/yr,Trade|Uranium|Mass,kt U/yr,,,"net exports of Uranium, at the global level these should add up to the trade losses only"
 1216,Forestry Demand|Roundwood,million m3/yr,,,,,"forestry demand level for all roundwood (consumption, not production)"
-1217,Forestry Demand|Roundwood|Industrial Roundwood,million m3/yr,Demand|Forest products|+|Industrial roundwood,Mt DM/yr,1.6666666667,,"forestry demand level for industrial roundwood (consumption, not production)"
-1218,Forestry Demand|Roundwood|Wood Fuel,million m3/yr,Demand|Forest products|+|Wood fuel,Mt DM/yr,1.6666666667,,"forestry demand level for fuel wood roundwood (consumption, not production)"
+1217,Forestry Demand|Roundwood|Industrial Roundwood,million m3/yr,,,,,"forestry demand level for industrial roundwood (consumption, not production)"
+1218,Forestry Demand|Roundwood|Wood Fuel,million m3/yr,,,,,"forestry demand level for fuel wood roundwood (consumption, not production)"
 1219,Forestry Production|Forest Residues,million t DM/yr,,,,,"forestry production level of forest residue output (primary production, not consumption)"
 1220,Forestry Production|Roundwood,million m3/yr,,,,,"forestry production level for all roundwood (primary production, not consumption)"
-1221,Forestry Production|Roundwood|Industrial Roundwood,million m3/yr,Production|Forest products|+|Industrial roundwood,Mt DM/yr,1.6666666667,,"forestry production level for industrial roundwood (primary production, not consumption)"
-1222,Forestry Production|Roundwood|Wood Fuel,million m3/yr,Production|Forest products|+|Wood fuel,Mt DM/yr,1.6666666667,,"forestry production level for fuel wood roundwood (primary production, not consumption)"
+1221,Forestry Production|Roundwood|Industrial Roundwood,million m3/yr,,,,,"forestry production level for industrial roundwood (primary production, not consumption)"
+1222,Forestry Production|Roundwood|Wood Fuel,million m3/yr,,,,,"forestry production level for fuel wood roundwood (primary production, not consumption)"
 1223,Debt Service,%,,,,,Debt service as a percentage of exports of goods and services
 1224,Export|Developing Country Share,%,,,,,Developing countries’ and least developed countries’ share of global exports
 1225,Revenue|government,billion US$2010/yr,,,,,government revenue
@@ -1391,8 +1392,9 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1385,Agricultural Demand|Livestock|Other,million t DM/yr,Demand|Processing|+|Livestock products,Mt DM/yr,,,total demand for other livestock
 1385,Agricultural Demand|Livestock|Other,million t DM/yr,Demand|Seed|+|Livestock products,Mt DM/yr,,,total demand for other livestock
 1386,Agricultural Production,million t DM/yr,Production,Mt DM/yr,,,"total production of food, non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)"
-1387,Agricultural Production|Energy,million t DM/yr,,,,,total bioenergy-related agricultural production (including waste and residues)
-1388,Agricultural Production|Energy|Crops,million t DM/yr,,,,,production for modern primary energy crops (1st and 2nd generation)
+1387,Agricultural Production|Energy,million t DM/yr,Production|+|Bioenergy crops,Mt DM/yr,,,total bioenergy-related agricultural production (including waste and residues)
+,Agricultural Production|Energy,million t DM/yr,Demand|Bioenergy|+|Crop residues,Mt DM/yr,,,total bioenergy-related agricultural production (including waste and residues)
+1388,Agricultural Production|Energy|Crops,million t DM/yr,Production|+|Bioenergy crops,Mt DM/yr,,,production for modern primary energy crops (1st and 2nd generation)
 1389,Agricultural Production|Energy|Residues,million t DM/yr,Demand|Bioenergy|+|Crop residues,Mt DM/yr,,,production of agricultural residues for modern bioenergy production
 1390,Agricultural Production|Non-Energy,million t DM/yr,Production|+|Crops,Mt DM/yr,,,"total production for food, non-food and feed products (crops and livestock)"
 1390,Agricultural Production|Non-Energy,million t DM/yr,Production|+|Livestock products,Mt DM/yr,,,"total production for food, non-food and feed products (crops and livestock)"
@@ -1403,16 +1405,17 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1395,Land Cover|Cropland,million ha,Resources|Land Cover|+|Cropland,million ha,,,"total arable land, i.e. land in non-forest bioenergy crop, food, and feed/fodder crops, as well as other arable land (cultivated area)"
 1396,Land Cover|Cropland|Cereals,million ha,Resources|Land Cover|Cropland|Crops|+|Cereals,million ha,,,"land dedicated to cereal crops: wheat, rice and coarse grains (maize, corn, millet, sorghum, barley, oats, rye)"
 1397,Land Cover|Cropland|Double-cropped,million ha,,,,,area of land that is double-cropped (twice in a year)
-1398,Land Cover|Cropland|Energy Crops,million ha,,,,,land dedicated to both 1st & 2nd generation energy crops
+1398,Land Cover|Cropland|Energy Crops,million ha,Resources|Land Cover|Cropland|+|Bioenergy crops,million ha,,,land dedicated to both 1st & 2nd generation energy crops
 1399,Land Cover|Cropland|Energy Crops|1st generation,million ha,,,,,land dedicated to 1st generation energy crops
 1400,Land Cover|Cropland|Energy Crops|2nd generation,million ha,Resources|Land Cover|Cropland|+|Bioenergy crops,million ha,,,"land dedicated to 2nd generation energy crops (e.g., switchgrass, miscanthus, fast-growing wood species)"
 1401,Land Cover|Cropland|Energy Crops|Irrigated,million ha,Resources|Land Cover|Cropland|Bioenergy crops|irrigated,million ha,,,"irrigated land dedicated to energy crops (e.g., switchgrass, miscanthus, fast-growing wood species)"
 1402,Land Cover|Cropland|Irrigated,million ha,Resources|Land Cover|Cropland|Crops|irrigated,million ha,,,"irrigated arable land, i.e. land in non-forest bioenergy crop, food, and feed/fodder crops, as well as other arable land (cultivated area)"
 1403,Land Cover|Cropland|Rainfed,million ha,Resources|Land Cover|Cropland|Crops|rainfed,million ha,,,area of land that is rain-fed
 1404,Land Cover|Forest,million ha,Resources|Land Cover|+|Forest,million ha,,,managed and unmanaged forest area
-1405,Land Cover|Forest|Afforestation and Reforestation,million ha,Resources|Land Cover|Forest|Plantations|Afforestation,million ha,,,area with afforestation and reforestation
+1405,Land Cover|Forest|Afforestation and Reforestation,million ha,Resources|Land Cover|Forest|Managed Forest|+|NPI/NDC,million ha,,,area with afforestation and reforestation
+,Land Cover|Forest|Afforestation and Reforestation,,Resources|Land Cover|Forest|Managed Forest|+|Afforestation,million ha,,,area with afforestation and reforestation
 1406,Land Cover|Forest|Forestry|Harvested Area,million ha,,,,,Forest area harvested
-1407,Land Cover|Forest|Managed,million ha,Resources|Land Cover|Forest|Plantations|Forestry,million ha,,,"managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under """"energy crops"""")"
+1407,Land Cover|Forest|Managed,million ha,Resources|Land Cover|Forest|Managed Forest|+|Plantations,million ha,,,"managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under """"energy crops"""")"
 1408,Land Cover|Forest|Natural Forest,million ha,Resources|Land Cover|Forest|Natural Forest|+|Primary Forest,million ha,,,"undisturbed natural forests, modified natural forests"
 1409,Land Cover|Forest|Secondary,million ha,Resources|Land Cover|Forest|Natural Forest|+|Secondary Forest,million ha,,,"regrown (unmanaged) secondary forests, e.g. from abandoned agricultural land"
 1410,Land Cover|Other Arable Land,million ha,,,,,"other arable land that is unmanaged (e.g., grassland, savannah, shrubland), excluding unmanaged forests that are arable"
@@ -1830,9 +1833,3 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 ,Final Energy (excl. feedstocks)|Industry,EJ/yr,,,,,
 ,Final Energy|Transportation|Road|Passenger|Bus,EJ/yr,,,,,
 ,Final Energy|Transportation|Road|Passenger|LDV,EJ/yr,,,,,
-,Emissions|CH4|AFOLU|Agriculture|Livestock,Mt CH4/yr,,,,,
-,Emissions|CH4|AFOLU|Agriculture|Livestock|Enteric Fermentation,Mt CH4/yr,,,,,
-,Emissions|CH4|AFOLU|Agriculture|Livestock|Manure Management,Mt CH4/yr,,,,,
-,Emissions|CH4|AFOLU|Agriculture|Rice,Mt CH4/yr,,,,,
-,Emissions|N2O|AFOLU|Agriculture|Livestock|Manure Management,kt N2O/yr,,,,,
-,Emissions|N2O|AFOLU|Agriculture|Managed Soils,kt N2O/yr,,,,,
