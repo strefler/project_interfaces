@@ -140,7 +140,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 138,Interest Rate|Real,%,Interest Rate t/(t-1)|Real,%,,time preference rate as component of the interest rate is exogenous,Real interest rate or return on capital that is relevant for energy system investments
 139,Policy Cost|Additional Total Energy System Cost,billion US$2010/yr,Policy Cost|Additional Total Energy System Cost,billion US$2005/yr,1.10774,,additional energy system cost associated with the policy
 140,Policy Cost|Area under MAC Curve,billion US$2010/yr,,,,,"total costs of the policy, i.e. the area under the Marginal Abatement Cost (MAC) curve"
-141,Policy Cost|Consumption Loss,billion US$2010/yr,Policy Cost|Consumption + Current Account Loss,billion US$2005/yr,-1.10774,,consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
+141,Policy Cost|Consumption Loss,billion US$2010/yr,Policy Cost|Consumption + Current Account Loss,billion US$2005/yr,-1.10774,includes current account loss,consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
 142,Policy Cost|Equivalent Variation,billion US$2010/yr,,,,,equivalent variation associated with the given policy
 143,Policy Cost|GDP Loss,billion US$2010/yr,Policy Cost|GDP Loss,billion US$2005/yr,-1.10774,,GDP loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
 144,Policy Cost|Other,billion US$2010/yr,, ,,,"any other indicator of policy cost (e.g., compensated variation). (please indicate what type of policy cost is measured on the 'comments' tab)"
