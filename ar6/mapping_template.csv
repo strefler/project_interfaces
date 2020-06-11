@@ -3,7 +3,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1,Fertilizer Use|Phosphorus,Tg P/yr,,,,,total phosphorus fertilizer use (organic + inorganic)
 2,Fertilizer Use|Potassium,Tg K2O/yr,,,,,total potassium fertilizer use (organic + inorganic)
 3,Fertilizer use|Nitrogen|Inorganic,Tg N/yr,SDG|SDG06|Fertilizer use,Mt N/yr,,,Total nitrogen inputs in inorganic fertilizer use
-4,Fertilizer use|Nitrogen|Organic,Tg N/yr,Resources|Nitrogen|Manure,Mt N/yr,,,Total nitrogen inputs in organic fertilizer use
+4,Fertilizer use|Nitrogen|Organic,Tg N/yr,Resources|Nitrogen|Manure,Mt Nr/yr,,,Total nitrogen inputs in organic fertilizer use
 5,Fertilizer use|Phosphorous|Inorganic,Tg P/yr,,,,,Total phosphorous inputs in inorganic fertilizer use
 6,Fertilizer use|Phosphorous|Organic,Tg P/yr,,,,,Total phosphorous inputs in organic fertilizer use
 7,Fertilizer use|Potassium|Inorganic,Tg K2O/yr,,,,,Total potassium inputs in inorganic fertilizer use
