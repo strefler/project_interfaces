@@ -3,7 +3,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1,Fertilizer Use|Phosphorus,Tg P/yr,,,,,total phosphorus fertilizer use (organic + inorganic)
 2,Fertilizer Use|Potassium,Tg K2O/yr,,,,,total potassium fertilizer use (organic + inorganic)
 3,Fertilizer use|Nitrogen|Inorganic,Tg N/yr,SDG|SDG06|Fertilizer use,Mt N/yr,,,Total nitrogen inputs in inorganic fertilizer use
-4,Fertilizer use|Nitrogen|Organic,Tg N/yr,Resources|Nitrogen|Manure,Mt Nr/yr,,,Total nitrogen inputs in organic fertilizer use
+4,Fertilizer use|Nitrogen|Organic,Tg N/yr,Resources|Nitrogen|Manure,Mt N/yr,,,Total nitrogen inputs in organic fertilizer use
 5,Fertilizer use|Phosphorous|Inorganic,Tg P/yr,,,,,Total phosphorous inputs in inorganic fertilizer use
 6,Fertilizer use|Phosphorous|Organic,Tg P/yr,,,,,Total phosphorous inputs in organic fertilizer use
 7,Fertilizer use|Potassium|Inorganic,Tg K2O/yr,,,,,Total potassium inputs in inorganic fertilizer use
@@ -116,7 +116,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 114,Forcing|N2O,W/m2,Forcing|N2O,W/m2,,,total radiative forcing from N2O
 115,Forcing|Other,W/m2,Forcing|Other,W/m2,,,total radiative forcing from factors not covered in other categories (including stratospheric ozone and stratospheric water vapor)
 116,Forcing|Tropospheric Ozone,W/m2,Forcing|Tropospheric Ozone,W/m2,,,total radiative forcing from tropospheric ozone
-117,Temperature|Global Mean,°C,Temperature|Global Mean,K,,,"change in global mean surface temperature relative to pre-industrial, reported by the model. Please specify which climate model was used in comments tab"
+117,Temperature|Global Mean,ï¿½C,Temperature|Global Mean,K,,,"change in global mean surface temperature relative to pre-industrial, reported by the model. Please specify which climate model was used in comments tab"
 118,Capital Formation,billion US$2010/yr,Investments,billion US$2005/yr,1.10774,might not fit completely,net additions to the physical capital stock
 119,Capital Stock,billion US$2010/yr,Capital stock|Non-ESM,billion US$2005/yr,1.10774,might not fit completely,Macroeconomic capital stock
 120,Consumption,billion US$2010/yr,Consumption,billion US$2005/yr,1.10774,quality depends on capital market realization (switch),"total consumption of all goods, by all consumers in a region"
@@ -135,7 +135,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 133,Export,billion US$2010/yr,TODO,billion US$2005/yr,1.10774,,total exports measured in monetary quantities.
 134,GDP|MER,billion US$2010/yr,GDP|MER,billion US$2005/yr,1.10774,,GDP at market exchange rate
 135,GDP|PPP,billion US$2010/yr,GDP|PPP,billion US$2005/yr,1.10774,,GDP at purchasing power parity
-136,GINI,-0,,,,,GINI income ineqaulity index
+136,GINI,0,,,,,GINI income ineqaulity index
 137,Import,billion US$2010/yr,TODO,billion US$2005/yr,1.10774,,total imports measured in monetary quantities.
 138,Interest Rate|Real,%,Interest Rate t/(t-1)|Real,%,,time preference rate as component of the interest rate is exogenous,Real interest rate or return on capital that is relevant for energy system investments
 139,Policy Cost|Additional Total Energy System Cost,billion US$2010/yr,Policy Cost|Additional Total Energy System Cost,billion US$2005/yr,1.10774,,additional energy system cost associated with the policy
