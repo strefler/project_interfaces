@@ -29,15 +29,13 @@ generateMapping <- function(template, mapping,
     warning(sprintf("No unit found for variables %s", paste(no_unit[[remind_var]], collapse=", ")))
   }
 
-  dt <- dt[, c(remind_var, ar6_var, factor_col) :=
+  dt <- dt[, c(remind_var, ar6_var, "factor", "weight") :=
                list(
                  sprintf("%s (%s)", get(remind_var), get(remind_unit)),
                  sprintf("%s (%s)", get(ar6_var), get(ar6_unit)),
-                 get(factor_col))][, c(remind_var, ar6_var, factor_col), with=FALSE]
-
-  if(!is.null(weight_col)){
-    dt[, weight := get(weight_col)]
-  }
+                 get(factor_col),
+                 ifelse(is.null(weight_col), "NULL", get(weight_col)))][
+  , c(remind_var, ar6_var, "factor", "weight"), with=FALSE]
 
   ## store mapping
   fwrite(dt, mapping, sep=";")
