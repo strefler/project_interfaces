@@ -278,10 +278,9 @@
 272,Emissions|CO2|Energy|Demand|Residential and Commercial|Commercial|Offices,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in commercial sector (IPCC category 1A4a, 1A4b) in offices buildings"
 273,Emissions|CO2|Energy|Demand|Residential and Commercial|Commercial|Restaurant,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in commercial sector (IPCC category 1A4a, 1A4b) in restaurant buildings"
 274,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential,Mt CO2/yr,,,,,CO2 emissions from fuel combustion in residential (IPCC category 1A4b)
-276,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential and Commercial|Heating,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating"
-277,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential and Commercial|Heating|Cooking,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating|cooking"
-278,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential and Commercial|Heating|Space,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating|space"
-279,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential and Commercial|Heating|Water,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating|water"
+277,Emissions|CO2|Energy|Demand|Residential and Commercial|Heating|Cooking,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating|cooking"
+278,Emissions|CO2|Energy|Demand|Residential and Commercial|Heating|Space,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating|space"
+279,Emissions|CO2|Energy|Demand|Residential and Commercial|Heating|Water,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential and commercial sector (IPCC category 1A4a, 1A4b) for heating|water"
 280,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential|Heating,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential sector (IPCC category 1A4a, 1A4b) for heating"
 281,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential|Heating|Cooking,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential sector (IPCC category 1A4a, 1A4b) for heating|cooking"
 282,Emissions|CO2|Energy|Demand|Residential and Commercial|Residential|Heating|Space,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in residential sector (IPCC category 1A4a, 1A4b) for heating|space"
@@ -748,14 +747,14 @@
 748,Final Energy|Residential and Commercial|Liquids,EJ/yr,FE|Buildings|Liquids,EJ/yr,,,"final energy consumption by the residential & commercial sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)"
 749,Final Energy|Residential and Commercial|Other,EJ/yr,,,,,final energy consumption by the residential & commercial sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
 750,Final Energy|Residential and Commercial|Residential,EJ/yr,,,,,final energy consumed in the residential sector
-751,Final Energy|Residential and Commercial|Residential and Commercial|Appliances,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for appliances
-752,Final Energy|Residential and Commercial|Residential and Commercial|Cooling,EJ/yr,FE|Buildings|Space Cooling,EJ/yr,,,Final energy consumption by the residential and commercial sector for heating|space
-753,Final Energy|Residential and Commercial|Residential and Commercial|Heating,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for heating
-754,Final Energy|Residential and Commercial|Residential and Commercial|Heating|Cooking,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for heating|cooking
-755,Final Energy|Residential and Commercial|Residential and Commercial|Heating|Space,EJ/yr,FE|Buildings|Space Heating,EJ/yr,,,Final energy consumption by the residential and commercial sector for heating|space
-756,Final Energy|Residential and Commercial|Residential and Commercial|Heating|Water,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for heating|water
-757,Final Energy|Residential and Commercial|Residential and Commercial|Lighting,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for lighting
-758,Final Energy|Residential and Commercial|Residential and Commercial|Ofice equipment,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for ofice equipment
+751,Final Energy|Residential and Commercial|Appliances,EJ/yr,FE|Buildings|Appliances and Light,EJ/yr,,also covers lighting,Final energy consumption by the residential and commercial sector for appliances
+752,Final Energy|Residential and Commercial|Cooling,EJ/yr,FE|Buildings|Space Cooling,EJ/yr,,,Final energy consumption by the residential and commercial sector for heating|space
+753,Final Energy|Residential and Commercial|Heating,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for heating
+754,Final Energy|Residential and Commercial|Heating|Cooking,EJ/yr,,,,is contained in water heating,Final energy consumption by the residential and commercial sector for heating|cooking
+755,Final Energy|Residential and Commercial|Heating|Space,EJ/yr,FE|Buildings|Space Heating,EJ/yr,,,Final energy consumption by the residential and commercial sector for heating|space
+756,Final Energy|Residential and Commercial|Heating|Water,EJ/yr,FE|Buildings|Cooking and Water,EJ/yr,,also contains cooking,Final energy consumption by the residential and commercial sector for heating|water
+757,Final Energy|Residential and Commercial|Lighting,EJ/yr,,,,is covered by appliances,Final energy consumption by the residential and commercial sector for lighting
+758,Final Energy|Residential and Commercial|Ofice equipment,EJ/yr,,,,,Final energy consumption by the residential and commercial sector for ofice equipment
 759,Final Energy|Residential and Commercial|Residential|Appliances,EJ/yr,,,,,Final energy consumption by the residential sector for appliances
 760,Final Energy|Residential and Commercial|Residential|Cooling,EJ/yr,,,,,Final energy consumption by the residential sector for cooling
 761,Final Energy|Residential and Commercial|Residential|Electricity,EJ/yr,,,,,"final energy consumption by the residential sector of electricity (including on-site solar PV), excluding transmission/distribution losses"
