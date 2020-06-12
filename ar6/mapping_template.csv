@@ -119,7 +119,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 116,Forcing|Tropospheric Ozone,W/m2,Forcing|Tropospheric Ozone,W/m2,,,total radiative forcing from tropospheric ozone
 117,Temperature|Global Mean,�C,Temperature|Global Mean,K,,,"change in global mean surface temperature relative to pre-industrial, reported by the model. Please specify which climate model was used in comments tab"
 118,Capital Formation,billion US$2010/yr,Investments,billion US$2005/yr,1.10774,might not fit completely,net additions to the physical capital stock
-119,Capital Stock,billion US$2010/yr,Capital stock|Non-ESM,billion US$2005/yr,1.10774,might not fit completely,Macroeconomic capital stock
+119,Capital Stock|Non-ESM,billion US$2010/yr,Capital stock|Non-ESM,billion US$2005/yr,1.10774,might not fit completely,Macroeconomic capital stock
 120,Consumption,billion US$2010/yr,Consumption,billion US$2005/yr,1.10774,quality depends on capital market realization (switch),"total consumption of all goods, by all consumers in a region"
 121,Discount rate|Residential and Commercial,%,,,,,Discount rate for investments into residential and commercial buildings
 122,Discount rate|Economy,%,,,,,Economy wide discount rate: real interest rate of capital
@@ -138,7 +138,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 135,GDP|PPP,billion US$2010/yr,GDP|PPP,billion US$2005/yr,1.10774,,GDP at purchasing power parity
 136,GINI,0,,,,,GINI income ineqaulity index
 137,Import,billion US$2010/yr,TODO,billion US$2005/yr,1.10774,,total imports measured in monetary quantities.
-138,Interest Rate|Real,%,Interest Rate t/(t-1)|Real,%,,time preference rate as component of the interest rate is exogenous,Real interest rate or return on capital that is relevant for energy system investments
+138,Interest Rate|Real,%,Interest Rate t/(t-1)|Real,,100,time preference rate as component of the interest rate is exogenous,Real interest rate or return on capital that is relevant for energy system investments
 139,Policy Cost|Additional Total Energy System Cost,billion US$2010/yr,Policy Cost|Additional Total Energy System Cost,billion US$2005/yr,1.10774,,additional energy system cost associated with the policy
 140,Policy Cost|Area under MAC Curve,billion US$2010/yr,,,,,"total costs of the policy, i.e. the area under the Marginal Abatement Cost (MAC) curve"
 141,Policy Cost|Consumption Loss,billion US$2010/yr,Policy Cost|Consumption + Current Account Loss,billion US$2005/yr,-1.10774,includes current account loss,consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
