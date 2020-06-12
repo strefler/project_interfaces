@@ -1209,7 +1209,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1212,Trade|Secondary Energy|Liquids|Coal|Volume,EJ/yr,,,,,"net exports of fossil liquid synfuels from coal-to-liquids (CTL) technologies, at the global level these should add up to the trade losses only"
 1213,Trade|Secondary Energy|Liquids|Gas|Volume,EJ/yr,,,,,"net exports of fossil liquid synfuels from gas-to-liquids (GTL) technologies, at the global level these should add up to the trade losses only"
 1214,Trade|Secondary Energy|Liquids|Oil|Volume,EJ/yr,,,,,"net exports of liquid fuels from petroleum including both conventional and unconventional sources, at the global level these should add up to the trade losses only"
-1215,Trade|Uranium|Mass,kt U/yr,Trade|Uranium|Mass,kt U/yr,,,"net exports of Uranium, at the global level these should add up to the trade losses only"
+1215,Trade|Uranium|Mass,kt U/yr,Trade|Uranium|Mass,ktU/yr,,,"net exports of Uranium, at the global level these should add up to the trade losses only"
 1216,Forestry Demand|Roundwood,million m3/yr,,,,,"forestry demand level for all roundwood (consumption, not production)"
 1217,Forestry Demand|Roundwood|Industrial Roundwood,million m3/yr,,,,,"forestry demand level for industrial roundwood (consumption, not production)"
 1218,Forestry Demand|Roundwood|Wood Fuel,million m3/yr,,,,,"forestry demand level for fuel wood roundwood (consumption, not production)"
@@ -1308,7 +1308,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1311,Investment|Energy Demand|Transportation|Passenger|Road|LDV|EV,billion US$2010/yr,,,,,"investments into new vehicle technologies in the transport sector (light-duty cars and trucks: electric vehicle technologies, including all-electrics and plug-in hybrids)"
 1312,Investment|Energy Demand|Transportation|Passenger|Road|LDV|FCV,billion US$2010/yr,,,,,investments into new vehicle technologies in the transport sector (light-duty cars and trucks: fuel cell technologies running on hydrogen or another type of fuel)
 1313,Investment|Energy Demand|Transportation|Passenger|Road|LDV|ICE,billion US$2010/yr,,,,,investments into new vehicle technologies in the transport sector (light-duty cars and trucks: internal combustion engine technologies running on any type of liquid or gaseous fuel)
-1314,Investment|Energy Efficiency,billion US$2010/yr,Investments|Non-ESM|End-use,billion US$2005/yr,1.10774,,investments into the efficiency-increasing components of energy demand technologies
+1314,Investment|Energy Efficiency,billion US$2010/yr,TODO,billion US$2005/yr,1.10774,,investments into the efficiency-increasing components of energy demand technologies
 1315,Investment|Energy Supply,billion US$2010/yr,Energy Investments|Supply,billion US$2005/yr,1.10774,,investments into the energy supply system
 1316,Investment|Energy Supply|CO2 Transport and Storage,billion US$2010/yr,Energy Investments|CO2 Trans&Stor,billion US$2005/yr,1.10774,,investment in CO2 transport and storage (note that investment in the capturing equipment should be included along with the power plant technology)
 1317,Investment|Energy Supply|Electricity,billion US$2010/yr,Energy Investments|Electricity,billion US$2005/yr,1.10774,,investments into electricity generation and supply (including electricity storage and transmission & distribution)
