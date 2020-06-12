@@ -119,7 +119,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 116,Forcing|Tropospheric Ozone,W/m2,Forcing|Tropospheric Ozone,W/m2,,,total radiative forcing from tropospheric ozone
 117,Temperature|Global Mean,�C,Temperature|Global Mean,K,,,"change in global mean surface temperature relative to pre-industrial, reported by the model. Please specify which climate model was used in comments tab"
 118,Capital Formation,billion US$2010/yr,Investments,billion US$2005/yr,1.10774,might not fit completely,net additions to the physical capital stock
-119,Capital Stock|Non-ESM,billion US$2010/yr,Capital stock|Non-ESM,billion US$2005/yr,1.10774,might not fit completely,Macroeconomic capital stock
+119,Capital Stock|Non-ESM,billion US$2010/yr,Capital Stock|Non-ESM,billion US$2005/yr,1.10774,might not fit completely,Macroeconomic capital stock
 120,Consumption,billion US$2010/yr,Consumption,billion US$2005/yr,1.10774,quality depends on capital market realization (switch),"total consumption of all goods, by all consumers in a region"
 121,Discount rate|Residential and Commercial,%,,,,,Discount rate for investments into residential and commercial buildings
 122,Discount rate|Economy,%,,,,,Economy wide discount rate: real interest rate of capital
