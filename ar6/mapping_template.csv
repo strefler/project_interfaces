@@ -1,4 +1,4 @@
-﻿idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
+idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 0,Fertilizer Use|Nitrogen,Tg N/yr,SDG|SDG06|Fertilizer use,Mt N/yr,,,total nitrogen fertilizer use (organic + inorganic)
 ,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Manure,Mt Nr/yr,,,total nitrogen fertilizer use (organic + inorganic)
 1,Fertilizer Use|Phosphorus,Tg P/yr,,,,,total phosphorus fertilizer use (organic + inorganic)
@@ -301,24 +301,28 @@
 297,Emissions|CO2|Energy|Demand|Industry|Pulp and Paper,Mt CO2/yr,,,,,CO2 emissions from fuel combustion in the Pulp and Paper industry sector (IPCC category 1A2)
 298,Emissions|CO2|Energy|Demand|Industry|Steel,Mt CO2/yr,,,,,CO2 emissions from fuel combustion in the Steel industry sector (IPCC category 1A2)
 299,Emissions|CO2|Energy|Demand|Other Sector,Mt CO2/yr,,,,,CO2 emissions from fuel combustion in other energy supply sectors (please provide a definition of other sources in this category in the 'comments' tab)
-300,Emissions|CO2|Energy|Demand|Transportation,Mt CO2/yr,Emi|CO2|Transport|Demand,Mt CO2/yr,,,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)"
+300,Emissions|CO2|Energy|Demand|Transportation,Mt CO2/yr,Emi|CO2|Transport|Tailpipe,Mt CO2/yr,,Including emissions from biofuels,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)"
 301,Emissions|CO2|Energy|Demand|Transportation|Aviation,Mt CO2/yr,,,,,carbon dioxide emissions from transport by aviation mode
 302,Emissions|CO2|Energy|Demand|Transportation|Aviation|Freight,Mt CO2/yr,,,,,carbon dioxide emissions from transport by freight aviation mode
-303,Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger,Mt CO2/yr,,,,,carbon dioxide emissions from transport by passenger aviation mode
-304,Emissions|CO2|Energy|Demand|Transportation|Freight,Mt CO2/yr,,,,,"CO2 emissions from fuel combustion in freight transportation sector (part of IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)"
+303,Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Aviation|Domestic|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by passenger aviation mode
+303,Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Aviation|International|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by passenger aviation mode
+304,Emissions|CO2|Energy|Demand|Transportation|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Short-Medium Distance|Demand,Mt CO2/yr,,Including emissions from biofuels,"CO2 emissions from fuel combustion in freight transportation sector (part of IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)"
+304,Emissions|CO2|Energy|Demand|Transportation|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Long Distance|Demand,Mt CO2/yr,,Including emissions from biofuels,"CO2 emissions from fuel combustion in freight transportation sector (part of IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)"
 305,Emissions|CO2|Energy|Demand|Transportation|Maritime,Mt CO2/yr,,,,,carbon dioxide emissions from transport by maritime mode
-306,Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight,Mt CO2/yr,,,,,carbon dioxide emissions from transport by freight maritime mode
-307,Emissions|CO2|Energy|Demand|Transportation|Maritime|Passenger,Mt CO2/yr,,,,,carbon dioxide emissions from transport by passenger maritime mode
-308,Emissions|CO2|Energy|Demand|Transportation|Passenger,Mt CO2/yr,,,,,CO2 emissions from fuel combustion in passenger transportation sector (part of IPCC category 1A3)
-309,Emissions|CO2|Energy|Demand|Transportation|Rail,Mt CO2/yr,,,,,carbon dioxide emissions from transport by rail mode
-310,Emissions|CO2|Energy|Demand|Transportation|Rail|Freight,Mt CO2/yr,,,,,carbon dioxide emissions from transport by freight rail mode
-311,Emissions|CO2|Energy|Demand|Transportation|Rail|Passenger,Mt CO2/yr,,,,,carbon dioxide emissions from transport by passenger rail mode
-312,Emissions|CO2|Energy|Demand|Transportation|Road,Mt CO2/yr,,,,,carbon dioxide emissions from road transport vehicles
-313,Emissions|CO2|Energy|Demand|Transportation|Road|Freight,Mt CO2/yr,,,,,carbon dioxide emissions from road freight transport vehicles
-314,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger,Mt CO2/yr,,,,,carbon dioxide emissions from road transport passenger vehicles
-315,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|2W&3W,Mt CO2/yr,,,,,carbon dioxide emissions from road transport passenger 2W&3W vehicles
-316,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|Bus,Mt CO2/yr,,,,,carbon dioxide emissions from road transport passenger Buses
-317,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|LDV,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|LDV|Demand,Mt CO2/yr,,,carbon dioxide emissions from road transport passenger LDVs
+306,Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|International Shipping|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by freight maritime mode
+306,Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Navigation|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by freight maritime mode
+307,Emissions|CO2|Energy|Demand|Transportation|Maritime|Passenger,Mt CO2/yr,,Mt CO2/yr,,,carbon dioxide emissions from transport by passenger maritime mode
+308,Emissions|CO2|Energy|Demand|Transportation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Short-Medium Distance|Demand,Mt CO2/yr,,Including emissions from biofuels,CO2 emissions from fuel combustion in passenger transportation sector (part of IPCC category 1A3)
+308,Emissions|CO2|Energy|Demand|Transportation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Long Distance|Demand,Mt CO2/yr,,Including emissions from biofuels,CO2 emissions from fuel combustion in passenger transportation sector (part of IPCC category 1A3)
+309,Emissions|CO2|Energy|Demand|Transportation|Rail,Mt CO2/yr,Emi|CO2|Transport|Rail|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by rail mode
+310,Emissions|CO2|Energy|Demand|Transportation|Rail|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Rail|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by freight rail mode
+311,Emissions|CO2|Energy|Demand|Transportation|Rail|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Rail|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from transport by passenger rail mode
+312,Emissions|CO2|Energy|Demand|Transportation|Road,Mt CO2/yr,Emi|CO2|Transport|Road|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from road transport vehicles
+313,Emissions|CO2|Energy|Demand|Transportation|Road|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Road|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from road freight transport vehicles
+314,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from road transport passenger vehicles
+315,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|2W&3W,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|LDV|Two-Wheelers|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from road transport passenger 2W&3W vehicles
+316,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|Bus,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|Bus|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from road transport passenger Buses
+317,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|LDV,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|LDV|Demand,Mt CO2/yr,,Including emissions from biofuels,carbon dioxide emissions from road transport passenger LDVs
 318,Emissions|CO2|Energy|Supply,Mt CO2/yr,Emi|CO2|Fossil Fuels and Industry|Energy Supply,Mt CO2/yr,,"!!! warning - the sum only works with Emi|CO2|Fossil Fuels and Industry|Energy Supply, Indirect is not identical to Supply ","CO2 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)"
 319,Emissions|CO2|Energy|Supply|Electricity,Mt CO2/yr,Emi|CO2|Energy|Supply|Electricity,Mt CO2/yr,,,CO2 emissions from electricity and CHP production and distribution (IPCC category 1A1ai and 1A1aii)
 320,Emissions|CO2|Energy|Supply|Gases,Mt CO2/yr,Emi|CO2|Energy|Supply|Gases|w/ couple prod|Before IndustryCCS,Mt CO2/yr,,,"CO2 emissions from fuel combustion and fugitive emissions from fuels: gaseous fuel extraction and processing (e.g. natural gas extraction production, IPCC category 1B2b, parts of 1A1cii)"
@@ -693,7 +697,8 @@
 694,Energy Service|Transportation|Freight|Road,bn tkm/yr,ES|Transport|Freight|Road,bn tkm/yr,,,annual demand for energy services related to freight transportation on roads
 695,Energy Service|Transportation|Navigation,bn vkm/yr,,,,,Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Navigation
 696,Energy Service|Transportation|Passenger,bn pkm/yr,ES|Transport|Pass,bn pkm/yr,,,annual demand for energy services related to passenger transportation
-697,Energy Service|Transportation|Passenger|Aviation,bn pkm/yr,ES|Transport|Pass|Aviation,bn pkm/yr,,,annual demand for energy services related to passenger transportation in aviation
+697,Energy Service|Transportation|Passenger|Aviation,bn pkm/yr,ES|Transport|Pass|Aviation|Domestic,bn pkm/yr,,,annual demand for energy services related to passenger transportation in aviation
+697,Energy Service|Transportation|Passenger|Aviation,bn pkm/yr,ES|Transport|Pass|Aviation|International,bn pkm/yr,,,annual demand for energy services related to passenger transportation in aviation
 698,Energy Service|Transportation|Passenger|Bicycling and Walking,bn pkm/yr,ES|Transport|Pass|Road|Non-Motorized,bn pkm/yr,,,energy service demand for passenger transport on bicycles and by foot
 699,Energy Service|Transportation|Passenger|Navigation,bn pkm/yr,,,,,annual demand for energy services related to passenger transportation in navigation
 700,Energy Service|Transportation|Passenger|Other,bn pkm/yr,,,,,annual demand for energy services related to passenger transportation (other)
@@ -990,9 +995,10 @@
 992,Final Energy|Solids|Biomass|Traditional,EJ/yr,FE|Solids|Biomass|Traditional,EJ/yr,,,final energy consumption of traditional biomass
 993,Final Energy|Solids|Coal,EJ/yr,FE|Solids|Coal,EJ/yr,,,final energy coal consumption
 994,Final Energy|Transportation,EJ/yr,FE|Transport,EJ/yr,,,"final energy consumed in the transportation sector, including bunker fuels, excluding pipelines"
-995,Final Energy|Transportation|Aviation,EJ/yr,FE|Transport|Pass|Aviation,EJ/yr,,,Final energy consumed in the transport sector by aviation mode
+995,Final Energy|Transportation|Aviation,EJ/yr,,EJ/yr,,,Final energy consumed in the transport sector by aviation mode
 996,Final Energy|Transportation|Aviation|Freight,EJ/yr,,,,,Final energy consumed in the transport sector by freight aviation mode
-997,Final Energy|Transportation|Aviation|Passenger,EJ/yr,FE|Transport|Pass|Aviation,EJ/yr,,,Final energy consumed in the transport sector by passenger aviation mode
+997,Final Energy|Transportation|Aviation|Passenger,EJ/yr,FE|Transport|Pass|Aviation|Domestic,EJ/yr,,,Final energy consumed in the transport sector by passenger aviation mode
+997,Final Energy|Transportation|Aviation|Passenger,EJ/yr,FE|Transport|Pass|Aviation|International,EJ/yr,,,Final energy consumed in the transport sector by passenger aviation mode
 998,Final Energy|Transportation|Electricity,EJ/yr,FE|Transport|Electricity,EJ/yr,,,"final energy consumption by the transportation sector of electricity (including on-site solar PV), excluding transmission/distribution losses"
 999,Final Energy|Transportation|Freight,EJ/yr,FE|Transport|Freight,EJ/yr,,,final energy consumed for freight transportation
 1000,Final Energy|Transportation|Freight|Electricity,EJ/yr,FE|Transport|Freight|Electricity,EJ/yr,,,"final energy consumption by the freight transportation sector of electricity (including on-site solar PV), excluding transmission/distribution losses"
@@ -1016,7 +1022,8 @@
 1019,Final Energy|Transportation|Liquids|Fossil synfuel,EJ/yr,,,,,"Final energy, in the form of fossil synfuel (e.g. CTL, GTL, Methanol, and DME), consumed in the transport sector by passenger and freight vehicles"
 1020,Final Energy|Transportation|Liquids|Natural Gas,EJ/yr,,,,,final energy consumption by the transportation sector of natrual gas based liquids (gas-to-liquids)
 1021,Final Energy|Transportation|Liquids|Oil,EJ/yr,FE|Transport|Liquids|Oil,EJ/yr,,,final energy consumption by the transportation sector of liquid oil products (from conventional & unconventional oil)
-1022,Final Energy|Transportation|Maritime,EJ/yr,FE|Transport|Freight|Shipping,EJ/yr,,,Final energy consumed in the transport sector by maritime mode
+1022,Final Energy|Transportation|Maritime,EJ/yr,FE|Transport|Freight|Navigation,EJ/yr,,,Final energy consumed in the transport sector by maritime mode
+1022,Final Energy|Transportation|Maritime,EJ/yr,FE|Transport|Freight|International Shipping,EJ/yr,,,Final energy consumed in the transport sector by maritime mode
 1023,Final Energy|Transportation|Other,EJ/yr,FE|Transport|Liquids|Hydrogen,EJ/yr,,“Green” synthetic fuels from hydrogen made from electrolysis + “blue” synfuels from fossil H2,final energy consumption by the transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
 1024,Final Energy|Transportation|Passenger,EJ/yr,FE|Transport|Pass,EJ/yr,,,final energy consumed for passenger transportation
 1025,Final Energy|Transportation|Passenger|Electricity,EJ/yr,FE|Transport|Pass|Electricity,EJ/yr,,,"final energy consumption by the passenger transportation sector of electricity (including on-site solar PV), excluding transmission/distribution losses"
