@@ -41,7 +41,10 @@ the coupled models, it might be better to register a new model to
 avoid confusion.
 
 ### REMIND/MAgPIE-specific processing of model outputs prior to AR6 submission
-Before submitting your data to the AR6 database please make sure that the policy costs in the reporting are calculated w.r.t. the appropriate reference run. For consumption loss, only global results should be reported. See docs/AR6_data_preparation_workflow.md for a description how to do this.
+Before submitting your data to the AR6 database please make sure that 
+- the policy costs in the reporting are calculated w.r.t. the appropriate reference run. For most runs, this will involve re-running the policy costs.
+- only global results are reported for the Consumption Loss and Consumption + Current Account Loss variables. 
+See docs/AR6_data_preparation_workflow.md for a description how to do this.
 
 ### Generate AR6-compatible Output
 
