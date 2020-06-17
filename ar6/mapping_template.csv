@@ -381,8 +381,8 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 374,Emissions|N2O,kt N2O/yr,Emi|N2O,kt N2O/yr,,,total N2O emissions
 375,Emissions|N2O|AFOLU,kt N2O/yr,Emi|N2O|Land Use,kt N2O/yr,,,"N2O emissions from agriculture, forestry and other land use (IPCC category 3)"
 376,Emissions|N2O|AFOLU|Agriculture,kt N2O/yr,Emi|N2O|Land Use,kt N2O/yr,,,N2O|AFOLU|Agric emissions from agriculture
-,Emissions|N2O|Land|Agriculture|+|Animal Waste Management,kt N2O/yr,Emi|N2O|Land Use|+|Animal Waste Management,kt N2O/yr,,,
-,Emissions|N2O|Land|Agriculture|+|Agricultural Soils,kt N2O/yr,Emi|N2O|Land Use|+|Agricultural Soils,kt N2O/yr,,,
+,Emissions|N2O|AFOLU|Agriculture|Livestock|Manure Management,kt N2O/yr,Emi|N2O|Land Use|+|Animal Waste Management,kt N2O/yr,,,
+,Emissions|N2O|AFOLU|Agriculture|Managed Soils,kt N2O/yr,Emi|N2O|Land Use|+|Agricultural Soils,kt N2O/yr,,,
 377,Emissions|N2O|AFOLU|Land,kt N2O/yr,,,,,N2O|AFOL emissions from forestry and other land use
 378,Emissions|N2O|Energy,kt N2O/yr,Emi|N2O|Energy Supply and Demand,kt N2O/yr,,,"N2O emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)"
 379,Emissions|N2O|Energy|Demand|Residential and Commercial|Commercial,Mt CO2/yr,,,,,"N2O emissions from fuel combustion in commercial sector (IPCC category 1A4a, 1A4b) "
