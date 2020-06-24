@@ -143,7 +143,8 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 140,Policy Cost|Area under MAC Curve,billion US$2010/yr,,,,,"total costs of the policy, i.e. the area under the Marginal Abatement Cost (MAC) curve"
 141,Policy Cost|Consumption Loss,billion US$2010/yr,Policy Cost|Consumption + Current Account Loss,billion US$2005/yr,-1.10774,includes current account loss,consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
 142,Policy Cost|Equivalent Variation,billion US$2010/yr,,,,,equivalent variation associated with the given policy
-143,Policy Cost|GDP Loss,billion US$2010/yr,Policy Cost|GDP Loss,billion US$2005/yr,-1.10774,,GDP loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
+143,Policy Cost|GDP Loss,billion US$2010/yr,Policy Cost|GDP Loss,billion US$2005/yr,-1.10774,,"GDP loss in a policy scenario, including international transfers, compared to the corresponding baseline (losses should be reported as negative numbers). Transfers included if present; if no transfer, report same value as ‘w/o transfers’"
+,Policy Cost|GDP Loss|w/o transfers  ,billion US$2010/yr,,,,,GDP loss (without international transfers) in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers).
 144,Policy Cost|Other,billion US$2010/yr,, ,,,"any other indicator of policy cost (e.g., compensated variation). (please indicate what type of policy cost is measured on the 'comments' tab)"
 145,Policy Cost|Welfare Change,billion US$2010/yr,,,,,Policy cost for welfare change
 146,Price|Agriculture|Corn|Index,Index (2010 = 1),TODO,,,add to MAgPIE reporting function reportPriceFoodIndex,price index of corn
@@ -154,12 +155,12 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 151,Price|Agriculture|Soybean|Index,Index (2010 = 1),TODO,,,,price index of soybean
 152,Price|Agriculture|Wheat|Index,Index (2010 = 1),TODO,,,,price index of wheat
 153,Price|Carbon,US$2010/t CO2,Price|Carbon,US$2005/t CO2,1.10774,,price of carbon (for regional aggregrates the weighted price of carbon by subregion should be used)
-154,Price|Final Energy|Buildings|Residential|Electricity,US$2010/GJ,Price|Final Energy|Electricity|Buildings,US$2005/GJ,1.10774,,electricity price at the final level in the residential sector. Prices should include the effect of carbon prices.
-155,Price|Final Energy|Buildings|Residential|Gases|Natural Gas,US$2010/GJ,Price|Final Energy|Gases|Buildings,US$2005/GJ,1.10774,,natural gas price at the final level in the residential sector. Prices should include the effect of carbon prices.
-156,Price|Final Energy|Buildings|Residential|Liquids|Biomass,US$2010/GJ,,,,,biofuel price at the final level in the residential sector. Prices should include the effect of carbon prices.
-157,Price|Final Energy|Buildings|Residential|Liquids|Oil,US$2010/GJ,Price|Final Energy|Heating Oil|Buildings,US$2005/GJ,1.10774,,light fuel oil price at the final level in the residential sector. Prices should include the effect of carbon prices.
-158,Price|Final Energy|Buildings|Residential|Solids|Biomass,US$2010/GJ,Price|Final Energy|Solids|Buildings,US$2005/GJ,1.10774,No differentiation between fossil and biomass for final energy prices.,biomass price at the final level in the residential sector. Prices should include the effect of carbon prices.
-159,Price|Final Energy|Buildings|Residential|Solids|Coal,US$2010/GJ,Price|Final Energy|Solids|Buildings,US$2005/GJ,1.10774,No differentiation between fossil and biomass for final energy prices.,coal price at the final level in the residential sector. Prices should include the effect of carbon prices.
+154,Price|Final Energy|Residential and Commercial|Residential|Electricity,US$2010/GJ,Price|Final Energy|Electricity|Buildings,US$2005/GJ,1.10774,,electricity price at the final level in the residential sector. Prices should include the effect of carbon prices.
+155,Price|Final Energy|Residential and Commercial|Residential|Gases|Natural Gas,US$2010/GJ,Price|Final Energy|Gases|Buildings,US$2005/GJ,1.10774,,natural gas price at the final level in the residential sector. Prices should include the effect of carbon prices.
+156,Price|Final Energy|Residential and Commercial|Residential|Liquids|Biomass,US$2010/GJ,,,,,biofuel price at the final level in the residential sector. Prices should include the effect of carbon prices.
+157,Price|Final Energy|Residential and Commercial|Residential|Liquids|Oil,US$2010/GJ,Price|Final Energy|Heating Oil|Buildings,US$2005/GJ,1.10774,,light fuel oil price at the final level in the residential sector. Prices should include the effect of carbon prices.
+158,Price|Final Energy|Residential and Commercial|Residential|Solids|Biomass,US$2010/GJ,Price|Final Energy|Solids|Buildings,US$2005/GJ,1.10774,No differentiation between fossil and biomass for final energy prices.,biomass price at the final level in the residential sector. Prices should include the effect of carbon prices.
+159,Price|Final Energy|Residential and Commercial|Residential|Solids|Coal,US$2010/GJ,Price|Final Energy|Solids|Buildings,US$2005/GJ,1.10774,No differentiation between fossil and biomass for final energy prices.,coal price at the final level in the residential sector. Prices should include the effect of carbon prices.
 160,Price|Industry|Cement,US$2010/Mt,,,,,Cement producer price
 161,Price|Industry|Chemicals,US$2010/Mt,,,,,Chemicals producer price
 162,Price|Industry|Chemicals|Ammonia,US$2010/Mt,,,,,Chemicals|Ammonia producer price
@@ -206,12 +207,14 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 204,Emissions|BC|Industrial Processes,Mt BC/yr,,,,,BC emissions from industrial processes
 205,Emissions|BC|Other,Mt BC/yr,Emi|BC|Solvents,Mt BC/yr,,,black carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab)
 206,Emissions|BC|Waste,Mt BC/yr,Emi|BC|Waste,Mt BC/yr,,,
+,Emissions|C2F6,kt CF4/yr,,,,,
 207,Emissions|C2F6|AFOLU,kt C2F6/yr,,,,,"C2F6 emissions from agriculture, forestry and other land use (IPCC category 3)"
 208,Emissions|C2F6|AFOLU|Agriculture,kt C2F6/yr,,,,,C2F6|AFOLU|Agric emissions from agriculture
 209,Emissions|C2F6|AFOLU|Land,kt C2F6/yr,,,,,C2F6|AFOL emissions from forestry and other land use
 210,Emissions|C2F6|Energy,kt C2F6/yr,,,,,C2F6| emissions from forestry and other land use
 211,Emissions|C2F6|Industrial Processes,kt C2F6/yr,,,,,C2F6 emissions from industrial processes
 212,Emissions|C2F6|Waste,kt C2F6/yr,,,,,
+,Emissions|CF4,kt CF4-equiv/yr,,,,,
 213,Emissions|CF4|AFOLU,kt CF4/yr,,,,,"CF4 emissions from agriculture, forestry and other land use (IPCC category 3)"
 214,Emissions|CF4|AFOLU|Agriculture,kt CF4/yr,,,,,CF4|AFOLU|Agric emissions from agriculture
 215,Emissions|CF4|AFOLU|Land,kt CF4/yr,,,,,CF4|AFOL emissions from forestry and other land use
@@ -450,6 +453,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 445,Emissions|PFC|C2F6,kt C2F6/yr,,,,,total emissions of C2F6
 446,Emissions|PFC|C6F14,kt C6F14/yr,,,,,total emissions of CF6F14
 447,Emissions|PFC|CF4,kt CF4/yr,,,,,total emissions of CF4
+,Emissions|PFC|Industrial Processes,kt C2F6/yr,,,,,
 448,Emissions|PFC|Industrial Processes|Non-ferrous metals,kt CF4-equiv/yr,,,,,"PFC emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the non-ferrous metals sector  (IPCC categories 2A, B, C, E)"
 449,Emissions|PFC|Industrial Processes|Other,kt CF4-equiv/yr,,,,,"PFC emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the other sector (All other production, please specify in comments tab) (IPCC categories 2A, B, C, E)"
 450,Emissions|PFC|Industrial Processes|Steel,kt CF4-equiv/yr,,,,,"PFC emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the steel sector  (IPCC categories 2A, B, C, E)"
@@ -687,6 +691,21 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 684,Energy Service|Residential and Commercial|Residential|Slum|Floor space,bn m2/yr,,,,,Energy service demand for conditioned floor space in residential slum housing
 685,Energy Service|Residential and Commercial|Residential|Slum|Renovation cost,US$2010/m2,,,,,Renovation cost of residential slum housing including material and labour costs
 686,Energy Service|Residential and Commercial|Residential|Slum|Renovation rate,%/yr,,,,,Annual renovation rate of residential slum housing
+,Energy Service|Residential and Commercial|Construction rate,%/yr,,,,,
+,Energy Service|Residential and Commercial|Renovation rate,%/yr,,,,,
+,Energy Service|Residential and Commercial|Renovation cost,US$2010/m2,,,,,
+,Energy Service|Residential and Commercial|Construction cost,US$2010/m2,,,,,
+,Energy Service|Residential and Commercial|Construction,bn m2/yr,,,,,
+,Energy Service|Residential and Commercial|Commercial|Renovation cost,US$2010/m2,,,,,
+,Energy Service|Residential and Commercial|Commercial|Construction cost,US$2010/m2,,,,,
+,Energy Service|Residential and Commercial|Commercial|Construction,bn m2/yr,,,,,
+,Energy Service|Residential and Commercial|Commercial|Construction rate,%/yr,,,,,
+,Energy Service|Residential and Commercial|Commercial|Renovation rate,%/yr,,,,,
+,Energy Service|Residential and Commercial|Residential|Renovation cost,US$2010/m2,,,,,
+,Energy Service|Residential and Commercial|Residential|Construction cost,US$2010/m2,,,,,
+,Energy Service|Residential and Commercial|Residential|Construction,bn m2/yr,,,,,
+,Energy Service|Residential and Commercial|Residential|Construction rate,%/yr,,,,,
+,Energy Service|Residential and Commercial|Residential|Renovation rate,%/yr,,,,,
 687,Energy Service|Transportation|Aviation,bn vkm/yr,,,,,Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Aviation
 688,Energy Service|Transportation|Freight,bn tkm/yr,ES|Transport|Freight,bn tkm/yr,,,annual demand for energy services related to freight transportation
 689,Energy Service|Transportation|Freight|Aviation,bn tkm/yr,,,,,annual demand for energy services related to freight transportation in aviation
@@ -710,6 +729,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 706,Energy Service|Transportation|Rail,bn vkm/yr,,,,,Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Rail
 707,Energy Service|Transportation|Road,bn vkm/yr,,,,,Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Road
 708,Final Energy,EJ/yr,FE,EJ/yr,,,"total final energy consumption by all end-use sectors and all fuels, excluding transmission/distribution losses"
+,Final Energy (excl. feedstocks)|Industry,EJ/yr,,,,,
 709,Final Energy (excl. feedstocks)|Industry|Electricity,EJ/yr,,,,,"Final Energy consumption by the industrial sector, excluding feedstocks use, of electricity"
 710,Final Energy (excl. feedstocks)|Industry|Gases,EJ/yr,,,,,"Final Energy consumption by the industrial sector, excluding feedstocks use, of gases"
 711,Final Energy (excl. feedstocks)|Industry|Gases|Bioenergy,EJ/yr,,,,,"Final Energy consumption by the industrial sector, excluding feedstocks use, of gases|bioenergy"
@@ -1007,7 +1027,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1003,Final Energy|Transportation|Freight|Gases|Fossil,EJ/yr,,,,,Final fossil-based gas energy consumed in the transportation sector by freight transport
 1004,Final Energy|Transportation|Freight|Hydrogen,EJ/yr,FE|Transport|Freight|Hydrogen,EJ/yr,,,final energy consumption by the freight transportation sector of hydrogen
 1005,Final Energy|Transportation|Freight|Liquids,EJ/yr,FE|Transport|Freight|Liquids,EJ/yr,,,"final energy consumption by the freight transportation sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)"
-1006,Final Energy|Transportation|Freight|Liquids|Bioenergy,EJ/yr,,,,,Final biofuels based (liquid or gas) energy consumed in the transport sector by freight vehicles
+1006,Final Energy|Transportation|Freight|Liquids|Bioenergy,EJ/yr,FE|Transport|Freight|Liquids|Biomass,EJ/yr,,,Final biofuels based (liquid or gas) energy consumed in the transport sector by freight vehicles
 1008,Final Energy|Transportation|Freight|Liquids|Fossil synfuel,EJ/yr,,,,,"Final energy, in the form of fossil synfuel (e.g. CTL, GTL, Methanol, and DME), consumed in the transport sector by freight vehicles"
 1009,Final Energy|Transportation|Freight|Liquids|Oil,EJ/yr,FE|Transport|Freight|Liquids|Oil,EJ/yr,,,final energy consumption by the freight transportation sector of liquid oil products (from conventional & unconventional oil)
 1010,Final Energy|Transportation|Freight|Other,EJ/yr,FE|Transport|Freight|Liquids|Hydrogen,EJ/yr,,“Green” synthetic fuels from hydrogen made from electrolysis + “blue” synfuels from fossil H2,final energy consumption by the freight transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
@@ -1016,8 +1036,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1013,Final Energy|Transportation|Gases|Fossil,EJ/yr,FE|Transport|Gases|Non-Biomass,EJ/yr,,Includes synthetic gases,Final fossil-based gas energy consumed in the transportation sector.
 1014,Final Energy|Transportation|Hydrogen,EJ/yr,FE|Transport|Hydrogen,EJ/yr,,,final energy consumption by the transportation sector of hydrogen
 1015,Final Energy|Transportation|Liquids,EJ/yr,FE|Transport|Liquids,EJ/yr,,,"final energy consumption by the transportation sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)"
-1016,Final Energy|Transportation|Liquids|Bioenergy,EJ/yr,,,,,Final biofuels based (liquid or gas) energy consumed in the transport sector by passenger and freight vehicles
-1017,Final Energy|Transportation|Liquids|Biomass,EJ/yr,FE|Transport|Liquids|Biomass,EJ/yr,,,final energy consumption by the transportation sector of liquid biofuels
+1016,Final Energy|Transportation|Liquids|Bioenergy,EJ/yr,FE|Transport|Liquids|Biomass,EJ/yr,,,Final biofuels based (liquid or gas) energy consumed in the transport sector by passenger and freight vehicles
 1018,Final Energy|Transportation|Liquids|Coal,EJ/yr,FE|Transport|Liquids|Coal,EJ/yr,,,final energy consumption by the transportation sector of coal based liquids (coal-to-liquids)
 1019,Final Energy|Transportation|Liquids|Fossil synfuel,EJ/yr,,,,,"Final energy, in the form of fossil synfuel (e.g. CTL, GTL, Methanol, and DME), consumed in the transport sector by passenger and freight vehicles"
 1020,Final Energy|Transportation|Liquids|Natural Gas,EJ/yr,,,,,final energy consumption by the transportation sector of natrual gas based liquids (gas-to-liquids)
@@ -1032,7 +1051,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1028,Final Energy|Transportation|Passenger|Gases|Fossil,EJ/yr,,,,,Final fossil-based gas energy consumed in the transportation sector by passenger transport
 1029,Final Energy|Transportation|Passenger|Hydrogen,EJ/yr,FE|Transport|Pass|Hydrogen,EJ/yr,,,final energy consumption by the passenger transportation sector of hydrogen
 1030,Final Energy|Transportation|Passenger|Liquids,EJ/yr,FE|Transport|Pass|Liquids,EJ/yr,,,"final energy consumption by the passenger transportation sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)"
-1031,Final Energy|Transportation|Passenger|Liquids|Bioenergy,EJ/yr,,,,,Final biofuels based (liquid or gas) energy consumed in the transport sector by passenger vehicles
+1031,Final Energy|Transportation|Passenger|Liquids|Bioenergy,EJ/yr,FE|Transport|Pass|Liquids|Biomass,EJ/yr,,,Final biofuels based (liquid or gas) energy consumed in the transport sector by passenger vehicles
 1033,Final Energy|Transportation|Passenger|Liquids|Fossil synfuel,EJ/yr,,,,,"Final energy, in the form of fossil synfuel (e.g. CTL, GTL, Methanol, and DME), consumed in the transport sector by passenger vehicles"
 1034,Final Energy|Transportation|Passenger|Liquids|Oil,EJ/yr,FE|Transport|Pass|Liquids|Oil,EJ/yr,,,final energy consumption by the passenger transportation sector of liquid oil products (from conventional & unconventional oil)
 1035,Final Energy|Transportation|Passenger|Other,EJ/yr,FE|Transport|Pass|Liquids|Hydrogen,EJ/yr,,“Green” synthetic fuels from hydrogen made from electrolysis + “blue” synfuels from fossil H2,final energy consumption by the passenger transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
@@ -1045,6 +1064,8 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1042,Final Energy|Transportation|Road|Freight|ICE,EJ/yr,FE|Transport|Freight|Road|Liquids,EJ/yr,,,"Final energy consumed in the transport sector by road transport freight vehicles , driven by an internal combustion engine (including HEVs)"
 1043,Final Energy|Transportation|Road|Passenger,EJ/yr,FE|Transport|Pass|Road,EJ/yr,,,Final energy consumed in the transport sector by road transport passenger vehicles
 1044,Final Energy|Transportation|Road|Passenger|2W&3W,EJ/yr,FE|Transport|Pass|Road|LDV|Two-Wheelers,EJ/yr,,,Final energy consumed in the transport sector by road passenger transport by 2W and 3W vehicles
+,Final Energy|Transportation|Road|Passenger|Bus,EJ/yr,FE|Transport|Pass|Road|Bus,EJ/yr,,,
+,Final Energy|Transportation|Road|Passenger|LDV,EJ/yr,FE|Transport|Pass|Road|LDV,EJ/yr,,,
 1045,Price|Final Energy|Transportation|Electricity,US$2010/GJ,Price|Final Energy|Electricity|Transport|Moving Avg,US$2005/GJ,1.10774,,Electricity price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
 1046,Price|Final Energy|Transportation|Gases,US$2010/GJ,Price|Final Energy|Gases|Transport,US$2005/GJ,1.10774,,Gases price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
 1047,Price|Final Energy|Transportation|Gases|Bioenergy,US$2010/GJ,,,,,Gases|Bioenergy price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
@@ -1421,12 +1442,12 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1405,Land Cover|Forest|Afforestation and Reforestation,million ha,Resources|Land Cover|Forest|Managed Forest|+|NPI/NDC,million ha,,,area with afforestation and reforestation
 ,Land Cover|Forest|Afforestation and Reforestation,million ha,Resources|Land Cover|Forest|Managed Forest|+|Afforestation,million ha,,,area with afforestation and reforestation
 1406,Land Cover|Forest|Forestry|Harvested Area,million ha,,,,,Forest area harvested
-1407,Land Cover|Forest|Managed,million ha,Resources|Land Cover|Forest|Managed Forest|+|Plantations,million ha,,,"managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under """"energy crops"""")"
+1407,Land Cover|Forest|Managed,million ha,Resources|Land Cover|Forest|Managed Forest|+|Plantations,million ha,,,managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under ‘energy crops’)
 1408,Land Cover|Forest|Natural Forest,million ha,Resources|Land Cover|Forest|Natural Forest|+|Primary Forest,million ha,,,"undisturbed natural forests, modified natural forests"
 1409,Land Cover|Forest|Secondary,million ha,Resources|Land Cover|Forest|Natural Forest|+|Secondary Forest,million ha,,,"regrown (unmanaged) secondary forests, e.g. from abandoned agricultural land"
 1410,Land Cover|Other Arable Land,million ha,,,,,"other arable land that is unmanaged (e.g., grassland, savannah, shrubland), excluding unmanaged forests that are arable"
 1411,Land Cover|Other Land,million ha,Resources|Land Cover|+|Other Land,million ha,,,"other land cover that does not fit into any other category (e.g., rock, ice, desert, water, please provide a definition of the sources in this category in the 'comments' tab)"
-1412,Land Cover|Pasture,million ha,Resources|Land Cover|+|Pastures and Rangelands,million ha,,,"pasture land. All categories of pasture land - not only high quality rangeland. Based on FAO definition of """"permanent meadows and pastures"""""
+1412,Land Cover|Pasture,million ha,Resources|Land Cover|+|Pastures and Rangelands,million ha,,,pasture land. All categories of pasture land - not only high quality rangeland. Based on FAO definition of ‘permanent meadows and pastures’
 1413,Land Cover|Water Ecosystems|Forests,million ha,,,,,Land-use coverage of water-related ecosystem: forests
 1414,Land Cover|Water Ecosystems|Glaciers,million ha,,,,,Land-use coverage of water-related ecosystem: glaciers
 1415,Land Cover|Water Ecosystems|Lakes,million ha,,,,,Land-use coverage of water-related ecosystem: lakes
@@ -1492,8 +1513,8 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1475,Subsidies|Energy,billion US$2010/yr,Subsidies,billion US$2005/yr,,,total energy-related subsidies
 1476,Subsidies|Energy|Fossil,billion US$2010/yr,Subsidies|Fuel Extraction,billion US$2005/yr,,does not include Final Energy subsidies for energy carriers of fossil origin,fossil fuel subsidies
 1477,Subsidies|Food,billion US$2010/yr,,,,,food subsidies (both to producers and consumers)
-1478,Trust|In others,%,,,,,"Share of people agreeing with the statement """"most people can be trusted"""""
-1479,Trust|In politicians,%,,,,,"Share of people agreeing with the statement """"politicians are trustworthy"""""
+1478,Trust|In others,%,,,,,Share of people agreeing with the statement ‘most people can be trusted’
+1479,Trust|In politicians,%,,,,,Share of people agreeing with the statement ‘politicians are trustworthy’
 1480,Unemployment,million,,,,,number of unemployed inhabitants (based on ILO classification)
 1481,Unemployment|Rate,%,,,,,fraction of unemployed inhabitants (based on ILO classification)
 1482,Water Consumption|Electricity w/o Hydro,km3/yr,TODO,,,,
@@ -1833,9 +1854,3 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1816,Water Withdrawal|Liquids|Oil,km3/yr,,,,,water withdrawal for oil production
 1817,Water Withdrawal|Livestock,km3/yr,,,,,water withdrawals for livestock
 1818,Water Withdrawal|Municipal Water,km3/yr,,,,,"water withdrawals for the municial sector (e.g., houses, offices, municipal irrigation)"
-,Emissions|PFC|Industrial Processes,kt C2F6/yr,,,,,
-,Emissions|C2F6,kt CF4/yr,,,,,
-,Emissions|CF4,kt CF4-equiv/yr,,,,,
-,Final Energy (excl. feedstocks)|Industry,EJ/yr,,,,,
-,Final Energy|Transportation|Road|Passenger|Bus,EJ/yr,,,,,
-,Final Energy|Transportation|Road|Passenger|LDV,EJ/yr,,,,,
