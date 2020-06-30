@@ -40,10 +40,12 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 37,Carbon Sequestration|Feedstocks,Mt CO2/yr,,,,,"total carbon dioxide sequestered in feedstocks (e.g., lubricants, asphalt, plastics)"
 38,Carbon Sequestration|Feedstocks|Biomass,Mt CO2/yr,,,,,"total carbon dioxide sequestered in feedstocks from biomass (e.g., lubricants, asphalt, plastics)"
 39,Carbon Sequestration|Feedstocks|Fossil,Mt CO2/yr,,,,,"total carbon dioxide sequestered in feedstocks from fossil (e.g., lubricants, asphalt, plastics)"
-40,Carbon Sequestration|Land Use,Mt CO2/yr,Emi|CO2|CDR|Land-Use Change,Mt CO2/yr,,Check needed. On which MAgPIE variables is this based? Emissions|CO2|Land|Land-use Change|+|Regrowth?,"total carbon dioxide sequestered through land-based sinks (e.g., afforestation, soil carbon enhancement, biochar)"
-41,Carbon Sequestration|Land Use|Afforestation,Mt CO2/yr,TODO,,,Can be filled based on Emissions|CO2|Land|Land-use Change|Regrowth|CO2-price AR,total carbon dioxide sequestered through afforestation
+40,Carbon Sequestration|Land Use,Mt CO2/yr,Emissions|CO2|Land|Land-use Change|+|Regrowth,Mt CO2/yr,-1,,"total carbon dioxide sequestered through land-based sinks (e.g., afforestation, soil carbon enhancement, biochar)"
+41,Carbon Sequestration|Land Use|Afforestation,Mt CO2/yr,Emissions|CO2|Land|Land-use Change|Regrowth|CO2-price AR,Mt CO2/yr,-1,,total carbon dioxide sequestered through afforestation
+,Carbon Sequestration|Land Use|Afforestation,Mt CO2/yr,Emissions|CO2|Land|Land-use Change|Regrowth|NPI_NDC AR,Mt CO2/yr,-1,,total carbon dioxide sequestered through afforestation
+,Carbon Sequestration|Land Use|Afforestation,Mt CO2/yr,Emissions|CO2|Land|Land-use Change|Regrowth|Timber Plantations,Mt CO2/yr,-1,,total carbon dioxide sequestered through afforestation
 42,Carbon Sequestration|Land Use|Biochar,Mt CO2/yr,,,,,total carbon dioxide sequestered through biochar
-43,Carbon Sequestration|Land Use|Other,Mt CO2/yr,TODO,,,,total carbon dioxide sequestered through other land-based mitigation techniques
+43,Carbon Sequestration|Land Use|Other,Mt CO2/yr,Emissions|CO2|Land|Land-use Change|Regrowth|Other,Mt CO2/yr,-1,,total carbon dioxide sequestered through other land-based mitigation techniques
 44,Carbon Sequestration|Land Use|Soil Carbon Management,Mt CO2/yr,,,,,total carbon dioxide sequestered through soil carbon management techniques
 45,Carbon Sequestration|Other,Mt CO2/yr,,Mt CO2/yr,,,total carbon dioxide sequestered through other techniques (please provide a definition of other sources in this category in the 'comments' tab)
 46,Carbon Utilization|CCS|Biomass|Industry,Mt CO2/yr,,,,,"total of CO2 captured and utilized within industry, from biomass-based sources (e.g. biogas)"
