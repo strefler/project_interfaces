@@ -99,6 +99,19 @@ You can specify the mappingfile and a directory with MIF files. It
 will produce AR6 compatible outputfiles with a given prefix and will
 also rename the model name (to be consistent with your model registration).
 
+### Submission
+
+The resulting AR6 compatible output files (MIFs) have to be either
+concatenated and imported as a single sheet (named `data`) into the
+submission template (this is the preferable way if you have a lot of
+scenarios to submit) or as multiple sheets with sheet names `data1`,
+`data2` etc. 
+
+
+Regarding the meta-data in the submission template, please have a look
+at exiting (and recent) submissions in the `ar6/submission_templates`
+folder. **Please add your submission to this folder** as soon as you
+submitted, but please **remove the data** to not bloat this repository. 
 
 ### SHAPE
 
