@@ -642,7 +642,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 633,Energy Service|Residential and Commercial|Commercial|Education|Floor space,bn m2/yr,,,,,Energy service demand for conditioned floor space in commercial education buildings
 634,Energy Service|Residential and Commercial|Commercial|Education|Renovation cost,US$2010/m2,,,,,Ronstruction cost of commercial education buildings including material and labour costs
 635,Energy Service|Residential and Commercial|Commercial|Education|Renovation rate,%/yr,,,,,Annual renovation rate of commercial education buildings
-636,Energy Service|Residential and Commercial|Commercial|Floor Space,bn m2/yr,,,,,energy service demand for conditioned floor space in commercial buildings
+636,Energy Service|Residential and Commercial|Commercial|Floor Space,bn m2/yr,Energy Service|Buildings|Commercial|Floor Space,bn m2/yr,,,energy service demand for conditioned floor space in commercial buildings
 637,Energy Service|Residential and Commercial|Commercial|Health|Construction,bn m2/yr,,,,,Annual construction of commercial health buildings
 638,Energy Service|Residential and Commercial|Commercial|Health|Construction cost,US$2010/m2,,,,,Construction cost of commercial health buildings including material and labour costs
 639,Energy Service|Residential and Commercial|Commercial|Health|Construction rate,%/yr,,,,,Annual construction rate of commercial health buildings
@@ -673,8 +673,8 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 664,Energy Service|Residential and Commercial|Commercial|Restaurant|Floor space,bn m2/yr,,,,,Energy service demand for conditioned floor space in commercial restaurant buildings
 665,Energy Service|Residential and Commercial|Commercial|Restaurant|Renovation cost,US$2010/m2,,,,,Ronstruction cost of commercial restaurant buildings including material and labour costs
 666,Energy Service|Residential and Commercial|Commercial|Restaurant|Renovation rate,%/yr,,,,,Annual renovation rate of commercial restaurant buildings
-667,Energy Service|Residential and Commercial|Floor Space,bn m2/yr,,,,,annual demand for floor space (and associated energy servide demand for heating and lighting) in residential and commerical buildings
-668,Energy Service|Residential and Commercial|Residential|Floor Space,bn m2/yr,,,,,energy service demand for conditioned floor space in residential buildings
+667,Energy Service|Residential and Commercial|Floor Space,bn m2/yr,Energy Service|Buildings|Floor Space,bn m2/yr,,,annual demand for floor space (and associated energy servide demand for heating and lighting) in residential and commerical buildings
+668,Energy Service|Residential and Commercial|Residential|Floor Space,bn m2/yr,Energy Service|Buildings|Residential|Floor Space,bn m2/yr,,,energy service demand for conditioned floor space in residential buildings
 669,Energy Service|Residential and Commercial|Residential|Multi-family|Construction,bn m2/yr,,,,,Annual construction of residential multi-family housing
 670,Energy Service|Residential and Commercial|Residential|Multi-family|Construction cost,US$2010/m2,,,,,Construction cost of residential multi-family housing including material and labour costs
 671,Energy Service|Residential and Commercial|Residential|Multi-family|Construction rate,%/yr,,,,,Annual construction rate of residential multi-family housing
