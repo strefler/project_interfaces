@@ -1856,3 +1856,4 @@ idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
 1816,Water Withdrawal|Liquids|Oil,km3/yr,,,,,water withdrawal for oil production
 1817,Water Withdrawal|Livestock,km3/yr,,,,,water withdrawals for livestock
 1818,Water Withdrawal|Municipal Water,km3/yr,,,,,"water withdrawals for the municial sector (e.g., houses, offices, municipal irrigation)"
+,Useful Energy|Per Capita|Transportation|Passenger,GJ/yr,UE|per capita|Transport|Pass,GJ/yr,,,
