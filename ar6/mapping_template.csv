@@ -1,4 +1,4 @@
-idx,Variable,Unit,r21m42,r21m42_unit,factor,Comment,Definition
+idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,Comment,Definition
 0,Fertilizer Use|Nitrogen,Tg N/yr,SDG|SDG06|Fertilizer use,Mt N/yr,,,total nitrogen fertilizer use (organic + inorganic)
 ,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Manure,Mt N/yr,,,total nitrogen fertilizer use (organic + inorganic)
 1,Fertilizer Use|Phosphorus,Tg P/yr,,,,,total phosphorus fertilizer use (organic + inorganic)

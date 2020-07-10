@@ -9,7 +9,7 @@ REMIND_VAR <- "r21m42"
 REMIND_UNIT <- "r21m42_unit"
 AR6_VAR <- "Variable"
 AR6_UNIT <- "Unit"
-FACTOR_COL <- "factor"
+FACTOR_COL <- "r21m42_factor"
 WEIGHT_COL <- NULL
 
 generateMapping <- function(template, mapping,
