@@ -97,7 +97,12 @@ If you have many MIFs to process, there is a little helper script,
 
 You can specify the mappingfile and a directory with MIF files. It
 will produce AR6 compatible outputfiles with a given prefix and will
-also rename the model name (to be consistent with your model registration).
+also rename the model name (to be consistent with your model
+registration).
+
+If required, the script will produce only *one* output file with all
+scenarios (the flag `GENERATE_SINGLE_OUTPUT`). This can easily be
+copied to the submission template.
 
 ### Submission
 
