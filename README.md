@@ -44,14 +44,14 @@ avoid confusion.
 Before submitting your data to the AR6 database please make sure that 
 - the policy costs in the reporting are calculated w.r.t. the appropriate reference run. For most runs, this will involve re-running the policy costs.
 - only global results are reported for the Consumption Loss and Consumption + Current Account Loss variables. 
-See docs/AR6_data_preparation_workflow.md for a description how to do this.
+See the [AR6 data preparation doc](docs/AR6_data_preparation_workflow.md) for a description how to do this.
 
 ### Generate AR6-compatible Output
 
 The workflow to generate AR6-compatible output is as follows:
 
 - the variable mappings are stored together with metadata in a
-  *template*. You can, e.g., copy the `ar6/mapping-template.csv` and
+  *template*. You can, e.g., copy the [ar6/mapping-template.csv](ar6/mapping-template.csv) and
   adjust it to your needs.
 - from the template you generate a *mappingfile*.
 - use the mapping and REMIND and/or MAgPIE output with
@@ -68,7 +68,7 @@ for convenience.
 When the mappingfile is produced from the template, the metadata is ignored.
 
 To generate the mapping file for the `iamc::write.reportProject`
-function, open the `ar6/generate_mappingfile.R` script and adjust the
+function, open the [ar6/generate_mappingfile.R](ar6/generate_mappingfile.R) script and adjust the
 column names to match the ones in your template and the path to the template.
 Then call (working directory is the `ar6` folder)
 ```
@@ -93,7 +93,7 @@ variables are ignored erringly.
 ### Automation
 
 If you have many MIFs to process, there is a little helper script,
-`ar6/produce_output.R` to assist you with the process.
+[ar6/produce_output.R](ar6/produce_output.R) to assist you with the process.
 
 You can specify the mappingfile and a directory with MIF files. It
 will produce AR6 compatible outputfiles with a given prefix and will
