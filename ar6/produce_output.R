@@ -25,6 +25,7 @@ if(!file.exists(OUTPUT_DIRECTORY)){
 
 set_model_and_scenario <- function(mif, model, scen_remove = NULL, scen_add = NULL){
   dt <- fread(mif, header=T)
+  dt[, V25 := NULL]
   dt[, Model := model]
   if (!is.null(scen_remove)) dt[, Scenario := gsub(scen_remove,"",Scenario)]
   if (!is.null(scen_add)) {
