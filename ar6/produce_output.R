@@ -9,15 +9,15 @@ require(iamc)
 MODEL <- "REMIND-Transport 2.1"
 MAPPING <- "~/git/project_interfaces/ar6/mapping_r21m42_AR6DB.csv"
 OUTPUT_PREFIX <- "AR6_"
-LOGFILE <- "~/remind/testruns/lca_paper/AR6_output/missing.log"
 
-MIF_DIRECTORY <- "~/remind/testruns/lca_paper"
-OUTPUT_DIRECTORY <- "~/remind/testruns/lca_paper/AR6_output/"
+MIF_DIRECTORY <- "~/remind/testruns/ar6/runs_3006/"
+OUTPUT_DIRECTORY <- "~/remind/testruns/ar6/runs_3006/AR6_output/"
+LOGFILE <- file.path(OUTPUT_DIRECTORY, "missing.log")
 REMOVE_FROM_SCEN <- NULL
 ADD_TO_SCEN <- "Transport_"
 
 GENERATE_SINGLE_OUTPUT = TRUE
-OUTPUT_FILENAME = "~/remind/testruns/lca_paper/AR6_output/AR6_data.mif"
+OUTPUT_FILENAME = "AR6_data.mif"
 
 if(!file.exists(OUTPUT_DIRECTORY)){
   dir.create(OUTPUT_DIRECTORY)
@@ -34,8 +34,10 @@ set_model_and_scenario <- function(mif, model, scen_remove = NULL, scen_add = NU
       dt[, Scenario := paste0(scen_add,Scenario)]
     }
   }
-  fwrite(dt, mif, sep=";")
+  EOL <- if (.Platform$OS.type=="windows") ";\r\n" else ";\n"
+  fwrite(dt, mif, sep=";", eol=EOL)
 }
+
 
 flist <- list.files(MIF_DIRECTORY, "*.mif")
 for(fl in flist){
@@ -45,7 +47,7 @@ for(fl in flist){
   if(GENERATE_SINGLE_OUTPUT){
     iamc::write.reportProject(
             fl_path, MAPPING,
-            OUTPUT_FILENAME,
+            file.path(OUTPUT_DIRECTORY, OUTPUT_FILENAME),
             append=TRUE,
             missing_log=LOGFILE)
   }else{
