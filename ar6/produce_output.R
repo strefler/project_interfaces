@@ -33,7 +33,7 @@ REMOVE_FROM_SCEN <- "C_"
 ADD_TO_SCEN <- "SusDev_"
 
 GENERATE_SINGLE_OUTPUT = TRUE
-OUTPUT_FILENAME = "AR6_output/SusDev_alldata.mif"
+OUTPUT_FILENAME = "SusDev_alldata.mif"
 
 if(!file.exists(OUTPUT_DIRECTORY)){
   dir.create(OUTPUT_DIRECTORY)
