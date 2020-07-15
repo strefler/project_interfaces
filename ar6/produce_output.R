@@ -1,5 +1,6 @@
 require(data.table)
 require(iamc)
+require(rmndt)
 
 ## replace the model name with MODEL and produce output for all MIF files in directory
 ## based on the MAPPING
@@ -39,8 +40,7 @@ if(!file.exists(OUTPUT_DIRECTORY)){
 }
 
 set_model_and_scenario <- function(mif, model, scen_remove = NULL, scen_add = NULL){
-  dt <- fread(mif, header=T)
-  dt[, V25 := NULL]
+  dt <- readMIF(mif)
   dt[, Model := model]
   if (!is.null(scen_remove)) dt[, Scenario := gsub(scen_remove,"",Scenario)]
   if (!is.null(scen_add)) {
@@ -50,8 +50,7 @@ set_model_and_scenario <- function(mif, model, scen_remove = NULL, scen_add = NU
       dt[, Scenario := paste0(scen_add,Scenario)]
     }
   }
-  EOL <- if (.Platform$OS.type=="windows") ";\r\n" else ";\n"
-  fwrite(dt, mif, sep=";", eol=EOL)
+  writeMIF(dt, mif)
 }
 
 
