@@ -1879,7 +1879,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,Comme
 ,Population|Gender education gap|Secondary,percentage points,Population|Gender education gap|Secondary,percentage points,,,,,from SSP,difference between genders in secondary education completion rate (age 20+),,,,,,,,,
 ,GDP|PPP|Per capita growth rate,%,GDP|PPP|Per capita growth rate,percent,,,,,,GDP/cap (PPP) growth rate,,,,,,,,,
 ,GDP|PPP|Per capita ratio to OECD,%,GDP|PPP|Per capita ratio to OECD,percent,,,,,,Ratio of GDP/cap (PPP) of developing regions to OECD average,,,,,,,,,
-,Population|Relative poverty|w.r.t. median income|Share,%,Population|Relative poverty|w.r.t. median income|Share,percent,,,,,,Share of population below 50% of national median income,,,,,,,,,
+,Population|Relative poverty|wrt median income|Share,%,Population|Relative poverty|wrt median income|Share,percent,,,,,,Share of population below 50% of national median income,,,,,,,,,
 ,Inequality|Bottom 40% average income|Ratio,%,Inequality|Bottom 40% average income|Ratio,percent,,,,,,Average income of bottom 40% relative to national average,,,,,,,,,
 ,Policy Cost|Transfers,billion US$2010/yr,Policy Cost|Transfers,billion US$2005/yr,1.10774,,,,,Net international climate finance transfers (positive for inflow, negative for payment),,,,,,,,
 ,Population|Prevalence of underweight,million,SDG|SDG02|Prevalence of underweight,million,,SDG|SDG02|Prevalence of underweight,million,,,Number of adults with BMI<18.5 and children with <-1SD from reference BMI,,,,,,,,,
