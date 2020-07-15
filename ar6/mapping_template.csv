@@ -1,5 +1,5 @@
 idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,Comment,Definition,,,,,,,,,
-0,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer,Mt N/yr,,Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer,Mt N/yr,,,total nitrogen fertilizer use (organic + inorganic),,,,,,,,,
+0,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer,Mt Nr/yr,,Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer,Mt Nr/yr,,,total nitrogen fertilizer use (organic + inorganic),,,,,,,,,
 ,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Cropland Budget|Inputs|+|Manure,Mt Nr/yr,,Resources|Nitrogen|Cropland Budget|Inputs|+|Manure,Mt Nr/yr,,,total nitrogen fertilizer use (organic + inorganic),,,,,,,,,
 ,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Cropland Budget|Inputs|+|Manure From Stubble Grazing,Mt Nr/yr,,Resources|Nitrogen|Cropland Budget|Inputs|+|Manure From Stubble Grazing,Mt Nr/yr,,,total nitrogen fertilizer use (organic + inorganic),,,,,,,,,
 ,Fertilizer Use|Nitrogen,Tg N/yr,Resources|Nitrogen|Cropland Budget|Inputs|+|Recycled Aboveground Crop Residues,Mt Nr/yr,,Resources|Nitrogen|Cropland Budget|Inputs|+|Recycled Aboveground Crop Residues,Mt Nr/yr,,,total nitrogen fertilizer use (organic + inorganic),,,,,,,,,
