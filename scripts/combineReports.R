@@ -35,6 +35,8 @@ for (r in runs) {
   cat("Joining to a common reporting file:\n    ",report_rem,"\n    ",report_mag,"\n")
   tmp1 <- read.report(report_rem,as.list=FALSE)
   tmp2 <- read.report(report_mag,as.list=FALSE)[,getYears(tmp1),]
+  # remove population from magpie reporting to avoid duplication (units "million" vs. "million people")
+  tmp2 <- tmp2[,,"Population (million people)",invert=T]
   tmp3 <- mbind(tmp1,tmp2)
 
   # remove -rem-xx and mag-xx from scenario names
@@ -47,7 +49,7 @@ for (r in runs) {
     warning(msg)
   } else {
     # Replace REMIND and MAgPIE with REMIND-MAgPIE
-    gsub("REMIND|MAgPIE","REMIND-MAgPIE",getNames(tmp3,dim=2))
-    write.report(tmp3,file=paste0("output/bjoernAR6-",r,".mif"))
+    getNames(tmp3,dim=2) <- gsub("REMIND|MAgPIE","REMIND-MAGPIE",getNames(tmp3,dim=2))
+    write.report(tmp3,file=paste0("output/bjoernAR6_v2withInd-",r,".mif"))
   }
 }
