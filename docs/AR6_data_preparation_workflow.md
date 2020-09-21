@@ -1,4 +1,4 @@
-This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 3 if you are submitting REMIND standalone. (Bjoern Soergel, Jun 2016)
+This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 3 if you are submitting REMIND standalone. (Bjoern Soergel, Jun 2020)
 
 0. rerun REMIND & MAgPIE reportings (only necessary if new variables have been been added to the reporting since your run was performed)
 
