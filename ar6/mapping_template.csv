@@ -1908,5 +1908,5 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,Comme
 ,Ocean|Carbonate Saturation|Aragonite,-,Ocean|Carbonate Saturation|Aragonite,-,,,,,,Saturation state of aragonite (Omega_A)
 ,Ocean|Net primary production,GtC/yr,Ocean|Net primary production,GtC/yr,-,,,,,Net primary production of biomass in oceans
 ,Ocean|New production,GtC/yr,Ocean|New production,GtC/yr,,,,,,New production of biomass in oceans
-,Ocean|Extension of suboxic zones,km³,Ocean|Extension of suboxic zones,km³,,,,,,Extension of suboxic zones in oceans
+,Ocean|Extension of suboxic zones,km³,Ocean|Extension of suboxic zones,km3,,,,,,Extension of suboxic zones in oceans
 ,Political institutions|Equality before law and individual liberty,-,Political institutions|Equality before law and individual liberty,-,,,,,,aggregated ‘Equality Before the Law and Individual Liberty' index (0-1) as defined by V-DEM
