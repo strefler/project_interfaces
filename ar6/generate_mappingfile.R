@@ -39,10 +39,40 @@ generateMapping <- function(template, mapping,
 
   ## store mapping
   fwrite(dt, mapping, sep=";")
-  
+
 }
 
-generateMapping(TEMPLATE, MAPPING,
-                REMIND_VAR, REMIND_UNIT,
-                AR6_VAR, AR6_UNIT,
-                FACTOR_COL, WEIGHT_COL)
+MODEL <- "REMIND-MAgPIE 2.1-4.2"
+COMMENT_FILE <- "ar6-comments.csv"
+
+storeComments <- function(template, remind_var, ar6_var){
+  dt <- fread(template)
+  dt[get(remind_var) == "TODO", (remind_var) := ""]
+  dt <- dt[get(remind_var) != ""]
+
+  comments <- dt[Comment != ""]
+  comments <- comments[, .(
+    "Model"=MODEL,
+    "Scenario"="All",
+    "Region"="All",
+    "Year"="All",
+    Comment)]
+
+  fwrite(comments, COMMENT_FILE)
+}
+
+generateMapping(
+  template=TEMPLATE,
+  mapping=MAPPING,
+  remind_var=REMIND_VAR,
+  remind_unit=REMIND_UNIT,
+  ar6_var=AR6_VAR,
+  ar6_unit=AR6_UNIT,
+  factor_col=FACTOR_COL,
+  weight_col=WEIGHT_COL)
+
+storeComments(
+  template=TEMPLATE,
+  remind_var=REMIND_VAR,
+  ar6_var=AR6_VAR,
+)
