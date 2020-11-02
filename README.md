@@ -46,6 +46,22 @@ Before submitting your data to the AR6 database please make sure that
 - only global results are reported for the Consumption Loss and Consumption + Current Account Loss variables. 
 See the [AR6 data preparation doc](docs/AR6_data_preparation_workflow.md) for a description how to do this.
 
+### Columns of the `mapping_template.csv`
+
+- `idx`: Index as given by the AR6 submission template, this is just for reference
+- `Variable`: The AR6 reporting variable name as given by the submission template
+- `Unit`: The AR6 reporting variable unit as given by the submission template
+- `r21m42`: The REMIND/MagPIE variable name
+- `r21m42_unit`: The REMIND/MagPIE
+- `r21m42_factor`: Conversion factor multiplied with the REMIND/MagPIE value to obtain the AR6 compatible value
+- `m42`: MagPIE specific variable name
+- `m42_unit`: MagPIE specific variable unit
+- `m42_factor`: Conversion factor for MagPIE value
+- `internal_comment`: Comment for internal reference
+- `Comment`: Comment to be published with the AR6 submission template
+- `Definition`: Variable definition, initial values copied from the AR6 submission template.
+
+
 ### Generate AR6-compatible Output
 
 The workflow to generate AR6-compatible output is as follows:
