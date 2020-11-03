@@ -1876,7 +1876,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 1818,Water Withdrawal|Municipal Water,km3/yr,,,,,,,,,"water withdrawals for the municial sector (e.g.,houses,offices,municipal irrigation)"
 1819,Useful Energy|Per Capita|Transportation|Passenger,GJ/cap/yr,UE|per capita|Transport|Pass,GJ/cap/yr,,,,,,,Useful energy per capita for passenger transport.
 1820,Disability-Adjusted Life Year|PM2_5,DALY/yr,Disability-Adjusted Life Year|PM2_5,DALY/yr,,,,,,,Disability adjusted life years lost per year from air pollution health impact
-1821,Useful Energy|Per Capita|Industry,GJ/cap/yr,UE|per capita|Industry,GJ/cap/yr,,,,,,,Useful energy per capita for industry.
+1821,Useful Energy|Per Capita|Industry,GJ/cap/yr,UE|per capita|Industry,GJ/cap/yr,,,,,,weighted sum of FE with weights constant both in time and across regions,Useful energy per capita for industry.
 1822,Useful Energy|Per Capita|Residential and Commercial,GJ/cap/yr,UE|per capita|Buildings,GJ/cap/yr,,,,,,,Useful energy per capita for buildings
 1823,Intensity|Final Energy,EJ/billion US$2010,Intensity|Final Energy,EJ/billion US$2010,,,,,,,Final energy / GDP PPP
 1824,Final Energy|Industry|Electricity|Share,%,Final Energy|Industry|Electricity|Share,%,,,,,,,Share of electrified FE in industry
