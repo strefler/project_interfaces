@@ -1521,7 +1521,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 1463,Population|Public transport Access,million,,,,,,,,,population with convenient access to public transport
 1464,Population|Relative poverty,million,,,,,,,work in progress,,population living in relative poverty with income below theeir respective national poverty lines.
 1465,Population|Relying on Solid Fuels,million,,,,,,,work in progress,,
-1466,Population|Risk of Hunger,million,,,,,,,work in progress,,"population at risk of hunger,calculated by multipling total population and prevalence of undernourishment which is computed from a probability distribution of daily dietary energy consumption and minimum dietary energy requirement."
+1466,Population|Risk of Hunger,million,SDG|SDG02|Prevalence of underweight,million,,SDG|SDG02|Prevalence of underweight,million,,,"prevalence of underweight is calculated based on an age-group dependent distribution of BMI, where BMI <18.5 for adults and <-2SD for children are defined as underweight","population at risk of hunger,calculated by multipling total population and prevalence of undernourishment which is computed from a probability distribution of daily dietary energy consumption and minimum dietary energy requirement."
 1467,Population|Rural,million,,,,,,,,"from SSP, unused",total population living in rural areas
 1468,Population|Secondary education,million,Population|Secondary education,million,,,,,,"from SSP, unused",population with secondary education completed
 1469,Population|Tertiary education,million,,,,,,,,"from SSP, unused",population with tertiary education completed
