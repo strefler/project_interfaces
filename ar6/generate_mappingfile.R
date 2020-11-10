@@ -55,6 +55,7 @@ storeComments <- function(template, remind_var, ar6_var){
     "Model"=MODEL,
     "Scenario"="All",
     "Region"="All",
+    "Variable"=get(AR6_VAR),
     "Year"="All",
     Comment)]
 
