@@ -74,5 +74,4 @@ generateMapping(
 storeComments(
   template=TEMPLATE,
   remind_var=REMIND_VAR,
-  ar6_var=AR6_VAR,
-)
+  ar6_var=AR6_VAR)
