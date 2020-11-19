@@ -1,18 +1,21 @@
-This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 3 if you are submitting REMIND standalone. (Bjoern Soergel, Jun 2020)
+This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 3 if you are submitting REMIND standalone. (Bjoern Soergel, last updated Nov 2020)
 
-0. rerun REMIND & MAgPIE reportings (only necessary if new variables have been been added to the reporting since your run was performed)
+0. rerun REMIND and/or MAgPIE reportings.  (only necessary if there have been issues with the reporting, or if variables were added to remind/magpie4 libraries that are not yet present in the snapshot used for the coupling). 
+IMPORTANT: due to fixes in the REMIND emission reporting, make sure you use remind library version >= 36.180.0 (snapshot 2020_11_19).
 
 1. run policy cost reporting: Rscript output.R -> comparison -> policy costs -> select scenarios as: Run A, reference run for run A, run B, reference run for run B, etc. 
 This copies the REMIND reporting but replaces the policy costs with the ones calculated with your reference run of choice. (Normally the corresponding SSPx-NPi run is the appropriate reference, but your study might have special requirements.) Continue with the new file REMIND_generic_xxx_adjustedPolicyCosts.mif .
 
 2. Remove regional Policy Cost|Consumption Loss and Policy Cost|Consumption + Current Account Loss from this file, keep only the global one (we only want to report the global values to the AR6 database). Use this script to do so conveniently: scripts/rm_regipolicycosts.sh (thanks to Jerome!)
-Note: for the SDP submission this should be skipped and done only after calculating the additional indicators. (otherwise you get infilled NAs)
+NOTE 1: looks like this step can be skipped making use of the new feature of writeReportProject() [will update the tutorial after checking this out]
+NOTE 2: for the SDP submission this should be skipped and done only after calculating the additional indicators. (otherwise you get infilled NAs)
 
-3. merge MAgPIE and REMIND (with correct policy costs) reporting:  see script here: scripts/combineReports.R (thanks to David)
+3. merge MAgPIE and REMIND (with correct policy costs) reporting:  see script here: scripts/combine_report.R (thanks to David). Copy this into your remind main folder and use it like: "Rscript combine_report.R runs=C_SDP-PkBudg1000,C_SSP1-PkBudg900,C_SSP1-NDC,C_SSP2-NDC,C_SSP2-PkBudg900"
+Make sure to adjust (i) the name of the REMIND reporting suffix (with/without corrected policy costs), (ii) the name prefix for your coupled runs (unless you want all of your reportings to be called "bjoernAR6_...")
 
 special steps for SDP submission with additional SDG indicators:
 
-4a. check out sdp-postprocessing repository from PIK Gitlab. Copy the combined .mif files from Step 3 into sdp-postprocessing/mifs. Run master.R to add the post-processing for additional SDG indicators (mif files are modified inplace).
+4a. check out sdp-postprocessing repository from PIK Gitlab. Create a new folder unmodified_mifs at the same level, and copy the combined reportings from step 3 into it. create a folder sdp-postprocessing/mifs. Run master.R (best using slurm script!) to add the post-processing for additional SDG indicators (mif files are copied into folder mifs and modified inplace).
 
 4b. Do step 2 here (removal of regional consumption losses).  
 
