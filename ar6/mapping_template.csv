@@ -274,15 +274,14 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 251,Emissions|CH4|Other,Mt CH4/yr,Emi|CH4|Other,Mt CH4/yr,,,,,,,CH4 emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab)
 252,Emissions|CH4|Waste,Mt CH4/yr,Emi|CH4|Waste,Mt CH4/yr,,,,,,,
 253,Emissions|CO,Mt CO/yr,Emi|CO,Mt CO/yr,,,,,,,total CO emissions
-254,Emissions|CO2,Mt CO2/yr,Emi|CO2,Mt CO2/yr,,,,,,,total net-CO2 emissions from all sources
+254,Emissions|CO2,Mt CO2/yr,Emi|CO2|w/ Bunkers,Mt CO2/yr,,,,,,,total net-CO2 emissions from all sources
 255,Emissions|CO2|AFOLU,Mt CO2/yr,Emi|CO2|Land-Use Change,Mt CO2/yr,,Emissions|CO2|Land,Mt CO2/yr,,,,"CO2 emissions from agriculture,forestry and other land use (IPCC category 3)"
 256,Emissions|CO2|AFOLU|Agriculture,Mt CO2/yr,,,,,,,,,CO2|AFOLU|Agric emissions from agriculture
 257,Emissions|CO2|AFOLU|Land,Mt CO2/yr,,,,Emissions|CO2|Land|+|Land-use Change,Mt CO2/yr,,,,CO2|AFOL emissions from forestry and other land use
 ,Emissions|CO2|AFOLU|Wetlands|Peatlands,Mt CO2/yr,,,,Emissions|CO2|Land|+|Peatland,Mt CO2/yr,,,,
-258,Emissions|CO2|Energy,Mt CO2/yr,Emi|CO2|Energy,Mt CO2/yr,,,,,,,"CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B)"
-259,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,Emi|CO2|Energy,Mt CO2/yr,,,,,,,"CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B) and from industrial processes (IPCC categories 2A,B,C,E)"
-,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,Emi|CO2|Fossil Fuels and Industry|Cement process,Mt CO2/yr,,,,,,,"CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B) and from industrial processes (IPCC categories 2A,B,C,E)"
-260,Emissions|CO2|Energy|Demand,Mt CO2/yr,Emi|CO2|Fossil Fuels and Industry|Demand|After IndustryCCS,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in industry (IPCC category 1A2),residential,commercial,institutional sectors and agriculture,forestry,fishing (AFOFI) (IPCC category 1A4a,1A4b,1A4c),and transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
+258,Emissions|CO2|Energy,Mt CO2/yr,Emi|CO2|Energy|w/ Bunkers,Mt CO2/yr,,,,,,,"CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B)"
+259,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,Emi|CO2|Fossil Fuels and Industry|w/ Bunkers,Mt CO2/yr,,,,,,,"CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B) and from industrial processes (IPCC categories 2A,B,C,E)"
+260,Emissions|CO2|Energy|Demand,Mt CO2/yr,Emi|CO2|Energy|Demand|w/ Bunkers,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in industry (IPCC category 1A2),residential,commercial,institutional sectors and agriculture,forestry,fishing (AFOFI) (IPCC category 1A4a,1A4b,1A4c),and transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
 261,Emissions|CO2|Energy|Demand|AFOFI,Mt CO2/yr,,,,,,,,,"CO2 emissions from fuel combustion in agriculture,forestry,fishing (AFOFI) (IPCC category 1A4c)"
 262,Emissions|CO2|Energy|Demand|Residential and Commercial,Mt CO2/yr,Emi|CO2|Buildings|Direct,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b)"
 263,Emissions|CO2|Energy|Demand|Residential and Commercial|Commercial,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in commercial and institutional sectors (IPCC category 1A4a)
@@ -320,7 +319,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 297,Emissions|CO2|Energy|Demand|Industry|Pulp and Paper,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in the Pulp and Paper industry sector (IPCC category 1A2)
 298,Emissions|CO2|Energy|Demand|Industry|Steel,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in the Steel industry sector (IPCC category 1A2)
 299,Emissions|CO2|Energy|Demand|Other Sector,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in other energy supply sectors (please provide a definition of other sources in this category in the 'comments' tab)
-300,Emissions|CO2|Energy|Demand|Transportation,Mt CO2/yr,Emi|CO2|Transport|Demand,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
+300,Emissions|CO2|Energy|Demand|Transportation,Mt CO2/yr,Emi|CO2|Transport|Direct|w/ Bunkers,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
 301,Emissions|CO2|Energy|Demand|Transportation|Aviation,Mt CO2/yr,,,,,,,,,carbon dioxide emissions from transport by aviation mode
 302,Emissions|CO2|Energy|Demand|Transportation|Aviation|Freight,Mt CO2/yr,,,,,,,,,carbon dioxide emissions from transport by freight aviation mode
 303,Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Aviation|Domestic|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by passenger aviation mode
@@ -342,7 +341,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 315,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|2W&3W,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|LDV|Two-Wheelers|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from road transport passenger 2W&3W vehicles
 316,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|Bus,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|Bus|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from road transport passenger Buses
 317,Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|LDV,Mt CO2/yr,Emi|CO2|Transport|Pass|Road|LDV|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from road transport passenger LDVs
-318,Emissions|CO2|Energy|Supply,Mt CO2/yr,Emi|CO2|Fossil Fuels and Industry|Energy Supply,Mt CO2/yr,,,,,,"!!! warning - the sum only works with Emi|CO2|Fossil Fuels and Industry|Energy Supply, Indirect is not identical to Supply ","CO2 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)"
+318,Emissions|CO2|Energy|Supply,Mt CO2/yr,Emi|CO2|Energy|Supply,Mt CO2/yr,,,,,,"!!! warning - the sum only works with Emi|CO2|Fossil Fuels and Industry|Energy Supply, Indirect is not identical to Supply ","CO2 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)"
 319,Emissions|CO2|Energy|Supply|Electricity,Mt CO2/yr,Emi|CO2|Energy|Supply|Electricity,Mt CO2/yr,,,,,,,CO2 emissions from electricity and CHP production and distribution (IPCC category 1A1ai and 1A1aii)
 320,Emissions|CO2|Energy|Supply|Gases,Mt CO2/yr,Emi|CO2|Energy|Supply|Gases|w/ couple prod|Before IndustryCCS,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion and fugitive emissions from fuels: gaseous fuel extraction and processing (e.g. natural gas extraction production,IPCC category 1B2b,parts of 1A1cii)"
 321,Emissions|CO2|Energy|Supply|Heat,Mt CO2/yr,Emi|CO2|Energy|Supply|Heat|w/ couple prod,Mt CO2/yr,,,,,,,CO2 emissions from heat production and distribution (IPCC category 1A1aiii)
@@ -396,7 +395,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 370,Emissions|HFC|Industrial Processes|Chemicals,kt HFC134a-equiv/yr,,,,,,,,,"HFC emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the chemicals sector  (IPCC categories 2A,B,C,E)"
 371,Emissions|HFC|Industrial Processes|Other,kt HFC134a-equiv/yr,,,,,,,,,"HFC emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the other sector (All other production,please specify in comments tab) (IPCC categories 2A,B,C,E)"
 372,Emissions|HFC|Waste,Mt CO2-equiv/yr,,,,,,,,,
-373,Emissions|Kyoto Gases,Mt CO2-equiv/yr,Emi|Kyoto Gases,Mt CO2-equiv/yr,,,,,,,"total Kyoto GHG emissions,including CO2,CH4,N2O and F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases"
+373,Emissions|Kyoto Gases,Mt CO2-equiv/yr,Emi|Kyoto Gases|w/ Bunkers,Mt CO2-equiv/yr,,,,,,,"total Kyoto GHG emissions,including CO2,CH4,N2O and F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases"
 374,Emissions|N2O,kt N2O/yr,Emi|N2O,kt N2O/yr,,,,,,,total N2O emissions
 375,Emissions|N2O|AFOLU,kt N2O/yr,Emi|N2O|Land Use,kt N2O/yr,,Emissions|N2O|Land,Mt N2O/yr,1000,,,"N2O emissions from agriculture,forestry and other land use (IPCC category 3)"
 376,Emissions|N2O|AFOLU|Agriculture,kt N2O/yr,Emi|N2O|Land Use,kt N2O/yr,,Emissions|N2O|Land|+|Agriculture,Mt N2O/yr,1000,,,N2O|AFOLU|Agric emissions from agriculture
