@@ -1,13 +1,16 @@
 This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 3 if you are submitting REMIND standalone. (Bjoern Soergel, last updated Nov 2020)
 
 0. rerun REMIND and/or MAgPIE reportings.  (only necessary if there have been issues with the reporting, or if variables were added to remind/magpie4 libraries that are not yet present in the snapshot used for the coupling). 
+
 IMPORTANT: due to fixes in the REMIND emission reporting, make sure you use remind library version >= 36.180.0 (snapshot 2020_11_19).
 
 1. run policy cost reporting: Rscript output.R -> comparison -> policy costs -> select scenarios as: Run A, reference run for run A, run B, reference run for run B, etc. 
 This copies the REMIND reporting but replaces the policy costs with the ones calculated with your reference run of choice. (Normally the corresponding SSPx-NPi run is the appropriate reference, but your study might have special requirements.) Continue with the new file REMIND_generic_xxx_adjustedPolicyCosts.mif .
 
 2. Remove regional Policy Cost|Consumption Loss and Policy Cost|Consumption + Current Account Loss from this file, keep only the global one (we only want to report the global values to the AR6 database). Use this script to do so conveniently: scripts/rm_regipolicycosts.sh (thanks to Jerome!)
+
 NOTE 1: looks like this step can be skipped making use of the new feature of writeReportProject() [will update the tutorial after checking this out]
+
 NOTE 2: for the SDP submission this should be skipped and done only after calculating the additional indicators. (otherwise you get infilled NAs)
 
 3. merge MAgPIE and REMIND (with correct policy costs) reporting:  see script here: scripts/combine_report.R (thanks to David). Copy this into your remind main folder and use it like: "Rscript combine_report.R runs=C_SDP-PkBudg1000,C_SSP1-PkBudg900,C_SSP1-NDC,C_SSP2-NDC,C_SSP2-PkBudg900"
