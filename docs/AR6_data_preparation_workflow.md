@@ -35,6 +35,8 @@ Further steps largely follow the submission procedure as already described by Al
 9. copy the outputs from ar6/AR6_output into the AR6 submission Excel spreadsheet (see Alois' slides for details). Notes:
 - copy only the years until 2100
 - there is currently still an encoding issue with the unit "\mu g/m3" for the air pollution variables. You have to correct this by hand when copying the data into the AR6 spreadsheet (replacing ug/m3 with the Greek letter)
-- add comments for variables in the comments sheet as necessary
-- complete/update scenario metadata sheet
+
+10. add comments for variables in the comments sheets. The creation of the mapping template also creates a ar6-comments.csv that lists all comments in the mapping file. Copy this into the Comments sheet and modify/add as needed for your submission. If you have generic comments for variables (not specific to your study) make sure they are added to the mapping template so that everyone's submissions have them.
+
+11. complete/update scenario metadata sheet
 
