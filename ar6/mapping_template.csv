@@ -319,19 +319,15 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,m42,m42_unit,m42_factor,inter
 297,Emissions|CO2|Energy|Demand|Industry|Pulp and Paper,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in the Pulp and Paper industry sector (IPCC category 1A2)
 298,Emissions|CO2|Energy|Demand|Industry|Steel,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in the Steel industry sector (IPCC category 1A2)
 299,Emissions|CO2|Energy|Demand|Other Sector,Mt CO2/yr,,,,,,,,,CO2 emissions from fuel combustion in other energy supply sectors (please provide a definition of other sources in this category in the 'comments' tab)
-300,Emissions|CO2|Energy|Demand|Transportation,Mt CO2/yr,Emi|CO2|Transport|Direct|w/ Bunkers,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
+300,Emissions|CO2|Energy|Demand|Transportation,Mt CO2/yr,Emi|CO2|Transport|Demand,Mt CO2/yr,,,,,without bunkers,,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
 301,Emissions|CO2|Energy|Demand|Transportation|Aviation,Mt CO2/yr,,,,,,,,,carbon dioxide emissions from transport by aviation mode
 302,Emissions|CO2|Energy|Demand|Transportation|Aviation|Freight,Mt CO2/yr,,,,,,,,,carbon dioxide emissions from transport by freight aviation mode
 303,Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Aviation|Domestic|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by passenger aviation mode
-303,Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Aviation|International|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by passenger aviation mode
 304,Emissions|CO2|Energy|Demand|Transportation|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Short-Medium Distance|Demand,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
-304,Emissions|CO2|Energy|Demand|Transportation|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Long Distance|Demand,Mt CO2/yr,,,,,,,"CO2 emissions from fuel combustion in freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)"
 305,Emissions|CO2|Energy|Demand|Transportation|Maritime,Mt CO2/yr,,,,,,,,,carbon dioxide emissions from transport by maritime mode
-306,Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|International Shipping|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by freight maritime mode
 306,Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Navigation|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by freight maritime mode
 307,Emissions|CO2|Energy|Demand|Transportation|Maritime|Passenger,Mt CO2/yr,,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by passenger maritime mode
 308,Emissions|CO2|Energy|Demand|Transportation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Short-Medium Distance|Demand,Mt CO2/yr,,,,,,,CO2 emissions from fuel combustion in passenger transportation sector (part of IPCC category 1A3)
-308,Emissions|CO2|Energy|Demand|Transportation|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Long Distance|Demand,Mt CO2/yr,,,,,,,CO2 emissions from fuel combustion in passenger transportation sector (part of IPCC category 1A3)
 309,Emissions|CO2|Energy|Demand|Transportation|Rail,Mt CO2/yr,Emi|CO2|Transport|Rail|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by rail mode
 310,Emissions|CO2|Energy|Demand|Transportation|Rail|Freight,Mt CO2/yr,Emi|CO2|Transport|Freight|Rail|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by freight rail mode
 311,Emissions|CO2|Energy|Demand|Transportation|Rail|Passenger,Mt CO2/yr,Emi|CO2|Transport|Pass|Rail|Demand,Mt CO2/yr,,,,,,,carbon dioxide emissions from transport by passenger rail mode
