@@ -11,11 +11,13 @@ AR6_VAR <- "Variable"
 AR6_UNIT <- "Unit"
 FACTOR_COL <- "r21m42_factor"
 WEIGHT_COL <- NULL
+SPATIAL_COL <- "r21m42_spatial"
 
 generateMapping <- function(template, mapping,
                             remind_var, remind_unit,
                             ar6_var, ar6_unit,
-                            factor_col, weight_col){
+                            factor_col, weight_col,
+                            spatial_col){
   dt <- fread(template)
 
   ## remove TODOs and empty mappings
@@ -23,19 +25,23 @@ generateMapping <- function(template, mapping,
   dt <- dt[get(remind_var) != ""]
   ## factor defaults to 1
   dt[is.na(get(factor_col)), (factor_col) := 1]
-
+  ## spatial defaults to "reg+glo"
+  dt[is.na(get(spatial_col)), (spatial_col) := "reg+glo"]
+  
   no_unit <- dt[get(remind_unit) == ""]
   if(nrow(no_unit)){
     warning(sprintf("No unit found for variables %s", paste(no_unit[[remind_var]], collapse=", ")))
   }
 
-  dt <- dt[, c(remind_var, ar6_var, "factor", "weight") :=
+  dt <- dt[, c(remind_var, ar6_var, "factor", "weight", "spatial") :=
                list(
                  sprintf("%s (%s)", get(remind_var), get(remind_unit)),
                  sprintf("%s (%s)", get(ar6_var), get(ar6_unit)),
                  get(factor_col),
-                 ifelse(is.null(weight_col), "NULL", get(weight_col)))][
-  , c(remind_var, ar6_var, "factor", "weight"), with=FALSE]
+                 ifelse(is.null(weight_col), "NULL", get(weight_col)),
+                 get(spatial_col)
+                 )][
+  , c(remind_var, ar6_var, "factor", "weight", "spatial"), with=FALSE]
 
   ## store mapping
   fwrite(dt, mapping, sep=";")
@@ -70,7 +76,8 @@ generateMapping(
   ar6_var=AR6_VAR,
   ar6_unit=AR6_UNIT,
   factor_col=FACTOR_COL,
-  weight_col=WEIGHT_COL)
+  weight_col=WEIGHT_COL,
+  spatial_col=SPATIAL_COL)
 
 storeComments(
   template=TEMPLATE,
