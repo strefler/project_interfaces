@@ -26,7 +26,11 @@ generateMapping <- function(template, mapping,
   ## factor defaults to 1
   dt[is.na(get(factor_col)), (factor_col) := 1]
   ## spatial defaults to "reg+glo"
-  dt[is.na(get(spatial_col)), (spatial_col) := "reg+glo"]
+  if(spatial_col %in% colnames(dt)){
+    dt[get(spatial_col) == "", (spatial_col) := "reg+glo"]
+  }else{
+    dt[, (spatial_col) := "reg+glo"]
+  }
   
   no_unit <- dt[get(remind_unit) == ""]
   if(nrow(no_unit)){
