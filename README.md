@@ -43,8 +43,6 @@ avoid confusion.
 ### REMIND/MAgPIE-specific processing of model outputs prior to AR6 submission
 Before submitting your data to the AR6 database please make sure that 
 - the policy costs in the reporting are calculated w.r.t. the appropriate reference run. For most runs, this will involve re-running the policy costs.
-- only global results are reported for the Consumption Loss and Consumption + Current Account Loss variables. 
-See the [AR6 data preparation doc](docs/AR6_data_preparation_workflow.md) for a description how to do this.
 
 ### Columns of the `mapping_template.csv`
 
@@ -54,6 +52,7 @@ See the [AR6 data preparation doc](docs/AR6_data_preparation_workflow.md) for a 
 - `r21m42`: The REMIND/MagPIE variable name
 - `r21m42_unit`: The REMIND/MagPIE
 - `r21m42_factor`: Conversion factor multiplied with the REMIND/MagPIE value to obtain the AR6 compatible value
+- `r21m42_spatial`: Restricts reporting to global level ("glo") or regional level ("reg"), empty values mean no restriction
 - `m42`: MagPIE specific variable name
 - `m42_unit`: MagPIE specific variable unit
 - `m42_factor`: Conversion factor for MagPIE value
