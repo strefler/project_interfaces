@@ -1527,7 +1527,7 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,r21m42_spatial,m42,m42_unit,m
 1471,Population|Urban|Share,%,,,,,,,,,"from SSP, unused",share of population living in urban areas
 1472,Population|Working Age,million,,,,,,,,,exogenous,total working age population (age 15-65 years)
 1473,Population|substandard accommodation,million,,,,,,,,,,population living in substandard accommodation (e.g. accommodation that does not meet legal requirements and/or enable well being for the occupants
-1474,Premature Deaths|PM2.5,million,Premature mortality|PM2_5,million,,,,,,,Post-processing,
+1474,Premature Deaths|PM2_5,million,Premature mortality|PM2_5,million,,,,,,,Post-processing,
 1475,Subsidies|Energy,billion US$2010/yr,Subsidies,billion US$2005/yr,,,,,,,,total energy-related subsidies
 1476,Subsidies|Energy|Fossil,billion US$2010/yr,Subsidies|Fuel Extraction,billion US$2005/yr,,,,,,,does not include Final Energy subsidies for energy carriers of fossil origin,fossil fuel subsidies
 1477,Subsidies|Food,billion US$2010/yr,,,,,,,,,,food subsidies (both to producers and consumers)
