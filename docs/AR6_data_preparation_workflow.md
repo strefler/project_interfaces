@@ -12,9 +12,7 @@ Make sure to adjust (i) the name of the REMIND reporting suffix (with/without co
 
 special steps for SDP submission with additional SDG indicators:
 
-3a. check out sdp-postprocessing repository from PIK Gitlab. Create a new folder unmodified_mifs at the same level, and copy the combined reportings from step 3 into it. create a folder sdp-postprocessing/mifs. Run master.R (best using slurm script!) to add the post-processing for additional SDG indicators (mif files are copied into folder mifs and modified inplace).
-
-3b. Do step 2 here (removal of regional consumption losses).  
+3. check out sdp-postprocessing repository from PIK Gitlab. Create a new folder unmodified_mifs at the same level, and copy the combined reportings from step 3 into it. create a folder sdp-postprocessing/mifs. Run master.R (best using slurm script!) to add the post-processing for additional SDG indicators (mif files are copied into folder mifs and modified inplace).
 
 Further steps largely follow the submission procedure as already described by Alois in this documentation of this repository, but with some specialities added.
 
