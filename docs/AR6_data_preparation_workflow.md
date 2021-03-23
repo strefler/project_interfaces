@@ -1,13 +1,13 @@
-This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 2 if you are submitting REMIND standalone. (Bjoern Soergel, last updated Nov 2020)
+This file describes the preparation of AR6 submissions, starting from the REMIND and MAgPIE reportings. You can skip step 2 if you are submitting REMIND standalone. (Bjoern Soergel, last updated March 2021)
 
 0. rerun REMIND and/or MAgPIE reportings.  (only necessary if there have been issues with the reporting, or if variables were added to remind/magpie4 libraries that are not yet present in the snapshot used for the coupling). 
 
-IMPORTANT: due to fixes in the REMIND emission reporting, make sure you use remind library version >= 36.180.0 (snapshot 2020_11_19).
+IMPORTANT: due to fixes in the REMIND emission reporting, make sure you use a remind library version >= 36.180.0 (snapshot 2020_11_19).
 
 1. run policy cost reporting: Rscript output.R -> comparison -> policy costs -> select scenarios as: Run A, reference run for run A, run B, reference run for run B, etc. 
 This copies the REMIND reporting but replaces the policy costs with the ones calculated with your reference run of choice. (Normally the corresponding SSPx-NPi run is the appropriate reference, but your study might have special requirements.) Continue with the new file REMIND_generic_xxx_adjustedPolicyCosts.mif .
 
-2. merge MAgPIE and REMIND (with correct policy costs) reporting:  see script here: scripts/combine_report.R (thanks to David). Copy this into your remind main folder and use it like: "Rscript combine_report.R runs=C_SDP-PkBudg1000,C_SSP1-PkBudg900,C_SSP1-NDC,C_SSP2-NDC,C_SSP2-PkBudg900"
+2. merge MAgPIE and REMIND (with correct policy costs) reporting:  see script here: scripts/combine_report.R (thanks to David). Copy this into your remind main folder and use it like: "Rscript combine_report.R runs=C_SDP-PkBudg1000,C_SDP-NPi,C_SSP1-PkBudg900,C_SSP1-NDC,C_SSP1-NPi,C_SSP2-NDC,C_SSP2-PkBudg900,C_SSP2-NPi,C_RemSSP1-1000-MagSDP,C_RemSDP-900-MagSSP1"
 Make sure to adjust (i) the name of the REMIND reporting suffix (with/without corrected policy costs), (ii) the name prefix for your coupled runs (unless you want all of your reportings to be called "bjoernAR6_...")
 
 special steps for SDP submission with additional SDG indicators:
@@ -21,6 +21,7 @@ Further steps largely follow the submission procedure as already described by Al
 5. run "ar6/generate_mappingfile.R" to create a mapping from our variables to AR6 variables
 
 6. Copy your mif files processed as described above into the ar6 folder. Adjust model name and study identifier in ar6/produce_output.R and run it. Check missing.log to make sure all your variables are correctly processed. (Certain buildings/industry/transport variables not present in standard-REMIND might be flagged as missing. If they are irrelevant for your upload, you can probably proceed.)
+Note 2021-03: For the SDP-submission do not include the hybrid runs, these are only for testing and decomposition.
 
 7. run fixVariableNames_removeNAs.sh on the output files to fix some special variable names and replace NAs with blanks
 
