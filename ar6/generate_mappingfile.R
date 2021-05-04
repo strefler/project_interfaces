@@ -18,7 +18,7 @@ generateMapping <- function(template, mapping,
                             ar6_var, ar6_unit,
                             factor_col, weight_col,
                             spatial_col){
-  dt <- fread(template)
+  dt <- fread(template,sep = ';')
 
   ## remove TODOs and empty mappings
   dt[get(remind_var) == "TODO", (remind_var) := ""]
