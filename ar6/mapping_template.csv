@@ -1676,35 +1676,35 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,r21m42_spatial,m42,m42_unit,m
 1615,Population|Sanitation Access,million,,,,,,,,,,population with access to improved sanitation (by income level)
 1616,Water Consumption,km3/yr,TODO,,,,,,,work in progress,,total water consumption
 1617,Water Consumption|Electricity,km3/yr,Water Consumption|Electricity,km3/yr,,,,,,,,Water consumption for electricity generation
-1618,Water Consumption|Electricity|Biomass,km3/yr,TODO,,,,,,,work in progress,,"water consumption for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste,biogas"
-1619,Water Consumption|Electricity|Biomass|w/ CCS,km3/yr,,,,,,,,,,"water consumption for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with a CO2 capture component"
-1620,Water Consumption|Electricity|Biomass|w/o CCS,km3/yr,,,,,,,,,,"water consumption for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with freely vented CO2 emissions"
-1621,Water Consumption|Electricity|Coal,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from coal
-1622,Water Consumption|Electricity|Coal|w/ CCS,km3/yr,,,,,,,,,,water consumption for net electricity production from coal with a CO2 capture component
-1623,Water Consumption|Electricity|Coal|w/o CCS,km3/yr,,,,,,,,,,water consumption for net electricity production from coal with freely vented CO2 emissions
-1624,Water Consumption|Electricity|Cooling Pond,km3/yr,,,,,,,,,,water consumption for net electricity production using pond cooling
-1625,Water Consumption|Electricity|Dry Cooling,km3/yr,,,,,,,,,,water consumption for net electricity production using dry cooling
-1626,Water Consumption|Electricity|Fossil,km3/yr,TODO,,,,,,,work in progress,,"water consumption for net electricity production from coal,gas,conventional and unconventional oil"
-1627,Water Consumption|Electricity|Fossil|w/ CCS,km3/yr,,,,,,,,,,"water consumption for net electricity production from coal,gas,conventional and unconventional oil used in combination with CCS"
-1628,Water Consumption|Electricity|Fossil|w/o CCS,km3/yr,,,,,,,,,,"water consumption for  net electricity production from coal,gas,conventional and unconventional oil without CCS"
-1629,Water Consumption|Electricity|Gas,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from natural gas
-1630,Water Consumption|Electricity|Gas|w/ CCS,km3/yr,,,,,,,,,,water consumption for net electricity production from natural gas with a CO2 capture component
-1631,Water Consumption|Electricity|Gas|w/o CCS,km3/yr,,,,,,,,,,water consumption for net electricity production from natural gas with freely vented CO2 emissions
-1632,Water Consumption|Electricity|Geothermal,km3/yr,,,,,,,,,,"water consumption for net electricity production from all sources of geothermal energy (e.g.,hydrothermal,enhanced geothermal systems)"
-1633,Water Consumption|Electricity|Hydro,km3/yr,TODO,,,,,,,work in progress,,water consumption for net hydroelectric production
-1634,Water Consumption|Electricity|Non-Biomass Renewables,km3/yr,,,,,,,,,,"water consumption for net electricity production from hydro,wind,solar,geothermal,ocean,and other renewable sources (excluding bioenergy). This is a summary category for all the non-biomass renewables."
-1635,Water Consumption|Electricity|Nuclear,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from nuclear energy
-1636,Water Consumption|Electricity|Oil,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from refined liquids
+1618,Water Consumption|Electricity|Biomass,km3/yr,Water Consumption|Electricity|Biomass,km3/yr,,,,,,work in progress,,water consumption for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste,biogas
+1619,Water Consumption|Electricity|Biomass|w/ CCS,km3/yr,Water Consumption|Electricity|Biomass|w/ CCS,km3/yr,,,,,,,,water consumption for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with a CO2 capture component
+1620,Water Consumption|Electricity|Biomass|w/o CCS,km3/yr,Water Consumption|Electricity|Biomass|w/o CCS,km3/yr,,,,,,,,water consumption for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with freely vented CO2 emissions
+1621,Water Consumption|Electricity|Coal,km3/yr,Water Consumption|Electricity|Coal,km3/yr,,,,,,work in progress,,water consumption for net electricity production from coal
+1622,Water Consumption|Electricity|Coal|w/ CCS,km3/yr,Water Consumption|Electricity|Coal|w/ CCS,km3/yr,,,,,,,,water consumption for net electricity production from coal with a CO2 capture component
+1623,Water Consumption|Electricity|Coal|w/o CCS,km3/yr,Water Consumption|Electricity|Coal|w/o CCS,km3/yr,,,,,,,,water consumption for net electricity production from coal with freely vented CO2 emissions
+1624,Water Consumption|Electricity|Cooling Pond,km3/yr,Water Consumption|Electricity|Cooling Pond,km3/yr,,,,,,,,water consumption for net electricity production using pond cooling
+1625,Water Consumption|Electricity|Dry Cooling,km3/yr,Water Consumption|Electricity|Dry Cooling,km3/yr,,,,,,,,water consumption for net electricity production using dry cooling
+1626,Water Consumption|Electricity|Fossil,km3/yr,Water Consumption|Electricity|Fossil,km3/yr,,,,,,work in progress,,water consumption for net electricity production from coal,gas,conventional and unconventional oil
+1627,Water Consumption|Electricity|Fossil|w/ CCS,km3/yr,Water Consumption|Electricity|Fossil|w/ CCS,km3/yr,,,,,,,,water consumption for net electricity production from coal,gas,conventional and unconventional oil used in combination with CCS
+1628,Water Consumption|Electricity|Fossil|w/o CCS,km3/yr,Water Consumption|Electricity|Fossil|w/o CCS,km3/yr,,,,,,,,water consumption for  net electricity production from coal,gas,conventional and unconventional oil without CCS
+1629,Water Consumption|Electricity|Gas,km3/yr,Water Consumption|Electricity|Gas,km3/yr,,,,,,work in progress,,water consumption for net electricity production from natural gas
+1630,Water Consumption|Electricity|Gas|w/ CCS,km3/yr,Water Consumption|Electricity|Gas|w/ CCS,km3/yr,,,,,,,,water consumption for net electricity production from natural gas with a CO2 capture component
+1631,Water Consumption|Electricity|Gas|w/o CCS,km3/yr,Water Consumption|Electricity|Gas|w/o CCS,km3/yr,,,,,,,,water consumption for net electricity production from natural gas with freely vented CO2 emissions
+1632,Water Consumption|Electricity|Geothermal,km3/yr,Water Consumption|Electricity|Geothermal,km3/yr,,,,,,,,water consumption for net electricity production from all sources of geothermal energy (e.g.,hydrothermal,enhanced geothermal systems)
+1633,Water Consumption|Electricity|Hydro,km3/yr,Water Consumption|Electricity|Hydro,km3/yr,,,,,,work in progress,,water consumption for net hydroelectric production
+1634,Water Consumption|Electricity|Non-Biomass Renewables,km3/yr,Water Consumption|Electricity|Non-Biomass Renewables,km3/yr,,,,,,,,water consumption for net electricity production from hydro,wind,solar,geothermal,ocean,and other renewable sources (excluding bioenergy). This is a summary category for all the non-biomass renewables.
+1635,Water Consumption|Electricity|Nuclear,km3/yr,Water Consumption|Electricity|Nuclear,km3/yr,,,,,,work in progress,,water consumption for net electricity production from nuclear energy
+1636,Water Consumption|Electricity|Oil,km3/yr,Water Consumption|Electricity|Oil,km3/yr,,,,,,work in progress,,water consumption for net electricity production from refined liquids
 1637,Water Consumption|Electricity|Oil|w/ CCS,km3/yr,,,,,,,,,,water consumption for net electricity production from refined liquids with a CO2 capture component
-1638,Water Consumption|Electricity|Oil|w/o CCS,km3/yr,,,,,,,,,,water consumption for net electricity production from refined liquids with freely vented CO2 emissions
-1639,Water Consumption|Electricity|Once Through,km3/yr,,,,,,,,,,water consumption for net electricity production using once through cooling
+1638,Water Consumption|Electricity|Oil|w/o CCS,km3/yr,Water Consumption|Electricity|Oil|w/o CCS,km3/yr,,,,,,,,water consumption for net electricity production from refined liquids with freely vented CO2 emissions
+1639,Water Consumption|Electricity|Once Through,km3/yr,Water Consumption|Electricity|Once Through,km3/yr,,,,,,,,water consumption for net electricity production using once through cooling
 1640,Water Consumption|Electricity|Other,km3/yr,,,,,,,,,,water consumption for net electricity production from sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
 1641,Water Consumption|Electricity|Sea Cooling,km3/yr,,,,,,,,,,water consumption for net electricity production using sea water cooling
-1642,Water Consumption|Electricity|Solar,km3/yr,TODO,,,,,,,work in progress,,"water consumption for net electricity production from all sources of solar energy (e.g.,PV and concentrating solar power)"
-1643,Water Consumption|Electricity|Solar|CSP,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from concentrating solar power (CSP)
-1644,Water Consumption|Electricity|Solar|PV,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from solar photovoltaics (PV)
-1645,Water Consumption|Electricity|Wet Tower,km3/yr,,,,,,,,,,water consumption for net electricity production using wet tower cooling
-1646,Water Consumption|Electricity|Wind,km3/yr,TODO,,,,,,,work in progress,,water consumption for net electricity production from wind energy (on- and offshore)
+1642,Water Consumption|Electricity|Solar,km3/yr,Water Consumption|Electricity|Solar,km3/yr,,,,,,work in progress,,water consumption for net electricity production from all sources of solar energy (e.g.,PV and concentrating solar power)
+1643,Water Consumption|Electricity|Solar|CSP,km3/yr,Water Consumption|Electricity|Solar|CSP,km3/yr,,,,,,work in progress,,water consumption for net electricity production from concentrating solar power (CSP)
+1644,Water Consumption|Electricity|Solar|PV,km3/yr,Water Consumption|Electricity|Solar|PV,km3/yr,,,,,,work in progress,,water consumption for net electricity production from solar photovoltaics (PV)
+1645,Water Consumption|Electricity|Wet Tower,km3/yr,Water Consumption|Electricity|Wet Tower,km3/yr,,,,,,,,water consumption for net electricity production using wet tower cooling
+1646,Water Consumption|Electricity|Wind,km3/yr,Water Consumption|Electricity|Wind,km3/yr,,,,,,work in progress,,water consumption for net electricity production from wind energy (on- and offshore)
 1647,Water Consumption|Extraction,km3/yr,,,,,,,,,,total water consumption for extraction
 1648,Water Consumption|Extraction|Coal,km3/yr,,,,,,,,,,water consumption for coal extraction
 1649,Water Consumption|Extraction|Gas,km3/yr,,,,,,,,,,water consumption for gas extraction
@@ -1792,37 +1792,37 @@ idx,Variable,Unit,r21m42,r21m42_unit,r21m42_factor,r21m42_spatial,m42,m42_unit,m
 1731,Water Thermal Pollution|Electricity|Solar|CSP,EJ/yr,,,,,,,,,,thermal water pollution from net electricity production from concentrating solar power (CSP)
 1732,Water Transfer,km3/yr,,,,,,,,,,water imported/exported using conveyance infrastructure
 1733,Water Withdrawal,km3/yr,TODO,,,,,,,work in progress,,total water withdrawal
-1734,Water Withdrawal|Electricity,km3/yr,TODO,,,,,,,work in progress,,total water withdrawals for net electricity production
-1735,Water Withdrawal|Electricity|Biomass,km3/yr,TODO,,,,,,,work in progress,,"water withdrawals for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste,biogas"
-1736,Water Withdrawal|Electricity|Biomass|w/ CCS,km3/yr,,,,,,,,,,"water withdrawals for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with a CO2 capture component"
-1737,Water Withdrawal|Electricity|Biomass|w/o CCS,km3/yr,,,,,,,,,,"water withdrawals for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with freely vented CO2 emissions"
-1738,Water Withdrawal|Electricity|Coal,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from coal
-1739,Water Withdrawal|Electricity|Coal|w/ CCS,km3/yr,,,,,,,,,,water withdrawals for net electricity production from coal with a CO2 capture component
-1740,Water Withdrawal|Electricity|Coal|w/o CCS,km3/yr,,,,,,,,,,water withdrawals for net electricity production from coal with freely vented CO2 emissions
-1741,Water Withdrawal|Electricity|Cooling Pond,km3/yr,,,,,,,,,,water withdrawals for net electricity production using pond cooling
-1742,Water Withdrawal|Electricity|Dry Cooling,km3/yr,,,,,,,,,,water withdrawals for net electricity production using dry cooling
-1743,Water Withdrawal|Electricity|Fossil,km3/yr,TODO,,,,,,,work in progress,,"water withdrawals for net electricity production from coal,gas,conventional and unconventional oil"
-1744,Water Withdrawal|Electricity|Fossil|w/ CCS,km3/yr,,,,,,,,,,"water withdrawals for net electricity production from coal,gas,conventional and unconventional oil used in combination with CCS"
-1745,Water Withdrawal|Electricity|Fossil|w/o CCS,km3/yr,,,,,,,,,,"water withdrawals for  net electricity production from coal,gas,conventional and unconventional oil without CCS"
-1746,Water Withdrawal|Electricity|Gas,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from natural gas
-1747,Water Withdrawal|Electricity|Gas|w/ CCS,km3/yr,,,,,,,,,,water withdrawals for net electricity production from natural gas with a CO2 capture component
-1748,Water Withdrawal|Electricity|Gas|w/o CCS,km3/yr,,,,,,,,,,water withdrawals for net electricity production from natural gas with freely vented CO2 emissions
-1749,Water Withdrawal|Electricity|Geothermal,km3/yr,,,,,,,,,,"water withdrawals for net electricity production from all sources of geothermal energy (e.g.,hydrothermal,enhanced geothermal systems)"
-1750,Water Withdrawal|Electricity|Hydro,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net hydroelectric production
-1751,Water Withdrawal|Electricity|Non-Biomass Renewables,km3/yr,,,,,,,,,,"water withdrawals for net electricity production from hydro,wind,solar,geothermal,ocean,and other renewable sources (excluding bioenergy). This is a summary category for all the non-biomass renewables."
-1752,Water Withdrawal|Electricity|Nuclear,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from nuclear energy
-1753,Water Withdrawal|Electricity|Ocean,km3/yr,,,,,,,,,,"water withdrawals for net electricity production from all sources of ocean energy (e.g.,tidal,wave,ocean thermal electricity production generation)"
-1754,Water Withdrawal|Electricity|Oil,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from refined liquids
-1755,Water Withdrawal|Electricity|Oil|w/ CCS,km3/yr,,,,,,,,,,water withdrawals for net electricity production from refined liquids with a CO2 capture component
+1734,Water Withdrawal|Electricity,km3/yr,Water Withdrawal|Electricity,km3/yr,,,,,,work in progress,,total water withdrawals for net electricity production
+1735,Water Withdrawal|Electricity|Biomass,km3/yr,Water Withdrawal|Electricity|Biomass,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste,biogas
+1736,Water Withdrawal|Electricity|Biomass|w/ CCS,km3/yr,Water Withdrawal|Electricity|Biomass|w/ CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with a CO2 capture component
+1737,Water Withdrawal|Electricity|Biomass|w/o CCS,km3/yr,Water Withdrawal|Electricity|Biomass|w/o CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with freely vented CO2 emissions
+1738,Water Withdrawal|Electricity|Coal,km3/yr,Water Withdrawal|Electricity|Coal,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from coal
+1739,Water Withdrawal|Electricity|Coal|w/ CCS,km3/yr,Water Withdrawal|Electricity|Coal|w/ CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from coal with a CO2 capture component
+1740,Water Withdrawal|Electricity|Coal|w/o CCS,km3/yr,Water Withdrawal|Electricity|Coal|w/o CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from coal with freely vented CO2 emissions
+1741,Water Withdrawal|Electricity|Cooling Pond,km3/yr,Water Withdrawal|Electricity|Cooling Pond,km3/yr,,,,,,,,water withdrawals for net electricity production using pond cooling
+1742,Water Withdrawal|Electricity|Dry Cooling,km3/yr,Water Withdrawal|Electricity|Dry Cooling,km3/yr,,,,,,,,water withdrawals for net electricity production using dry cooling
+1743,Water Withdrawal|Electricity|Fossil,km3/yr,Water Withdrawal|Electricity|Fossil,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from coal,gas,conventional and unconventional oil
+1744,Water Withdrawal|Electricity|Fossil|w/ CCS,km3/yr,Water Withdrawal|Electricity|Fossil|w/ CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from coal,gas,conventional and unconventional oil used in combination with CCS
+1745,Water Withdrawal|Electricity|Fossil|w/o CCS,km3/yr,Water Withdrawal|Electricity|Fossil|w/o CCS,km3/yr,,,,,,,,water withdrawals for  net electricity production from coal,gas,conventional and unconventional oil without CCS
+1746,Water Withdrawal|Electricity|Gas,km3/yr,Water Withdrawal|Electricity|Gas,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from natural gas
+1747,Water Withdrawal|Electricity|Gas|w/ CCS,km3/yr,Water Withdrawal|Electricity|Gas|w/ CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from natural gas with a CO2 capture component
+1748,Water Withdrawal|Electricity|Gas|w/o CCS,km3/yr,Water Withdrawal|Electricity|Gas|w/o CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from natural gas with freely vented CO2 emissions
+1749,Water Withdrawal|Electricity|Geothermal,km3/yr,Water Withdrawal|Electricity|Geothermal,km3/yr,,,,,,,,water withdrawals for net electricity production from all sources of geothermal energy (e.g.,hydrothermal,enhanced geothermal systems)
+1750,Water Withdrawal|Electricity|Hydro,km3/yr,Water Withdrawal|Electricity|Hydro,km3/yr,,,,,,work in progress,,water withdrawals for net hydroelectric production
+1751,Water Withdrawal|Electricity|Non-Biomass Renewables,km3/yr,Water Withdrawal|Electricity|Non-Biomass Renewables,km3/yr,,,,,,,,water withdrawals for net electricity production from hydro,wind,solar,geothermal,ocean,and other renewable sources (excluding bioenergy). This is a summary category for all the non-biomass renewables.
+1752,Water Withdrawal|Electricity|Nuclear,km3/yr,Water Withdrawal|Electricity|Nuclear,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from nuclear energy
+1753,Water Withdrawal|Electricity|Ocean,km3/yr,,,,,,,,,,water withdrawals for net electricity production from all sources of ocean energy (e.g.,tidal,wave,ocean thermal electricity production generation)
+1754,Water Withdrawal|Electricity|Oil,km3/yr,Water Withdrawal|Electricity|Oil,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from refined liquids
+1755,Water Withdrawal|Electricity|Oil|w/ CCS,km3/yr,Water Withdrawal|Electricity|Oil|w/o CCS,km3/yr,,,,,,,,water withdrawals for net electricity production from refined liquids with a CO2 capture component
 1756,Water Withdrawal|Electricity|Oil|w/o CCS,km3/yr,,,,,,,,,,water withdrawals for net electricity production from refined liquids with freely vented CO2 emissions
-1757,Water Withdrawal|Electricity|Once Through,km3/yr,,,,,,,,,,water withdrawals for net electricity production using once through cooling
+1757,Water Withdrawal|Electricity|Once Through,km3/yr,Water Withdrawal|Electricity|Once Through,km3/yr,,,,,,,,water withdrawals for net electricity production using once through cooling
 1758,Water Withdrawal|Electricity|Other,km3/yr,,,,,,,,,,water withdrawals for net electricity production from sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
 1759,Water Withdrawal|Electricity|Sea Cooling,km3/yr,,,,,,,,,,water withdrawals for net electricity production using sea water cooling
-1760,Water Withdrawal|Electricity|Solar,km3/yr,TODO,,,,,,,work in progress,,"water withdrawals for net electricity production from all sources of solar energy (e.g.,PV and concentrating solar power)"
-1761,Water Withdrawal|Electricity|Solar|CSP,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from concentrating solar power (CSP)
-1762,Water Withdrawal|Electricity|Solar|PV,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from solar photovoltaics (PV)
-1763,Water Withdrawal|Electricity|Wet Tower,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production using wet tower cooling
-1764,Water Withdrawal|Electricity|Wind,km3/yr,TODO,,,,,,,work in progress,,water withdrawals for net electricity production from wind energy (on- and offshore)
+1760,Water Withdrawal|Electricity|Solar,km3/yr,Water Withdrawal|Electricity|Solar,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from all sources of solar energy (e.g.,PV and concentrating solar power)
+1761,Water Withdrawal|Electricity|Solar|CSP,km3/yr,Water Withdrawal|Electricity|Solar|CSP,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from concentrating solar power (CSP)
+1762,Water Withdrawal|Electricity|Solar|PV,km3/yr,Water Withdrawal|Electricity|Solar|PV,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from solar photovoltaics (PV)
+1763,Water Withdrawal|Electricity|Wet Tower,km3/yr,Water Withdrawal|Electricity|Wet Tower,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production using wet tower cooling
+1764,Water Withdrawal|Electricity|Wind,km3/yr,Water Withdrawal|Electricity|Wind,km3/yr,,,,,,work in progress,,water withdrawals for net electricity production from wind energy (on- and offshore)
 1765,Water Withdrawal|Extraction,km3/yr,,,,,,,,,,total water withdrawal for extraction
 1766,Water Withdrawal|Extraction|Coal,km3/yr,,,,,,,,,,water withdrawal for coal extraction
 1767,Water Withdrawal|Extraction|Gas,km3/yr,,,,,,,,,,water withdrawal for gas extraction
