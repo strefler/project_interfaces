@@ -404,9 +404,9 @@ Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|
 Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|Liquids|Fossil synfuel
 Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|Liquids|Oil
 Final Energy|Industry|Gases;Final Energy|Industry|Gases|  (Elmar: ???)
-Final Energy|Industry|Gases;"Final Energy|Industry|Gases|Bioenergy     (Elmar: Use \""Biomass\"" instead of bioenergy, applies to any use of bioenergy)"
+Final Energy|Industry|Gases;Final Energy|Industry|Gases|Bioenergy     (Elmar: Use Biomass instead of bioenergy, applies to any use of bioenergy)
 Final Energy|Industry|Gases;Final Energy|Industry|Gases|Fossil
-Final Energy|Industry|Gases;"Final Energy|Industry|Gases|Hydrogen synfuel   (Elmar: Mixing of SE and PE here; H2 is listed separately as carrier. Remove?, Same applies to names below)"
+Final Energy|Industry|Gases;Final Energy|Industry|Gases|Hydrogen synfuel   (Elmar: Mixing of SE and PE here; H2 is listed separately as carrier. Remove?, Same applies to names below)
 Final Energy|Industry|Liquids;Final Energy|Industry|Liquids|   (Elmar: ???)
 Final Energy|Industry|Liquids;Final Energy|Industry|Liquids|Bioenergy
 Final Energy|Industry|Liquids;Final Energy|Industry|Liquids|Fossil
