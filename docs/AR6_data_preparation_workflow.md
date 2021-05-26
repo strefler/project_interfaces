@@ -16,14 +16,14 @@ special steps for SDP submission with additional SDG indicators:
 
 Further steps largely follow the submission procedure as already described by Alois in this documentation of this repository, but with some specialities added.
 
-4. Check that all variables important for you are in the mapping ar6/mapping_template.csv. If you make any additions, push them back into the repository. Make sure that variable name and unit in the left columns exactly match the AR6 convention.
+4. check that all variables important for you are in the mapping ar6/mapping_template.csv. If you make any additions, push them back into the repository. Make sure that variable name and unit in the left columns exactly match the AR6 convention.
 
 5. run "ar6/generate_mappingfile.R" to create a mapping from our variables to AR6 variables
 
-6. Copy your mif files processed as described above into the ar6 folder. Adjust model name and study identifier in ar6/produce_output.R and run it. Check missing.log to make sure all your variables are correctly processed. (Certain buildings/industry/transport variables not present in standard-REMIND might be flagged as missing. If they are irrelevant for your upload, you can probably proceed.)
+6. copy your mif files processed as described above into the ar6 folder. Adjust model name and study identifier in ar6/produce_output.R and run it. Check missing.log to make sure all your variables are correctly processed. (Certain buildings/industry/transport variables not present in standard-REMIND might be flagged as missing. If they are irrelevant for your upload, you can probably proceed.)
 Note 2021-03: For the SDP-submission do not include the hybrid runs, these are only for testing and decomposition.
 
-7. run `Rscript checkSummations.R` (make sure to include the name of the `.mif` file containing your data in the script), found in the main folder of the `project_interfaces` repo. This will check your data for consistency according to the summation groups found in the file `summationGroups.csv` (which you can also adjust to your needs). The resulting `checkSummations.log` contains the data entries where the summation was not successful, sorted with the biggest differences on top (check the `diff` column). The file can also be opened as `.csv`.
+7. run `Rscript checkSummations.R` (make sure to include the name of the `.mif` file containing your data in the script), found in the main folder of the `project_interfaces` repo. This will check your data for consistency according to the summation groups found in the file `summationGroups.csv` (which you can also adjust to your needs). The resulting `checkSummations.log` contains the data entries where the summation was not successful, sorted with the biggest relative differences on top (check the `rel.diff` column, a `diff` column also exists). The file can also be opened as `.csv`, or processed in `R`.
 
 8. run fixVariableNames_removeNAs.sh on the output files to fix some special variable names and replace NAs with blanks
 
@@ -34,4 +34,3 @@ Note 2021-03: For the SDP-submission do not include the hybrid runs, these are o
 10. add comments for variables in the comments sheets. The creation of the mapping template also creates a ar6-comments.csv that lists all comments in the mapping file. Copy this into the Comments sheet and modify/add as needed for your submission. If you have generic comments for variables (not specific to your study) make sure they are added to the mapping template so that everyone's submissions have them.
 
 11. complete/update scenario metadata sheet
-
