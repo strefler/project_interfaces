@@ -62,7 +62,7 @@ Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportat
 Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportation|Passenger
 Emissions|BC|AFOLU;Emissions|BC|AFOLU|Agriculture
 Emissions|BC|AFOLU;Emissions|BC|AFOLU|Land
-Emissions|BC|Energy;Emissions|BC|Energy|Supply
+Emissions|BC|Energy;Emissions|BC|Energy
 Emissions|BC;Emissions|BC|AFOLU
 Emissions|BC;Emissions|BC|Energy
 Emissions|BC;Emissions|BC|Industrial Processes
@@ -128,7 +128,7 @@ Emissions|CH4|Industrial Processes|Chemicals;Emissions|CH4|Industrial Processes|
 Emissions|CH4|Industrial Processes|Chemicals;Emissions|CH4|Industrial Processes|Chemicals|Other
 Emissions|CH4|AFOLU;Emissions|CH4|AFOLU|Agriculture
 Emissions|CH4|AFOLU;Emissions|CH4|AFOLU|Land
-Emissions|CH4|Energy;Emissions|CH4|Energy|Supply
+Emissions|CH4|Energy;Emissions|CH4|Energy
 Emissions|CH4|Industrial Processes;Emissions|CH4|Industrial Processes|Chemicals
 Emissions|CH4|Industrial Processes;Emissions|CH4|Industrial Processes|Non-ferrous metals
 Emissions|CH4|Industrial Processes;Emissions|CH4|Industrial Processes|Other
@@ -146,7 +146,7 @@ Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportat
 Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportation|Passenger
 Emissions|CO|AFOLU;Emissions|CO|AFOLU|Agriculture
 Emissions|CO|AFOLU;Emissions|CO|AFOLU|Land
-Emissions|CO|Energy;Emissions|CO|Energy|Supply
+Emissions|CO|Energy;Emissions|CO|Energy
 Emissions|CO;Emissions|CO|AFOLU
 Emissions|CO;Emissions|CO|Energy
 Emissions|CO;Emissions|CO|Industrial Processes
@@ -261,7 +261,7 @@ Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transport
 Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transportation|Passenger
 Emissions|NH3|AFOLU;Emissions|NH3|AFOLU|Agriculture
 Emissions|NH3|AFOLU;Emissions|NH3|AFOLU|Land
-Emissions|NH3|Energy;Emissions|NH3|Energy|Supply
+Emissions|NH3|Energy;Emissions|NH3|Energy
 Emissions|NH3;Emissions|NH3|AFOLU
 Emissions|NH3;Emissions|NH3|Energy
 Emissions|NH3;Emissions|NH3|Industrial Processes
@@ -273,7 +273,7 @@ Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transport
 Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transportation|Passenger
 Emissions|NOx|AFOLU;Emissions|NOx|AFOLU|Agriculture
 Emissions|NOx|AFOLU;Emissions|NOx|AFOLU|Land
-Emissions|NOx|Energy;Emissions|NOx|Energy|Supply
+Emissions|NOx|Energy;Emissions|NOx|Energy
 Emissions|NOx;Emissions|NOx|AFOLU
 Emissions|NOx;Emissions|NOx|Energy
 Emissions|NOx;Emissions|NOx|Industrial Processes
@@ -285,7 +285,7 @@ Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportat
 Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportation|Passenger
 Emissions|OC|AFOLU;Emissions|OC|AFOLU|Agriculture
 Emissions|OC|AFOLU;Emissions|OC|AFOLU|Land
-Emissions|OC|Energy;Emissions|OC|Energy|Supply
+Emissions|OC|Energy;Emissions|OC|Energy
 Emissions|OC;Emissions|OC|AFOLU
 Emissions|OC;Emissions|OC|Energy
 Emissions|OC;Emissions|OC|Industrial Processes
@@ -311,7 +311,7 @@ Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Tra
 Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Transportation|Passenger
 Emissions|Sulfur|AFOLU;Emissions|Sulfur|AFOLU|Agriculture
 Emissions|Sulfur|AFOLU;Emissions|Sulfur|AFOLU|Land
-Emissions|Sulfur|Energy;Emissions|Sulfur|Energy|Supply
+Emissions|Sulfur|Energy;Emissions|Sulfur|Energy
 Emissions|Sulfur;Emissions|Sulfur|AFOLU
 Emissions|Sulfur;Emissions|Sulfur|Energy
 Emissions|Sulfur;Emissions|Sulfur|Industrial Processes
@@ -323,7 +323,7 @@ Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transport
 Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transportation|Passenger
 Emissions|VOC|AFOLU;Emissions|VOC|AFOLU|Agriculture
 Emissions|VOC|AFOLU;Emissions|VOC|AFOLU|Land
-Emissions|VOC|Energy;Emissions|VOC|Energy|Supply
+Emissions|VOC|Energy;Emissions|VOC|Energy
 Emissions|VOC;Emissions|VOC|AFOLU
 Emissions|VOC;Emissions|VOC|Energy
 Emissions|VOC;Emissions|VOC|Industrial Processes
