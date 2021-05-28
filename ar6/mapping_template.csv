@@ -377,7 +377,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 350;Emissions|CO|Energy|Demand|Transportation|Passenger;Mt CO/yr;;;;;;;;;;CO emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);;;;;
 351;Emissions|CO|Energy|Supply;Mt CO/yr;Emi|CO|Energy Supply;Mt CO/yr;;;;;;;;carbon monoxide emissions from Extraction and Distribution of Fossil Fuels (including fugitive emissions,IPCC category 1B);;;;;
 352;Emissions|CO|Industrial Processes;Mt CO/yr;;;;;;;;;;CO emissions from industrial processes;;;;;
-353;Emissions|CO|Other;Mt CO/yr;;;;;;;;;;carbon monoxide emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);;;;;
+353;Emissions|CO|Other;Mt CO/yr;Emi|CO|Solvents;Mt CO/yr;;;;;;;;carbon monoxide emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);;;;;
 354;Emissions|CO|Waste;Mt CO/yr;Emi|CO|Waste;Mt CO/yr;;;;;;;;;;;;;
 355;Emissions|F-Gases;Mt CO2-equiv/yr;Emi|F-Gases;Mt CO2-equiv/yr;;;;;;;;total F-gas emissions,including sulfur hexafluoride (SF6),hydrofluorocarbons (HFCs),perfluorocarbons (PFCs) (preferably use 100-year GWPs from AR4 for aggregation of different F-gases;;;;;
 356;Emissions|HFC;kt HFC134a-equiv/yr;Emi|HFC;kt HFC134a-equiv/yr;;;;;;;;total emissions of hydrofluorocarbons (HFCs),provided as aggregate HFC134a-equivalents;;;;;
@@ -433,7 +433,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 405;Emissions|NH3|Energy|Demand|Transportation|Passenger;Mt NH3/yr;;;;;;;;;;NH3 emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);;;;;
 406;Emissions|NH3|Energy|Supply;Mt NH3/yr;Emi|NH3|Energy Supply;Mt NH3/yr;;;;;;;;ammonia Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B);;;;;
 407;Emissions|NH3|Industrial Processes;Mt NH3/yr;;;;;;;;;;NH3 emissions from industrial processes;;;;;
-408;Emissions|NH3|Other;Mt NH3/yr;;;;;;;;;;ammonia Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);;;;;
+408;Emissions|NH3|Other;Mt NH3/yr;Emi|NH3|Solvents;Mt NH3/yr;;;;;;;;ammonia Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);;;;;
 409;Emissions|NH3|Waste;Mt NH3/yr;Emi|NH3|Waste;Mt NH3/yr;;;;;;;;;;;;;
 410;Emissions|NOx;Mt NO2/yr;Emi|NOX;Mt NOX/yr;;;;;;;;total NOx emissions;;;;;
 411;Emissions|NOx|AFOLU;Mt NO2/yr;Emi|NOX|Land Use;Mt NOX/yr;;;Emissions|NO2|Land|+|Agriculture;Mt NO2/yr;;;;NOx emissions from agriculture,forestry and other land use (IPCC category 3);;;;;
@@ -449,7 +449,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 422;Emissions|NOx|Energy|Demand|Transportation|Passenger;Mt NO2/yr;;;;;;;;;;NOx emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);;;;;
 423;Emissions|NOx|Energy|Supply;Mt NO2/yr;Emi|NOX|Energy Supply;Mt NOX/yr;;;;;;;;NOx emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);;;;;
 424;Emissions|NOx|Industrial Processes;Mt NO2/yr;;;;;;;;;;NOx emissions from industrial processes;;;;;
-425;Emissions|NOx|Other;Mt NO2/yr;;;;;;;;;;NOx emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);;;;;
+425;Emissions|NOx|Other;Mt NO2/yr;Emi|NOX|Solvents;Mt NOX/yr;;;;;;;;NOx emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);;;;;
 426;Emissions|NOx|Waste;Mt NO2/yr;Emi|NOX|Waste;Mt NOX/yr;;;;;;;;;;;;;
 427;Emissions|OC;Mt OC/yr;Emi|OC;Mt OC/yr;;;;;;;;total organic carbon emissions;;;;;
 428;Emissions|OC|AFOLU;Mt OC/yr;Emi|OC|Land Use;Mt OC/yr;;;;;;;;organic carbon emissions from agriculture,forestry and other land use (IPCC category 3);;;;;
@@ -465,7 +465,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 439;Emissions|OC|Energy|Demand|Transportation|Passenger;Mt OC/yr;;;;;;;;;;OC emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);;;;;
 440;Emissions|OC|Energy|Supply;Mt OC/yr;Emi|OC|Energy Supply;Mt OC/yr;;;;;;;;organic carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel prorganic carbonessing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);;;;;
 441;Emissions|OC|Industrial Processes;Mt OC/yr;;;;;;;;;;OC emissions from industrial processes;;;;;
-442;Emissions|OC|Other;Mt OC/yr;;;;;;;;;;organic carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);;;;;
+442;Emissions|OC|Other;Mt OC/yr;Emi|OC|Solvents;Mt OC/yr;;;;;;;;organic carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);;;;;
 443;Emissions|OC|Waste;Mt OC/yr;Emi|OC|Waste;Mt OC/yr;;;;;;;;;;;;;
 444;Emissions|PFC;kt CF4-equiv/yr;Emi|PFC;kt CF4-equiv/yr;;;;;;;;total emissions of perfluorocarbons (PFCs),provided as aggregate CF4-equivalents;;;;;
 445;Emissions|PFC|C2F6;kt C2F6/yr;;;;;;;;;;total emissions of C2F6;;;;;
@@ -500,7 +500,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 474;Emissions|Sulfur|Energy|Demand|Transportation|Passenger;Mt SO2/yr;;;;;;;;;;Sulfur emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);;;;;
 475;Emissions|Sulfur|Energy|Supply;Mt SO2/yr;Emi|SO2|Energy Supply;Mt SO2/yr;;;;;;;;sulfur emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);;;;;
 476;Emissions|Sulfur|Industrial Processes;Mt SO2/yr;;;;;;;;;;Sulfur emissions from industrial processes;;;;;
-477;Emissions|Sulfur|Other;Mt SO2/yr;;;;;;;;;;sulfur emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);;;;;
+477;Emissions|Sulfur|Other;Mt SO2/yr;Emi|SO2|Solvents;Mt SO2/yr;;;;;;;;sulfur emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);;;;;
 478;Emissions|Sulfur|Waste;Mt SO2/yr;Emi|SO2|Waste;Mt SO2/yr;;;;;;;;;;;;;
 479;Emissions|VOC;Mt VOC/yr;Emi|VOC;Mt VOC/yr;;;;;;;;total volatile organic compound (VOC) emissions;;;;;
 480;Emissions|VOC|AFOLU;Mt VOC/yr;Emi|VOC|Land Use;Mt VOC/yr;;;;;;;;land use based volatile organic compounds Emissions;;;;;
@@ -516,7 +516,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 491;Emissions|VOC|Energy|Demand|Transportation|Passenger;Mt VOC/yr;;;;;;;;;;VOC emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);;;;;
 492;Emissions|VOC|Energy|Supply;Mt VOC/yr;Emi|VOC|Energy Supply;Mt VOC/yr;;;;;;;;volatile organic compounds Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B);;;;;
 493;Emissions|VOC|Industrial Processes;Mt VOC/yr;;;;;;;;;;VOC emissions from industrial processes;;;;;
-494;Emissions|VOC|Other;Mt VOC/yr;;;;;;;;;;volatile organic compounds Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);;;;;
+494;Emissions|VOC|Other;Mt VOC/yr;Emi|VOC|Solvents;Mt VOC/yr;;;;;;;;volatile organic compounds Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);;;;;
 495;Emissions|VOC|Waste;Mt VOC/yr;Emi|VOC|Waste;Mt VOC/yr;;;;;;;;;;;;;
 496;Employment|Industry|Energy;million;;;;;;;;;;Number of employed inhabitants (payrolls) in energy related industries (based on ILO classification);;;;;
 497;Employment|Industry|Energy Intensive;million;;;;;;;;;;Number of employed inhabitants (payrolls) in energy-intensive industry (based on ILO classification);;;;;
