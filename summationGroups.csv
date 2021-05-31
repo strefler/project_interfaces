@@ -240,6 +240,7 @@ Emissions|HFC;Emissions|HFC|Industrial Processes
 Emissions|HFC;Emissions|HFC|Waste
 Emissions|N2O|Energy|Demand|Transportation;Emissions|N2O|Energy|Demand|Transportation|Freight
 Emissions|N2O|Energy|Demand|Transportation;Emissions|N2O|Energy|Demand|Transportation|Passenger
+Emissions|N2O|AFOLU|Agriculture;Emissions|N2O|AFOLU|Agriculture|Livestock|Manure Management
 Emissions|N2O|AFOLU|Agriculture;Emissions|N2O|AFOLU|Agriculture|Managed Soils
 Emissions|N2O|AFOLU;Emissions|N2O|AFOLU|Agriculture
 Emissions|N2O|AFOLU;Emissions|N2O|AFOLU|Land
@@ -356,6 +357,7 @@ Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Road
 Fertilizer Use|Nitrogen;Fertilizer Use|Nitrogen|Inorganic
 Fertilizer Use|Nitrogen;Fertilizer Use|Nitrogen|Organic
+Fertilizer Use|Nitrogen;Fertilizer Use|Nitrogen|Biological Fixation
 Fertilizer Use|Potassium;Fertilizer Use|Potassium|Inorganic
 Fertilizer Use|Potassium;Fertilizer Use|Potassium|Organic
 Final Energy|Solids;Final Energy|Solids|Biomass
