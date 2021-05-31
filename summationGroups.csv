@@ -366,14 +366,10 @@ Final Energy|Non-Energy Use;Final Energy|Non-Energy Use|Gas
 Final Energy|Non-Energy Use;Final Energy|Non-Energy Use|Oil
 Final Energy;Final Energy|Electricity
 Final Energy;Final Energy|Gases
-Final Energy;Final Energy|Geothermal
 Final Energy;Final Energy|Heat
 Final Energy;Final Energy|Hydrogen
 Final Energy;Final Energy|Liquids
-Final Energy;Final Energy|Solar
 Final Energy;Final Energy|Solids
-Final Energy;Final Energy|Non-Energy Use
-Final Energy;Final Energy|Other
 Final Energy (excl. feedstocks)|Industry|Gases;Final Energy (excl. feedstocks)|Industry|Gases|Bioenergy
 Final Energy (excl. feedstocks)|Industry|Gases;Final Energy (excl. feedstocks)|Industry|Gases|Fossil
 Final Energy (excl. feedstocks)|Industry|Gases;Final Energy (excl. feedstocks)|Industry|Gases|Hydrogen synfuel
@@ -463,22 +459,22 @@ Final Energy|Other Sector;Final Energy|Other Sector|Hydrogen
 Final Energy|Other Sector;Final Energy|Other Sector|Liquids
 Final Energy|Other Sector;Final Energy|Other Sector|Other
 Final Energy|Other Sector;Final Energy|Other Sector|Solids
-Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Commercial
+Final Energy|Residential and Commercial 2;Final Energy|Residential and Commercial|Commercial
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Electricity
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Gases
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Heat
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Hydrogen
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Liquids
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Other
-Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Residential
+Final Energy|Residential and Commercial 2;Final Energy|Residential and Commercial|Residential
 Final Energy|Residential and Commercial;Final Energy|Residential and Commercial|Solids
 Final Energy|Transportation;Final Energy|Transportation|Electricity
 Final Energy|Transportation;Final Energy|Transportation|Gases
 Final Energy|Transportation;Final Energy|Transportation|Hydrogen
 Final Energy|Transportation;Final Energy|Transportation|Liquids
 Final Energy|Transportation;Final Energy|Transportation|Other
-Final Energy|Transportation;Final Energy|Transportation|Passenger
-Final Energy|Transportation;Final Energy|Transportation|Freight
+Final Energy|Transportation 2;Final Energy|Transportation|Passenger
+Final Energy|Transportation 2;Final Energy|Transportation|Freight
 Final Energy 2;Final Energy|Industry
 Final Energy 2;Final Energy|Other Sector
 Final Energy 2;Final Energy|Residential and Commercial
@@ -607,6 +603,7 @@ Secondary Energy|Electricity;Secondary Energy|Electricity|Oil
 Secondary Energy|Electricity;Secondary Energy|Electricity|Other
 Secondary Energy|Electricity;Secondary Energy|Electricity|Solar
 Secondary Energy|Electricity;Secondary Energy|Electricity|Wind
+Secondary Energy|Electricity;Secondary Energy|Electricity|Other
 Secondary Energy|Gases;Secondary Energy|Gases|Biomass
 Secondary Energy|Gases;Secondary Energy|Gases|Coal
 Secondary Energy|Gases;Secondary Energy|Gases|Natural Gas
