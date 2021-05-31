@@ -522,8 +522,9 @@ Investment|Infrastructure|Transportation;Investment|Infrastructure|Transportatio
 Investment|Infrastructure|Transportation;Investment|Infrastructure|Transportation|Road
 Land Cover|Cropland|Energy Crops;Land Cover|Cropland|Energy Crops|1st generation
 Land Cover|Cropland|Energy Crops;Land Cover|Cropland|Energy Crops|2nd generation
-Land Cover|Cropland;Land Cover|Cropland|Cereals
-Land Cover|Cropland;Land Cover|Cropland|Energy Crops
+Land Cover|Cropland;Land Cover|Cropland|Energy Crops|Irrigated
+Land Cover|Cropland;Land Cover|Cropland|Irrigated
+Land Cover|Cropland;Land Cover|Cropland|Rainfed
 Land Cover|Forest;Land Cover|Forest|Afforestation and Reforestation
 Land Cover|Forest;Land Cover|Forest|Managed
 Land Cover|Forest;Land Cover|Forest|Natural Forest
