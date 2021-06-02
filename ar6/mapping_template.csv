@@ -1244,6 +1244,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 1201;Secondary Energy|Other Carrier;EJ/yr;;;;;;;;;;generation of other secondary energy carriers that do not fit any other category (please provide a definition of other energy carrier in this category in the 'comments' tab);;;;;
 1202;Secondary Energy|Solids;EJ/yr;SE|Solids;EJ/yr;;;;;;;;solid secondary energy carriers (e.g.,briquettes,coke,wood chips,wood pellets);;;;;
 1203;Secondary Energy|Solids|Biomass;EJ/yr;SE|Solids|Biomass;EJ/yr;;;;;;;;solid secondary energy carriers produced from biomass (e.g.,commercial charcoal,wood chips,wood pellets). Tradional bioenergy use is excluded.;;;;;
+;Secondary Energy|Solids|Biomass;EJ/yr;SE|Solids|Traditional Biomass;EJ/yr;;;;;;;;Tradional bioenergy use ;;;;;
 1204;Secondary Energy|Solids|Coal;EJ/yr;SE|Solids|Coal;EJ/yr;;;;;;;;solid secondary energy carriers produced from coal (e.g.,briquettes,coke);;;;;
 1205;Trade|Primary Energy|Biomass|Volume;EJ/yr;Trade|Biomass;EJ/yr;;;;;;;;net exports of solid,unprocessed biomass,at the global level these should add up to the trade losses only;;;;;
 1206;Trade|Primary Energy|Coal|Volume;EJ/yr;Trade|Coal;EJ/yr;;;;;;;;net exports of coal,at the global level these should add up to the trade losses only;;;;;
