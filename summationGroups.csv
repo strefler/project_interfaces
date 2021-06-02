@@ -54,7 +54,7 @@ Agricultural Production|Energy;Agricultural Production|Energy|Crops
 Agricultural Production|Energy;Agricultural Production|Energy|Residues
 Agricultural Production|Non-Energy;Agricultural Production|Non-Energy|Crops
 Agricultural Production|Non-Energy;Agricultural Production|Non-Energy|Livestock
-Agricultural Production;Agricultural Production|Energy|Crops
+Agricultural Production;Agricultural Production|Energy
 Agricultural Production;Agricultural Production|Non-Energy
 Emissions|BC|Energy|Demand|Residential and Commercial;Emissions|BC|Energy|Demand|Residential and Commercial|Commercial
 Emissions|BC|Energy|Demand|Residential and Commercial;Emissions|BC|Energy|Demand|Residential and Commercial|Residential
