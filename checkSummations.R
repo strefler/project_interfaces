@@ -23,8 +23,10 @@ names(check_variables) <- gsub(" [1-9]$","",names(check_variables))
 tmp2<-NULL
 for (i in names(check_variables)) tmp2<-rbind(tmp2,checkSum(i,filter(data,parent==i,variable%in%check_variables[[i]])))
 
-tmp2 <- left_join(tmp2,data,c("scenario","region","variable","period","model")) %>% mutate(    diff=abs(grsum-value)    ,reldiff=  100*abs((grsum-value)/value)     )
-
+tmp2 <- left_join(tmp2,data,c("scenario","region","variable","period","model")) %>% 
+        mutate(diff=abs(grsum-value),reldiff=  100*abs((grsum-value)/value)) %>%
+        select(-c("factor","parent","child"))
+tmp2 <- tmp2[,c(1,2,3,4,6,7,8,5,9,10)]
 tmp2_tiny <- filter(tmp2,reldiff<1,diff<0.001)
 tmp2 <- filter(tmp2,reldiff>=1,diff>=0.001)
 
