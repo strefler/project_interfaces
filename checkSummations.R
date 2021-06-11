@@ -13,7 +13,7 @@ checkSum <- function(name,x) {
 # Add here the name of your .mif file
 data_bu <- read.quitte("MYMIFFILE.mif")
 
-tmp <- read.csv("summationGroups.csv",sep = ";")
+tmp <- read.csv("summationGroups.csv",sep = ";",stringsAsFactors=FALSE)
 data <- filter(data_bu,variable%in%unique(c(tmp$child,tmp$parent)))
 check_variables <- list()
 for (i in unique(tmp[,"parent"])) check_variables[[i]] <- tmp[which(tmp[,"parent"]==i),"child"]
