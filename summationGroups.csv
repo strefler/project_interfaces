@@ -300,10 +300,10 @@ Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportat
 Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportation|Passenger;1
 Emissions|OC|AFOLU;Emissions|OC|AFOLU|Agriculture;1
 Emissions|OC|AFOLU;Emissions|OC|AFOLU|Land;1
-Emissions|OC|Energy|Supply;Emissions|OC|Energy;1
-Emissions|OC|Energy|Demand|Residential and Commercial;Emissions|OC|Energy;1
-Emissions|OC|Energy|Demand|Industry;Emissions|OC|Energy;1
-Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy;1
+Emissions|OC|Energy;Emissions|OC|Energy|Supply;1
+Emissions|OC|Energy;Emissions|OC|Energy|Demand|Residential and Commercial;1
+Emissions|OC|Energy;Emissions|OC|Energy|Demand|Industry;1
+Emissions|OC|Energy;Emissions|OC|Energy|Demand|Transportation;1
 Emissions|OC;Emissions|OC|AFOLU;1
 Emissions|OC;Emissions|OC|Energy;1
 Emissions|OC;Emissions|OC|Industrial Processes;1
