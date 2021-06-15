@@ -35,6 +35,7 @@ Carbon Sequestration|CCS|Fossil|Energy|Supply;Carbon Sequestration|CCS|Fossil|En
 Carbon Sequestration|CCS|Fossil|Energy|Supply;Carbon Sequestration|CCS|Fossil|Energy|Supply|Hydrogen
 Carbon Sequestration|CCS|Fossil|Energy|Supply;Carbon Sequestration|CCS|Fossil|Energy|Supply|Liquids
 Carbon Sequestration|CCS|Fossil|Energy|Supply;Carbon Sequestration|CCS|Fossil|Energy|Supply|Other
+Carbon Sequestration|CCS|Biomass|Energy;Carbon Sequestration|CCS|Biomass|Energy|Demand|Industry
 Carbon Sequestration|CCS|Biomass|Energy;Carbon Sequestration|CCS|Biomass|Energy|Supply
 Carbon Sequestration|CCS|Fossil|Energy;Carbon Sequestration|CCS|Fossil|Energy|Supply
 Carbon Sequestration|CCS|Biomass;Carbon Sequestration|CCS|Biomass|Energy
@@ -62,7 +63,10 @@ Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportat
 Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportation|Passenger
 Emissions|BC|AFOLU;Emissions|BC|AFOLU|Agriculture
 Emissions|BC|AFOLU;Emissions|BC|AFOLU|Land
-Emissions|BC|Energy;Emissions|BC|Energy
+Emissions|BC|Energy;Emissions|BC|Energy|Supply
+Emissions|BC|Energy;Emissions|BC|Energy|Demand|Residential and Commercial
+Emissions|BC|Energy;Emissions|BC|Energy|Demand|Industry
+Emissions|BC|Energy;Emissions|BC|Energy|Demand|Transportation
 Emissions|BC;Emissions|BC|AFOLU
 Emissions|BC;Emissions|BC|Energy
 Emissions|BC;Emissions|BC|Industrial Processes
@@ -128,7 +132,6 @@ Emissions|CH4|Industrial Processes|Chemicals;Emissions|CH4|Industrial Processes|
 Emissions|CH4|Industrial Processes|Chemicals;Emissions|CH4|Industrial Processes|Chemicals|Other
 Emissions|CH4|AFOLU;Emissions|CH4|AFOLU|Agriculture
 Emissions|CH4|AFOLU;Emissions|CH4|AFOLU|Land
-Emissions|CH4|Energy;Emissions|CH4|Energy
 Emissions|CH4|Industrial Processes;Emissions|CH4|Industrial Processes|Chemicals
 Emissions|CH4|Industrial Processes;Emissions|CH4|Industrial Processes|Non-ferrous metals
 Emissions|CH4|Industrial Processes;Emissions|CH4|Industrial Processes|Other
@@ -146,7 +149,10 @@ Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportat
 Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportation|Passenger
 Emissions|CO|AFOLU;Emissions|CO|AFOLU|Agriculture
 Emissions|CO|AFOLU;Emissions|CO|AFOLU|Land
-Emissions|CO|Energy;Emissions|CO|Energy
+Emissions|CO|Energy;Emissions|CO|Energy|Supply
+Emissions|CO|Energy;Emissions|CO|Energy|Demand|Residential and Commercial
+Emissions|CO|Energy;Emissions|CO|Energy|Demand|Industry
+Emissions|CO|Energy;Emissions|CO|Energy|Demand|Transportation
 Emissions|CO;Emissions|CO|AFOLU
 Emissions|CO;Emissions|CO|Energy
 Emissions|CO;Emissions|CO|Industrial Processes
@@ -262,7 +268,10 @@ Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transport
 Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transportation|Passenger
 Emissions|NH3|AFOLU;Emissions|NH3|AFOLU|Agriculture
 Emissions|NH3|AFOLU;Emissions|NH3|AFOLU|Land
-Emissions|NH3|Energy;Emissions|NH3|Energy
+Emissions|NH3|Energy;Emissions|NH3|Energy|Supply
+Emissions|NH3|Energy;Emissions|NH3|Energy|Demand|Residential and Commercial
+Emissions|NH3|Energy;Emissions|NH3|Energy|Demand|Industry
+Emissions|NH3|Energy;Emissions|NH3|Energy|Demand|Transportation
 Emissions|NH3;Emissions|NH3|AFOLU
 Emissions|NH3;Emissions|NH3|Energy
 Emissions|NH3;Emissions|NH3|Industrial Processes
@@ -274,7 +283,10 @@ Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transport
 Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transportation|Passenger
 Emissions|NOx|AFOLU;Emissions|NOx|AFOLU|Agriculture
 Emissions|NOx|AFOLU;Emissions|NOx|AFOLU|Land
-Emissions|NOx|Energy;Emissions|NOx|Energy
+Emissions|NOx|Energy;Emissions|NOx|Energy|Supply
+Emissions|NOx|Energy;Emissions|NOx|Energy|Demand|Residential and Commercial
+Emissions|NOx|Energy;Emissions|NOx|Energy|Demand|Industry
+Emissions|NOx|Energy;Emissions|NOx|Energy|Demand|Transportation
 Emissions|NOx;Emissions|NOx|AFOLU
 Emissions|NOx;Emissions|NOx|Energy
 Emissions|NOx;Emissions|NOx|Industrial Processes
@@ -286,7 +298,10 @@ Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportat
 Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportation|Passenger
 Emissions|OC|AFOLU;Emissions|OC|AFOLU|Agriculture
 Emissions|OC|AFOLU;Emissions|OC|AFOLU|Land
-Emissions|OC|Energy;Emissions|OC|Energy
+Emissions|OC|Energy|Supply;Emissions|OC|Energy
+Emissions|OC|Energy|Demand|Residential and Commercial;Emissions|OC|Energy
+Emissions|OC|Energy|Demand|Industry;Emissions|OC|Energy
+Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy
 Emissions|OC;Emissions|OC|AFOLU
 Emissions|OC;Emissions|OC|Energy
 Emissions|OC;Emissions|OC|Industrial Processes
@@ -312,7 +327,10 @@ Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Tra
 Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Transportation|Passenger
 Emissions|Sulfur|AFOLU;Emissions|Sulfur|AFOLU|Agriculture
 Emissions|Sulfur|AFOLU;Emissions|Sulfur|AFOLU|Land
-Emissions|Sulfur|Energy;Emissions|Sulfur|Energy
+Emissions|Sulfur|Energy;Emissions|Sulfur|Energy|Supply
+Emissions|Sulfur|Energy;Emissions|Sulfur|Energy|Demand|Residential and Commercial
+Emissions|Sulfur|Energy;Emissions|Sulfur|Energy|Demand|Industry
+Emissions|Sulfur|Energy;Emissions|Sulfur|Energy|Demand|Transportation
 Emissions|Sulfur;Emissions|Sulfur|AFOLU
 Emissions|Sulfur;Emissions|Sulfur|Energy
 Emissions|Sulfur;Emissions|Sulfur|Industrial Processes
@@ -324,7 +342,10 @@ Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transport
 Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transportation|Passenger
 Emissions|VOC|AFOLU;Emissions|VOC|AFOLU|Agriculture
 Emissions|VOC|AFOLU;Emissions|VOC|AFOLU|Land
-Emissions|VOC|Energy;Emissions|VOC|Energy
+Emissions|VOC|Energy;Emissions|VOC|Energy|Supply
+Emissions|VOC|Energy;Emissions|VOC|Energy|Demand|Residential and Commercial
+Emissions|VOC|Energy;Emissions|VOC|Energy|Demand|Industry
+Emissions|VOC|Energy;Emissions|VOC|Energy|Demand|Transportation
 Emissions|VOC;Emissions|VOC|AFOLU
 Emissions|VOC;Emissions|VOC|Energy
 Emissions|VOC;Emissions|VOC|Industrial Processes
@@ -396,9 +417,11 @@ Final Energy|Transportation|Passenger|Gases;Final Energy|Transportation|Passenge
 Final Energy|Transportation|Passenger|Liquids;Final Energy|Transportation|Passenger|Liquids|Bioenergy
 Final Energy|Transportation|Passenger|Liquids;Final Energy|Transportation|Passenger|Liquids|Fossil synfuel
 Final Energy|Transportation|Passenger|Liquids;Final Energy|Transportation|Passenger|Liquids|Oil
+Final Energy|Transportation|Passenger|Liquids;Final Energy|Transportation|Passenger|Other
 Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Bioenergy
 Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Fossil
 Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|Liquids|Bioenergy
+Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|Other
 Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|Liquids|Fossil synfuel
 Final Energy|Transportation|Freight|Liquids;Final Energy|Transportation|Freight|Liquids|Oil
 Final Energy|Industry|Gases;Final Energy|Industry|Gases|  (EK ???)
@@ -554,17 +577,21 @@ Primary Energy|Biomass;Primary Energy|Biomass|Gases
 Primary Energy|Biomass;Primary Energy|Biomass|Hydrogen
 Primary Energy|Biomass;Primary Energy|Biomass|Liquids
 Primary Energy|Biomass;Primary Energy|Biomass|Solids
-Primary Energy|Biomass;Primary Energy|Biomass|Traditional
+Primary Energy|Biomass;Primary Energy|Biomass|Heat
+Primary Energy|Biomass 2;Primary Energy|Biomass|Modern
+Primary Energy|Biomass 2;Primary Energy|Biomass|Traditional
 Primary Energy|Coal;Primary Energy|Coal|Electricity
 Primary Energy|Coal;Primary Energy|Coal|Gases
 Primary Energy|Coal;Primary Energy|Coal|Hydrogen
 Primary Energy|Coal;Primary Energy|Coal|Liquids
 Primary Energy|Coal;Primary Energy|Coal|Solids
+Primary Energy|Coal;Primary Energy|Coal|Heat
 Primary Energy|Gas;Primary Energy|Gas|Electricity
 Primary Energy|Gas;Primary Energy|Gas|Gases
 Primary Energy|Gas;Primary Energy|Gas|Hydrogen
 Primary Energy|Gas;Primary Energy|Gas|Liquids
 Primary Energy|Gas;Primary Energy|Gas|Solids
+Primary Energy|Gas;Primary Energy|Gas|Heat
 Primary Energy|Non-Biomass Renewables;Primary Energy|Non-Biomass Renewables|Geothermal
 Primary Energy|Non-Biomass Renewables;Primary Energy|Non-Biomass Renewables|Hydro
 Primary Energy|Non-Biomass Renewables;Primary Energy|Non-Biomass Renewables|Ocean
@@ -579,11 +606,11 @@ Primary Energy;Primary Energy|Biomass
 Primary Energy;Primary Energy|Coal
 Primary Energy;Primary Energy|Gas
 Primary Energy;Primary Energy|Hydro
-Primary Energy;Primary Energy|Non-Biomass Renewables
+Primary Energy;Primary Energy|Solar
 Primary Energy;Primary Energy|Nuclear
 Primary Energy;Primary Energy|Oil
-Primary Energy;Primary Energy|Other
-Primary Energy;Primary Energy|Secondary Energy Trade
+Primary Energy;Primary Energy|Wind
+Primary Energy;Primary Energy|Geothermal
 Secondary Energy|Electricity|Biomass;Secondary Energy|Electricity|Biomass|w/ CCS
 Secondary Energy|Electricity|Biomass;Secondary Energy|Electricity|Biomass|w/o CCS
 Secondary Energy|Electricity|Coal;Secondary Energy|Electricity|Coal|w/ CCS
@@ -630,10 +657,6 @@ Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Biomass
 Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Coal
 Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Electricity
 Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Gas
-Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Nuclear
-Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Oil
-Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Other
-Secondary Energy|Hydrogen;Secondary Energy|Hydrogen|Solar
 Secondary Energy|Liquids|Biomass;Secondary Energy|Liquids|Biomass|w/ CCS
 Secondary Energy|Liquids|Biomass;Secondary Energy|Liquids|Biomass|w/o CCS
 Secondary Energy|Liquids|Coal;Secondary Energy|Liquids|Coal|w/ CCS
