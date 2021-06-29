@@ -1537,7 +1537,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 1450;Population|Clean cooking Access;million;;;;;;;;work in progress;;population with access to clean cooking (e.g. non-solid fuels);;;;;
 1451;Population|Democratic rights;million;;;;;;;;;;population with democratic rights (e.g. voiting,association,etc.);;;;;
 1452;Population|Electricity Access;million;;;;;;;;work in progress;;population with access to electricity;;;;;
-1453;Population|Extreme poverty;million;Population|Extreme poverty;million;;;;;;;Calculated via rescaling based on lognormal distribution from results for international poverty line ($1.90 in PPP 2011);;;;;
+1453;Population|Extreme poverty;million;Population|Extreme poverty;million;;;;;;;Calculated via rescaling based on lognormal distribution from results for international poverty line ($1.90 in PPP 2011);population living in extreme poverty with income <US$2 2010 PPP per day;;;;;
 1454;Population|Female;million;;;;;;;;;from SSP, unused;total female population;;;;;
 1455;Population|Fragility;million;;;;;;;;;;Population living in fragile conditions,exposed to homicide,violent crime,war/state violence;;;;;
 1456;Population|Health Services Access;million;;;;;;;;;;population with access to adequate health services;;;;;
