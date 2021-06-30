@@ -337,7 +337,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 312;Emissions|CO2|Energy|Demand|Transportation|Road;Mt CO2/yr;Emi|CO2|Transport|Road|Demand;Mt CO2/yr;;;;;;;;carbon dioxide emissions from road transport vehicles;;;;;
 313;Emissions|CO2|Energy|Demand|Transportation|Road|Freight;Mt CO2/yr;Emi|CO2|Transport|Freight|Road|Demand;Mt CO2/yr;;;;;;;;carbon dioxide emissions from road freight transport vehicles;;;;;
 314;Emissions|CO2|Energy|Demand|Transportation|Road|Passenger;Mt CO2/yr;Emi|CO2|Transport|Pass|Road|Demand;Mt CO2/yr;;;;;;;;carbon dioxide emissions from road transport passenger vehicles;;;;;
-315;Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|2W&3W;Mt CO2/yr;Emi|CO2|Transport|Pass|Road|LDV|Two-Wheelers|Demand;Mt CO2/yr;;;;;;;;carbon dioxide emissions from road transport passenger 2W&3W vehicles;;;;;
+315;Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|2W&3W;Mt CO2/yr;;;;;;;;;;;;;;;
 316;Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|Bus;Mt CO2/yr;Emi|CO2|Transport|Pass|Road|Bus|Demand;Mt CO2/yr;;;;;;;;carbon dioxide emissions from road transport passenger Buses;;;;;
 317;Emissions|CO2|Energy|Demand|Transportation|Road|Passenger|LDV;Mt CO2/yr;Emi|CO2|Transport|Pass|Road|LDV|Demand;Mt CO2/yr;;;;;;;;carbon dioxide emissions from road transport passenger LDVs;;;;;
 318;Emissions|CO2|Energy|Supply;Mt CO2/yr;Emi|CO2|Energy|Supply;Mt CO2/yr;;;;;;;!!! warning - the sum only works with Emi|CO2|Fossil Fuels and Industry|Energy Supply, Indirect is not identical to Supply ;CO2 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);;;;;
@@ -742,8 +742,9 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 699;Energy Service|Transportation|Passenger|Navigation;bn pkm/yr;;;;;;;;;;annual demand for energy services related to passenger transportation in navigation;;;;;
 700;Energy Service|Transportation|Passenger|Other;bn pkm/yr;;;;;;;;;;annual demand for energy services related to passenger transportation (other);;;;;
 701;Energy Service|Transportation|Passenger|Railways;bn pkm/yr;ES|Transport|Pass|Rail;bn pkm/yr;;;;;;;;annual demand for energy services related to passenger transportation in railways;;;;;
-702;Energy Service|Transportation|Passenger|Road;bn pkm/yr;ES|Transport|Pass|Road;bn pkm/yr;;;;;;;;annual demand for energy services related to passenger transportation on roads;;;;;
-703;Energy Service|Transportation|Passenger|Road|2W and 3W;bn pkm/yr;ES|Transport|Pass|Road|LDV|Two-Wheelers;bn pkm/yr;;;;;;;;energy service demand for passenger transport on roads (two- and three-wheel vehicles);;;;;
+702;Energy Service|Transportation|Passenger|Road;bn pkm/yr;ES|Transport|Pass|Road;bn pkm/yr;1;;;;;;;annual demand for energy services related to passenger transportation on roads;;;;;
+;Energy Service|Transportation|Passenger|Road;bn pkm/yr;ES|Transport|Pass|Road|Non-Motorized;bn pkm/yr;-1;;;;;;;;;;;;
+703;Energy Service|Transportation|Passenger|Road|2W and 3W;bn pkm/yr;;;;;;;;;;energy service demand for passenger transport on roads (two- and three-wheel vehicles);;;;;
 704;Energy Service|Transportation|Passenger|Road|Bus;bn pkm/yr;ES|Transport|Pass|Road|Bus;bn pkm/yr;;;;;;;;energy service demand for passenger transport on roads (buses);;;;;
 705;Energy Service|Transportation|Passenger|Road|LDV;bn pkm/yr;ES|Transport|Pass|Road|LDV;bn pkm/yr;;;;;;;;energy service demand for passenger transport on roads (light-duty vehicles: passenger cars and light trucks/SUVs/vans);;;;;
 706;Energy Service|Transportation|Rail;bn vkm/yr;ES|Transport|VKM|Rail;bn vkm/yr;;;;;;;;Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Rail;;;;;
@@ -1205,12 +1206,12 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 1147;Secondary Energy|Electricity|Wind;EJ/yr;SE|Electricity|Wind;EJ/yr;;;;;;;;net electricity production from wind energy (on- and offshore);;;;;
 1148;Secondary Energy|Electricity|Wind|Offshore;EJ/yr;;;;;;;;;;net electricity production from offshore wind energy;;;;;
 1149;Secondary Energy|Electricity|Wind|Onshore;EJ/yr;;;;;;;;;;net electricity production from onshore wind energy;;;;;
-1150;Secondary Energy|Gases;EJ/yr;SE|Gases;EJ/yr;;;;;;;;total production of gaseous fuels,including natural gas;;;;;
+1150;Secondary Energy|Gases;EJ/yr;SE|Gases;EJ/yr;1;;;;;;;total production of gaseous fuels,including natural gas;;;;;
+;Secondary Energy|Gases;EJ/yr;SE|Gases|Waste;EJ/yr;-1;;;;;;;;;;;;
 1151;Secondary Energy|Gases|Biomass;EJ/yr;SE|Gases|Biomass;EJ/yr;;;;;;;;total production of biogas;;;;;
 1152;Secondary Energy|Gases|Coal;EJ/yr;SE|Gases|Coal;EJ/yr;;;;;;;;total production of coal gas from coal gasification;;;;;
 1153;Secondary Energy|Gases|Natural Gas;EJ/yr;SE|Gases|Natural Gas;EJ/yr;;;;;;;;total production of natural gas;;;;;
-1154;Secondary Energy|Gases|Other;EJ/yr;SE|Gases|Waste;EJ/yr;;;;;;;;total production of gases from sources that do not fit any other category;;;;;
-;Secondary Energy|Gases|Other;EJ/yr;SE|Gases|Hydrogen;EJ/yr;;;;;;;;total production of gases from sources that do not fit any other category;;;;;
+1154;Secondary Energy|Gases|Other;EJ/yr;SE|Gases|Hydrogen;EJ/yr;;;;;;;;total production of gases from sources that do not fit any other category;;;;;
 1155;Secondary Energy|Heat;EJ/yr;SE|Heat;EJ/yr;;;;;;;;total centralized heat generation;;;;;
 1156;Secondary Energy|Heat|Biomass;EJ/yr;SE|Heat|Biomass;EJ/yr;;;;;;;;centralized heat generation from biomass;;;;;
 1157;Secondary Energy|Heat|Coal;EJ/yr;SE|Heat|Coal;EJ/yr;;;;;;;;centralized heat generation from coal;;;;;
@@ -1417,6 +1418,8 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 1357;Investment|Energy Supply|Liquids|Coal and Gas;billion US$2010/yr;Energy Investments|Liquids|Fossil;billion US$2005/yr;1.10774;;;;;;;investments for the production of fossil-based synfuels (coal and gas). For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.;;;;;
 1358;Investment|Energy Supply|Liquids|Oil;billion US$2010/yr;Energy Investments|Liquids|Oil Ref;billion US$2005/yr;1.10774;;;;;;;investments for the production of fossil fuels from oil refineries For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.;;;;;
 1359;Investment|Energy Supply|Other;billion US$2010/yr;Energy Investments|Other;billion US$2005/yr;1.10774;;;;;;;investments in other types of energy conversion facilities;;;;;
+;Investment|Energy Supply|Other;billion US$2010/yr;Energy Investments|Gases;billion US$2005/yr;1.10774;;;;;;;;;;;;
+;Investment|Energy Supply|Other;billion US$2010/yr;Energy Investments|Solids;billion US$2005/yr;1.10774;;;;;;;;;;;;
 1360;Investment|Infrastructure|Residential and Commercial|Building Retrofits;billion US$2010/yr;;;;;;;;;;investment into residential and commercial buildings infrastructure (all types of existing buildings that have been retrofitted to become more energy efficient);;;;;
 1361;Investment|Infrastructure|Residential and Commercial|High-Efficiency Buildings;billion US$2010/yr;;;;;;;;;;investment into residential and commercial buildings infrastructure (all types of new buildings that are relatively high in their energy efficiency);;;;;
 1362;Investment|Infrastructure|Residential and Commercial|Low-Efficiency Buildings;billion US$2010/yr;;;;;;;;;;investment into residential and commercial buildings infrastructure (all types of new buildings that are relatively low in their energy efficiency);;;;;

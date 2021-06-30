@@ -44,7 +44,7 @@ Carbon Sequestration|CCS|Fossil;Carbon Sequestration|CCS|Fossil|Energy;1
 Carbon Sequestration|CCS|Fossil;Carbon Sequestration|CCS|Fossil|Industrial Processes;1
 Carbon Sequestration|CCS;Carbon Sequestration|CCS|Biomass;1
 Carbon Sequestration|CCS;Carbon Sequestration|CCS|Fossil;1
-Carbon Sequestration|CCS;Carbon Sequestration|Direct Air Capture;-1
+Carbon Sequestration|CCS;Carbon Sequestration|Direct Air Capture;1
 Carbon Sequestration|CCS;Carbon Sequestration|CCS|Industrial Processes;1
 Carbon Sequestration|Feedstocks;Carbon Sequestration|Feedstocks|Biomass;1
 Carbon Sequestration|Feedstocks;Carbon Sequestration|Feedstocks|Fossil;1
@@ -200,10 +200,8 @@ Emissions|CO2|Energy|Demand|Industry;Emissions|CO2|Energy|Demand|Industry|Pulp a
 Emissions|CO2|Energy|Demand|Industry;Emissions|CO2|Energy|Demand|Industry|Steel;1
 Emissions|CO2|Energy|Demand|Residential and Commercial;Emissions|CO2|Energy|Demand|Residential and Commercial|Commercial;1
 Emissions|CO2|Energy|Demand|Residential and Commercial;Emissions|CO2|Energy|Demand|Residential and Commercial|Residential;1
-Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Aviation;1
-Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Freight;1
-Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Maritime;1
-Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Passenger;1
+Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Aviation|Passenger;1
+Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Maritime|Freight;1
 Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Rail;1
 Emissions|CO2|Energy|Demand|Transportation;Emissions|CO2|Energy|Demand|Transportation|Road;1
 Emissions|CO2|Energy|Demand;Emissions|CO2|Energy|Demand|AFOFI;1
@@ -237,7 +235,7 @@ Emissions|CO2;Emissions|CO2|Energy;1
 Emissions|CO2;Emissions|CO2|Industrial Processes;1
 Emissions|CO2;Emissions|CO2|Other;1
 Emissions|CO2;Emissions|CO2|Waste;1
-Emissions|CO2;Carbon Sequestration|Direct Air Capture;1
+Emissions|CO2;Carbon Sequestration|Direct Air Capture;-1
 Emissions|HFC|AFOLU;Emissions|HFC|AFOLU|Agriculture;1
 Emissions|HFC|AFOLU;Emissions|HFC|AFOLU|Land;1
 Emissions|HFC|Industrial Processes;Emissions|HFC|Industrial Processes|Chemicals;1
@@ -369,11 +367,10 @@ Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Rail
 Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Road;1
 Capacity Additions|Electricity|Coal;Capacity Additions|Electricity|Coal|w/ CCS;1
 Capacity Additions|Electricity|Coal;Capacity Additions|Electricity|Coal|w/o CCS;1
-Energy Service|Transportation|Passenger|Road;Energy Service|Transportation|Passenger|Road|2W and 3W;1
 Energy Service|Transportation|Passenger|Road;Energy Service|Transportation|Passenger|Road|Bus;1
 Energy Service|Transportation|Passenger|Road;Energy Service|Transportation|Passenger|Road|LDV;1
-Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Aviation;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Bicycling and Walking;1
+Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Aviation;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Navigation;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Other;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Railways;1
@@ -613,6 +610,12 @@ Primary Energy;Primary Energy|Nuclear;1
 Primary Energy;Primary Energy|Oil;1
 Primary Energy;Primary Energy|Wind;1
 Primary Energy;Primary Energy|Geothermal;1
+Secondary Energy;Secondary Energy|Electricity;1
+Secondary Energy;Secondary Energy|Gases;1
+Secondary Energy;Secondary Energy|Heat;1
+Secondary Energy;Secondary Energy|Hydrogen;1
+Secondary Energy;Secondary Energy|Liquids;1
+Secondary Energy;Secondary Energy|Solids;1
 Secondary Energy|Electricity|Biomass;Secondary Energy|Electricity|Biomass|w/ CCS;1
 Secondary Energy|Electricity|Biomass;Secondary Energy|Electricity|Biomass|w/o CCS;1
 Secondary Energy|Electricity|Coal;Secondary Energy|Electricity|Coal|w/ CCS;1
@@ -636,7 +639,6 @@ Secondary Energy|Electricity;Secondary Energy|Electricity|Oil;1
 Secondary Energy|Electricity;Secondary Energy|Electricity|Other;1
 Secondary Energy|Electricity;Secondary Energy|Electricity|Solar;1
 Secondary Energy|Electricity;Secondary Energy|Electricity|Wind;1
-Secondary Energy|Electricity;Secondary Energy|Electricity|Other;1
 Secondary Energy|Gases;Secondary Energy|Gases|Biomass;1
 Secondary Energy|Gases;Secondary Energy|Gases|Coal;1
 Secondary Energy|Gases;Secondary Energy|Gases|Natural Gas;1
@@ -706,7 +708,7 @@ Capacity|Electricity;Capacity|Electricity|Geothermal;1
 Capacity|Electricity;Capacity|Electricity|Hydro;1
 Capacity|Electricity;Capacity|Electricity|Nuclear;1
 Capacity|Electricity;Capacity|Electricity|Ocean;1
-Capacity|Electricity;Capacity|Electricity|Oil;1
+Capacity|Electricity;Capacity|Electricity|Oil|w/o CCS;1
 Capacity|Electricity;Capacity|Electricity|Other;1
 Capacity|Electricity;Capacity|Electricity|Solar;1
 Capacity|Electricity;Capacity|Electricity|Wind;1
