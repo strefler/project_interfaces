@@ -27,7 +27,7 @@ Note 2021-03: For the SDP-submission do not include the hybrid runs, these are o
 
 7b. (!!temporary, to be revised for final uploads!!): run `rm_variables.sh` to remove variables from the mapped mif file that are only used for consistency checks and should not go into the AR6-DB. For final uploads check with Christoph/Silvia/Bjoern about the exclusion list to be used.
 
-8. run fixVariableNames_removeNAs.sh on the output files to fix some special variable names and replace NAs with blanks
+8. (only relevant if Air pollution or Inequality/Poverty variables are included -> likely only for SDP): run fixVariableNames_removeNAs.sh on the output files to fix some special variable names and replace NAs with blanks
 
 9. copy the outputs from ar6/AR6_output into the AR6 submission Excel spreadsheet (see Alois' slides for details). Notes:
 - copy only the years until 2100
