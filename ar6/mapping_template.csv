@@ -1477,6 +1477,8 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 1394;Land Cover|Built-up Area;million ha;Resources|Land Cover|+|Urban Area;million ha;;;Resources|Land Cover|+|Urban Area;million ha;;;;total built-up land associated with human settlement;;;;;
 1395;Land Cover|Cropland;million ha;Resources|Land Cover|+|Cropland;million ha;;;Resources|Land Cover|+|Cropland;million ha;;;;total arable land,i.e. land in non-forest bioenergy crop,food,and feed/fodder crops,as well as other arable land (cultivated area);;;;;
 1396;Land Cover|Cropland|Cereals;million ha;Resources|Land Cover|Cropland|Crops|+|Cereals;million ha;;;Resources|Land Cover|Cropland|Crops|+|Cereals;million ha;;;;land dedicated to cereal crops: wheat,rice and coarse grains (maize,corn,millet,sorghum,barley,oats,rye);;;;;
+;Land Cover|Cropland|Oilcrops;million ha;Resources|Land Cover|Cropland|Crops|+|Oil crops;million ha;;;Resources|Land Cover|Cropland|Crops|+|Oil crops;million ha;;;;land dedicated to oilcrops (e.g. soybean,rapeseed,groundnut,sunflower,oilpalm);;;;;
+;Land Cover|Cropland|Sugarcrops;million ha;Resources|Land Cover|Cropland|Crops|+|Sugar crops;million ha;;;Resources|Land Cover|Cropland|Crops|+|Sugar crops;million ha;;;;land dedicated to sugarcrops (e.g. sugarbeet,sugarcane);;;;;
 1397;Land Cover|Cropland|Double-cropped;million ha;;;;;;;;;;area of land that is double-cropped (twice in a year);;;;;
 1398;Land Cover|Cropland|Energy Crops;million ha;Resources|Land Cover|Cropland|+|Bioenergy crops;million ha;;;Resources|Land Cover|Cropland|+|Bioenergy crops;million ha;;;;land dedicated to both 1st & 2nd generation energy crops;;;;;
 1399;Land Cover|Cropland|Energy Crops|1st generation;million ha;;;;;;;;;;land dedicated to 1st generation energy crops;;;;;
