@@ -1938,7 +1938,7 @@ idx;Variable;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_unit;m
 ;Ocean|pH value;-;Ocean|pH value;-;;;;;;;;Ocean acidification: pH value;;;;;
 ;Ocean|Carbonate Saturation|Calcite;-;Ocean|Carbonate Saturation|Calcite;-;;;;;;;;Saturation state of calcite (Omega_C);;;;;
 ;Ocean|Carbonate Saturation|Aragonite;-;Ocean|Carbonate Saturation|Aragonite;-;;;;;;;;Saturation state of aragonite (Omega_A);;;;;
-;Ocean|Net primary production;GtC/yr;Ocean|Net primary production;GtC/yr;-;;;;;;;Net primary production of biomass in oceans;;;;;
+;Ocean|Net primary production;GtC/yr;Ocean|Net primary production;GtC/yr;;;;;;;;Net primary production of biomass in oceans;;;;;
 ;Ocean|New production;GtC/yr;Ocean|New production;GtC/yr;;;;;;;;New production of biomass in oceans;;;;;
 ;Ocean|Extension of suboxic zones;km³;Ocean|Extension of suboxic zones;km3;;;;;;;;Extension of suboxic zones in oceans;;;;;
 ;Political institutions|Equality before law and individual liberty;-;Political institutions|Equality before law and individual liberty;-;;;;;;;;aggregated ‘Equality Before the Law and Individual Liberty' index (0-1) as defined by V-DEM;;;;;
