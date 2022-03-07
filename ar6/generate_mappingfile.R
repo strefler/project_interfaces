@@ -4,12 +4,12 @@ library(data.table)
 ## note that the
 
 TEMPLATE <- "mapping_template.csv"
-MAPPING <- "mapping_r21m42_AR6DB.csv"
-REMIND_VAR <- "r21m42"
-REMIND_UNIT <- "r21m42_unit"
+MAPPING <- "mapping_r30m44_AR6DB.csv"
+REMIND_VAR <- "r30m44"
+REMIND_UNIT <- "r30m44_unit"
 AR6_VAR <- "Variable"
 AR6_UNIT <- "Unit"
-FACTOR_COL <- "r21m42_factor"
+FACTOR_COL <- "r30m44_unit"
 WEIGHT_COL <- NULL
 SPATIAL_COL <- "r21m42_spatial"
 
@@ -52,7 +52,7 @@ generateMapping <- function(template, mapping,
 
 }
 
-MODEL <- "REMIND-MAgPIE 2.1-4.2"
+MODEL <- "REMIND-MAgPIE 3.0-4.4"
 COMMENT_FILE <- "ar6-comments.csv"
 
 storeComments <- function(template, remind_var, ar6_var){
