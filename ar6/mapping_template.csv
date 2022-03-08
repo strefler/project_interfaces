@@ -21,8 +21,8 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 8;Fertilizer Use|Potassium|Organic;Tg K2O/yr;;;;;;;;;;;;;;;;Total potassium inputs in organic fertilizer use
 9;Yield|Bioenergy|2nd generation;t DM/ha/yr;Productivity|Yield|+|Bioenergy crops;Productivity|Yield|+|Bioenergy crops;t DM/ha;t DM/ha;;;;Productivity|Yield|+|Bioenergy crops;t DM/ha;;Productivity|Yield|+|Bioenergy crops;t DM/ha;;;;aggregated yield of 2nd generation energy crops (e.g.,switchgrass,miscanthus,fast-growing wood species)
 10;Yield|Cereal;t DM/ha/yr;Productivity|Yield|Crops|+|Cereals;Productivity|Yield|Crops|+|Cereals;t DM/ha;t DM/ha;;;;Productivity|Yield|Crops|+|Cereals;t DM/ha;;Productivity|Yield|Crops|+|Cereals;t DM/ha;;;;yield of cereal production per until of area (used here as repreentative crop to measure yield assumptions)
-11;Yield|Oilcrops;t DM/ha/yr;;;;;;;;;;;;;;;;aggregated yield of Oilcrops (e.g. soybean,rapeseed,groundnut,sunflower,oilpalm)
-12;Yield|Sugarcrops;t DM/ha/yr;;;;;;;;;;;;;;;;aggregated yield of Sugarcrops (e.g. sugarbeet,sugarcane)
+11;Yield|Oilcrops;t DM/ha/yr;;Productivity|Yield|Crops|+|Oil crops;;t DM/ha;;;;;;;Productivity|Yield|Crops|+|Oil crops;t DM/ha;;;;aggregated yield of Oilcrops (e.g. soybean,rapeseed,groundnut,sunflower,oilpalm)
+12;Yield|Sugarcrops;t DM/ha/yr;;Productivity|Yield|Crops|+|Sugar crops;;t DM/ha;;;;;;;Productivity|Yield|Crops|+|Sugar crops;t DM/ha;;;;aggregated yield of Sugarcrops (e.g. sugarbeet,sugarcane)
 13;Carbon Sequestration|CCS;Mt CO2/yr;Emi|CO2|Carbon Capture and Storage;Carbon Management|Storage;Mt CO2/yr;Mt CO2/yr;;;;;;;;;;;;total carbon dioxide emissions captured and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
 14;Carbon Sequestration|CCS|Biomass;Mt CO2/yr;Emi|CO2|Carbon Capture and Storage|Biomass|Supply|w/ couple prod;Emi|CO2|CDR|BECCS;Mt CO2/yr;Mt CO2/yr;;;;;;;;;;;;total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
 ;Carbon Sequestration|CCS|Biomass;Mt CO2/yr;Emi|CO2|Carbon Capture and Storage|Biomass|Energy|Demand|Industry;;Mt CO2/yr;;;;;;;;;;;;;
@@ -1223,7 +1223,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1160;Secondary Energy|Heat|Nuclear;EJ/yr;;;;;;;;;;;;;;;;centralized heat generation from nuclear energy
 1161;Secondary Energy|Heat|Oil;EJ/yr;;;;;;;;;;;;;;;;centralized heat generation from oil products
 1162;Secondary Energy|Heat|Other;EJ/yr;;;;;;;;;;;;;;;;centralized heat generation from sources that do not fit any other category (please provide a definition of the sources in this category in the 'comments' tab)
-1163;Secondary Energy|Heat|Solar;EJ/yr;;;;;;;;;;;;;;;;centralized heat generation from solar energy
+1163;Secondary Energy|Heat|Solar;EJ/yr;;SE|Heat|+|Solar;;EJ/yr;;;;;;;;;;;;centralized heat generation from solar energy
 1164;Secondary Energy|Hydrogen;EJ/yr;SE|Hydrogen;SE|Hydrogen;EJ/yr;EJ/yr;;;;;;;;;;;;total hydrogen production
 1165;Secondary Energy|Hydrogen|Biomass;EJ/yr;SE|Hydrogen|Biomass;SE|Hydrogen|+|Biomass;EJ/yr;EJ/yr;;;;;;;;;;;;hydrogen production from biomass
 1166;Secondary Energy|Hydrogen|Biomass|w/ CCS;EJ/yr;SE|Hydrogen|Biomass|w/ CCS;SE|Hydrogen|Biomass|+|w/ CC;EJ/yr;EJ/yr;;;;;;;;;;;;hydrogen production from biomass with a CO2 capture component
@@ -1699,8 +1699,8 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1603;Transport|Stock|Road|Freight;million vehicles;TODO;TODO;;;;;;;;;;;;;;The stock of road transport freight vehicles at the reported year
 1604;Transport|Stock|Road|Passenger;million vehicles;TODO;TODO;;;;;;;;;;;;;;The stock of road transport passenger vehicles at the reported year
 1605;Transport|Stock|Road|Passenger|2W&3W;million vehicles;TODO;TODO;;;;;;;;;;;;;;The stock of road transport passenger 2W &3W vehicles at the reported year
-1606;Transport|Stock|Road|Passenger|Bus;million vehicles;TODO;TODO;;;;;;;;;;;;;;The stock of road transport passenger buses at the reported year
-1607;Transport|Stock|Road|Passenger|LDV;million vehicles;TODO;TODO;;;;;;;;;;;;;;The stock of road transport passenger LDVs at the reported year
+1606;Transport|Stock|Road|Passenger|Bus;million vehicles;TODO;Stock|Transport|Bus;;million vehicles;;;;;;;;;;;;The stock of road transport passenger buses at the reported year
+1607;Transport|Stock|Road|Passenger|LDV;million vehicles;TODO;Stock|Transport|LDV;;million vehicles;;;;;;;;;;;;The stock of road transport passenger LDVs at the reported year
 1608;Final Energy|Residential and Commercial|Commercial|Water|Desalination;EJ/yr;;;;;;;;;;;;;;;;Energy consumption for desalination water
 1609;Final Energy|Residential and Commercial|Commercial|Water|Groundwater Extraction;EJ/yr;;;;;;;;;;;;;;;;Energy consumption for groundwater extraction
 1610;Final Energy|Residential and Commercial|Commercial|Water|Surface Water Extraction;EJ/yr;;;;;;;;;;;;;;;;Energy consumption for surface water extraction
