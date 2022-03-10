@@ -171,12 +171,18 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 151;Price|Agriculture|Soybean|Index;Index (2010 = 1);TODO;TODO;;;;;;TODO;;;TODO;;;;;price index of soybean
 152;Price|Agriculture|Wheat|Index;Index (2010 = 1);TODO;TODO;;;;;;TODO;;;TODO;;;;;price index of wheat
 153;Price|Carbon;US$2010/t CO2;Price|Carbon;Price|Carbon;US$2005/t CO2;US$2005/t CO2;1.10774;1.10774;;Prices|GHG Emission|CO2;US$2005/tCO2;1.10774;Prices|GHG Emission|CO2;US$2005/tCO2;1.10774;;;price of carbon (for regional aggregrates the weighted price of carbon by subregion should be used)
-;Price|Carbon|Demand|Industry;US$2010/t CO2;;Price|Carbon|Demand|Industry;;US$2005/t CO2;;1.10774;;;;;;;;;;
-;Price|Carbon|Demand|Residential and Commercial;US$2010/t CO2;;Price|Carbon|Demand|Buildings;;US$2005/t CO2;;1.10774;;;;;;;;;;
-;Price|Carbon|Demand|Transportation;US$2010/t CO2;;Price|Carbon|Demand|Transport;;US$2005/t CO2;;1.10774;;;;;;;;;;
-;Price|Carbon|Supply;US$2010/t CO2;;Price|Carbon|Supply;;US$2005/t CO2;;1.10774;;;;;;;;;;
-;Price|Final Energy|Industry|Hydrogen;US$2010/GJ;;Price|Final Energy|Industry|Hydrogen;;US$2005/GJ;;1.10774;;;;;;;;;;
-;Price|Final Energy|Industry|Liquids;US$2010/GJ;;Price|Final Energy|Industry|Liquids;;US$2005/GJ;;1.10774;;;;;;;;;;
+;Price|Carbon|Demand|Industry;US$2010/t CO2;;Price|Carbon|Demand|Industry;;US$2005/t CO2;;1.10774;;;;;;;;;;price of carbon for the industry sector
+;Price|Carbon|Demand|Residential and Commercial;US$2010/t CO2;;Price|Carbon|Demand|Buildings;;US$2005/t CO2;;1.10774;;;;;;;;;;price of carbon for the residential and commerical sector
+;Price|Carbon|Demand|Transportation;US$2010/t CO2;;Price|Carbon|Demand|Transport;;US$2005/t CO2;;1.10774;;;;;;;;;;price of carbon for the transportation sector
+;Price|Carbon|Supply;US$2010/t CO2;;Price|Carbon|Supply;;US$2005/t CO2;;1.10774;;;;;;;;;;price of carbon for energy supply sectors (e.g. electricity)
+;Price|Final Energy|Industry|Gases|Bioenergy;US$2010/GJ;;Price|Final Energy|Industry|Gases;;US$2005/GJ;;1.10774;;;;;;;;;;Gases|Bioenergy price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
+;Price|Final Energy|Industry|Gases|Fossil;US$2010/GJ;;Price|Final Energy|Industry|Gases;;US$2005/GJ;;1.10774;;;;;;;;;;Gases|Fossil price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
+;Price|Final Energy|Industry|Hydrogen;US$2010/GJ;;Price|Final Energy|Industry|Hydrogen;;US$2005/GJ;;1.10774;;;;;;;;;;Hydrogen price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
+;Price|Final Energy|Industry|Liquids;US$2010/GJ;;Price|Final Energy|Industry|Liquids;;US$2005/GJ;;1.10774;;;;;;;;;;Liquids price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
+;Price|Final Energy|Industry|Liquids|Bioenergy;US$2010/GJ;;Price|Final Energy|Industry|Liquids;;US$2005/GJ;;1.10774;;;;;;;;;;Liquids|Bioenergy price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
+;Price|Final Energy|Industry|Liquids|Fossil synfuel;US$2010/GJ;;Price|Final Energy|Industry|Liquids;;US$2005/GJ;;1.10774;;;;;;;;;;Liquids|Bioenergy price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices. Indexed
+;Price|Final Energy|Industry|Solids|Biomass;US$2010/GJ;;Price|Final Energy|Industry|Solids;;US$2005/GJ;;1.10774;;;;;;;;;;biomass price at the final level in the industry sector. Prices should include the effect of carbon prices.
+;Price|Final Energy|Industry|Solids|Coal;US$2010/GJ;;Price|Final Energy|Industry|Solids;;US$2005/GJ;;1.10774;;;;;;;;;;coal price at the final level in the industry sector. Prices should include the effect of carbon prices.
 154;Price|Final Energy|Residential and Commercial|Residential|Electricity;US$2010/GJ;Price|Final Energy|Electricity|Buildings;Price|Final Energy|Buildings|Electricity;US$2005/GJ;US$2005/GJ;1.10774;1.10774;;;;;;;;;;electricity price at the final level in the residential sector. Prices should include the effect of carbon prices.
 155;Price|Final Energy|Residential and Commercial|Residential|Gases|Natural Gas;US$2010/GJ;Price|Final Energy|Gases|Buildings;Price|Final Energy|Buildings|Gases;US$2005/GJ;US$2005/GJ;1.10774;1.10774;;;;;;;;;;natural gas price at the final level in the residential sector. Prices should include the effect of carbon prices.
 156;Price|Final Energy|Residential and Commercial|Residential|Liquids|Biomass;US$2010/GJ;;;;;;;;;;;;;;;;biofuel price at the final level in the residential sector. Prices should include the effect of carbon prices.
@@ -236,6 +242,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 210;Emissions|C2F6|Energy;kt C2F6/yr;;;;;;;;;;;;;;;;C2F6| emissions from forestry and other land use
 211;Emissions|C2F6|Industrial Processes;kt C2F6/yr;;;;;;;;;;;;;;;;C2F6 emissions from industrial processes
 212;Emissions|C2F6|Waste;kt C2F6/yr;;;;;;;;;;;;;;;;
+;Emissions|C6F14;kt C6F14/yr;;;;;;;;;;;;;;;;total emissions of CF6F14
 ;Emissions|CF4;kt CF4-equiv/yr;;;;;;;;;;;;;;;;
 213;Emissions|CF4|AFOLU;kt CF4/yr;;;;;;;;;;;;;;;;CF4 emissions from agriculture,forestry and other land use (IPCC category 3)
 214;Emissions|CF4|AFOLU|Agriculture;kt CF4/yr;;;;;;;;;;;;;;;;CF4|AFOLU|Agric emissions from agriculture
@@ -586,14 +593,14 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 552;Capacity|Electricity|Wind;GW;Cap|Electricity|Wind;Cap|Electricity|Wind;GW;GW;;;;;;;;;;;;total installed electricity generation capacity of wind power installations
 553;Capacity|Electricity|Wind|Offshore;GW;;Cap|Electricity|Wind|Offshore;;GW;;;;;;;;;;;;total installed electricity generation capacity of offshore wind power installations
 554;Capacity|Electricity|Wind|Onshore;GW;;Cap|Electricity|Wind|Onshore;;GW;;;;;;;;;;;;total installed electricity generation capacity of onshore wind power installations
-;Capacity|Gases;GW;;Cap|Gases;;GW;;;;;;;;;;;;
+;Capacity|Gases;GW;;Cap|Gases;;GW;;;;;;;;;;;;Total installed (available) capacity of gas plants.
 555;Capacity|Gases|Biomass;GW;;Cap|Gases|Biomass;;GW;;;;;;;;;;;;Total installed (available) capacity of biomass to gas plants.
 556;Capacity|Gases|Biomass|w/ CCS;GW;;;;;;;;;;;;;;;;Total installed (available) capacity of biomass to gas plants with CCS. The installed (available) capacity of CCS biomass to gas plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Gases|Biomass|w/ CCS|1,...,Capacity|Gases|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
 557;Capacity|Gases|Biomass|w/o CCS;GW;;;;;;;;;;;;;;;;Total installed (available) capacity of biomass to gas plants without CCS. The installed (available) capacity of biomass to gas plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Gases|Biomass|w/o CCS|1,...,Capacity|Gases|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
 558;Capacity|Gases|Coal;GW;;Cap|Gases|Coal;;GW;;;;;;;;;;;;Total installed (available) capacity of coal to gas plants.
 559;Capacity|Gases|Coal|w/ CCS;GW;;;;;;;;;;;;;;;;Total installed (available) capacity of coal to gas plants with CCS. The installed (available) capacity of CCS coal to gas plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Gases|Coal|w/ CCS|1,...,Capacity|Gases|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
 560;Capacity|Gases|Coal|w/o CCS;GW;;;;;;;;;;;;;;;;Total installed (available) capacity of coal to gas plants without CCS. The installed (available) capacity of coal to gas plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Gases|Coal|w/o CCS|1,...,Capacity|Gases|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
-;Capacity|Hydrogen;GW;;Cap|Hydrogen;;GW;;;;;;;;;;;;
+;Capacity|Hydrogen;GW;;Cap|Hydrogen;;GW;;;;;;;;;;;;Total installed (available) capacity of hydrogen plants.
 561;Capacity|Hydrogen|Biomass;GW;;Cap|Hydrogen|Biomass;;GW;;;;;;;;;;;;Total installed (available) capacity of biomass to hydrogen plants.
 562;Capacity|Hydrogen|Biomass|w/ CCS;GW;TODO;Cap|Hydrogen|Biomass|w/ CC;GW;GW;;;;;;;;;;;;Total installed (available) capacity of biomass to hydrogen plants with CCS. The installed (available) capacity of CCS biomass to hydrogen plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Hydrogen|Biomass|w/ CCS|1,...,Capacity|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
 563;Capacity|Hydrogen|Biomass|w/o CCS;GW;TODO;Cap|Hydrogen|Biomass|w/o CC;GW;GW;;;;;;;;;;;;Total installed (available) capacity of biomass to hydrogen plants without CCS. The installed (available) capacity of biomass to hydrogen plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Hydrogen|Biomass|w/o CCS|1,...,Capacity|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
@@ -604,7 +611,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 568;Capacity|Hydrogen|Gas;GW;;Cap|Hydrogen|Gas;;GW;;;;;;;;;;;;Total installed (available) capacity of gas to hydrogen plants.
 569;Capacity|Hydrogen|Gas|w/ CCS;GW;;Cap|Hydrogen|Gas|w/ CC;;GW;;;;;;;;;;;;Total installed (available) capacity of gas to hydrogen plants with CCS. The installed (available) capacity of CCS gas to hydrogen plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Hydrogen|Gas|w/ CCS|1,...,Capacity|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
 570;Capacity|Hydrogen|Gas|w/o CCS;GW;;Cap|Hydrogen|Gas|w/o CC;;GW;;;;;;;;;;;;Total installed (available) capacity of gas to hydrogen plants without CCS. The installed (available) capacity of gas to hydrogen plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Hydrogen|Gas|w/o CCS|1,...,Capacity|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
-;Capacity|Liquids;GW;;Cap|Liquids;;GW;;;;;;;;;;;;
+;Capacity|Liquids;GW;;Cap|Liquids;;GW;;;;;;;;;;;;Total installed (available) capacity of biomass to liquids plants.
 571;Capacity|Liquids|Biomass;GW;;Cap|Liquids|Biomass;;GW;;;;;;;;;;;;Total installed (available) capacity of biomass to liquids plants.
 572;Capacity|Liquids|Biomass|w/ CCS;GW;;;;;;;;;;;;;;;;Total installed (available) capacity of biomass to liquids plants with CCS. The installed (available) capacity of CCS biomass to liquids plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Liquids|Biomass|w/ CCS|1,...,Capacity|Liquids|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
 573;Capacity|Liquids|Biomass|w/o CCS;GW;;;;;;;;;;;;;;;;Total installed (available) capacity of biomass to liquids plants without CCS. The installed (available) capacity of biomass to liquids plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Liquids|Biomass|w/o CCS|1,...,Capacity|Liquids|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
@@ -836,10 +843,11 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 780;Final Energy|Residential and Commercial|Solids|Coal;EJ/yr;FE|Buildings|Solids|Coal;FE|Buildings|Solids|Coal;EJ/yr;EJ/yr;;;;;;;;;;;;final energy coal consumption by the residential & commercial sector
 782;Final Energy|Electricity;EJ/yr;FE|+|Electricity;FE|+|Electricity;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption of electricity (including on-site solar PV),excluding transmission/distribution losses
 783;Final Energy|Gases;EJ/yr;FE|+|Gases;FE|+|Gases;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+;Final Energy|Geothermal;EJ/yr;;;;;;;;;;;;;;;;final energy consumption of geothermal energy (e.g., from decentralized or small-scale geothermal heating systems) EXCLUDING geothermal heat pumps
 785;Final Energy|Heat;EJ/yr;FE|+|Heat;FE|+|Heat;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption of heat (e.g.,district heat,process heat,warm water),excluding transmission/distribution losses,excluding direct geothermal and solar heating
 786;Final Energy|Hydrogen;EJ/yr;FE|+|Hydrogen;FE|+|Hydrogen;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption of hydrogen,excluding transmission/distribution losses
 787;Final Energy|Industry;EJ/yr;FE|Industry;FE|++|Industry;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumed by the industrial sector,including feedstocks,including agriculture and fishing
-;Final Energy|Industry|Cement;EJ/yr;;FE|Industry|+++|Cement;;EJ/yr;;;;;;;;;;;;
+;Final Energy|Industry|Cement;EJ/yr;;FE|Industry|+++|Cement;;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial cement sector 
 788;Final Energy|Industry|Cement|Electricity;EJ/yr;FE|Industry|Electricity|Cement;FE|Industry|Cement|+|Electricity;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial cement sector of electricity,excluding transmission/distribution losses
 789;Final Energy|Industry|Cement|Gases;EJ/yr;FE|Industry|Gases|Cement;FE|Industry|Cement|+|Gases;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial cement sector of gases,excluding transmission/distribution losses
 790;Final Energy|Industry|Cement|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial cement sector of gases|bioenergy,excluding transmission/distribution losses
@@ -855,7 +863,8 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 800;Final Energy|Industry|Cement|Solids;EJ/yr;FE|Industry|Solids|Cement;FE|Industry|Cement|+|Solids;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial cement sector of solids,excluding transmission/distribution losses
 801;Final Energy|Industry|Cement|Solids|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial cement sector of solids|bioenergy,excluding transmission/distribution losses
 802;Final Energy|Industry|Cement|Solids|Fossil;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial cement sector of solids|fossil,excluding transmission/distribution losses
-;Final Energy|Industry|Chemicals;EJ/yr;;FE|Industry|+++|Chemicals;;EJ/yr;;;;;;;;;;;;
+;Final Energy|Industry|Chemicals;EJ/yr;;FE|Industry|+++|Chemicals;;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial chemicals
+;Final Energy|Industry|Chemicals|Ammonia;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|ammonia sector 
 803;Final Energy|Industry|Chemicals|Ammonia|Electricity;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|ammonia sector of electricity,excluding transmission/distribution losses
 804;Final Energy|Industry|Chemicals|Ammonia|Gases;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|ammonia sector of gases,excluding transmission/distribution losses
 805;Final Energy|Industry|Chemicals|Ammonia|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|ammonia sector of gases|bioenergy,excluding transmission/distribution losses
@@ -877,6 +886,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 821;Final Energy|Industry|Chemicals|Gases|Fossil;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals sector of gases|fossil,excluding transmission/distribution losses
 822;Final Energy|Industry|Chemicals|Gases|Hydrogen synfuel;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals sector of gases|hydrogen synfuel,excluding transmission/distribution losses
 823;Final Energy|Industry|Chemicals|Heat;EJ/yr;FE|Industry|Heat|Chemicals;FE|Industry|Heat|Chemicals;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial chemicals sector of heat,excluding transmission/distribution losses
+;Final Energy|Industry|Chemicals|High value chemicals;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|high value chemicals sector 
 824;Final Energy|Industry|Chemicals|High value chemicals|Electricity;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|high value chemicals sector of electricity,excluding transmission/distribution losses
 825;Final Energy|Industry|Chemicals|High value chemicals|Gases;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|high value chemicals sector of gases,excluding transmission/distribution losses
 826;Final Energy|Industry|Chemicals|High value chemicals|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|high value chemicals sector of gases|bioenergy,excluding transmission/distribution losses
@@ -897,6 +907,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 841;Final Energy|Industry|Chemicals|Liquids|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals sector of liquids|bioenergy,excluding transmission/distribution losses
 842;Final Energy|Industry|Chemicals|Liquids|Fossil;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals sector of liquids|fossil,excluding transmission/distribution losses
 843;Final Energy|Industry|Chemicals|Liquids|Hydrogen synfuel;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals sector of liquids|hydrogen synfuel,excluding transmission/distribution losses
+;Final Energy|Industry|Chemicals|Methanol;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|methanol sector 
 844;Final Energy|Industry|Chemicals|Methanol|Electricity;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|methanol sector of electricity,excluding transmission/distribution losses
 845;Final Energy|Industry|Chemicals|Methanol|Gases;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|methanol sector of gases,excluding transmission/distribution losses
 846;Final Energy|Industry|Chemicals|Methanol|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial chemicals|methanol sector of gases|bioenergy,excluding transmission/distribution losses
@@ -945,6 +956,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 889;Final Energy|Industry|Liquids|Fossil;EJ/yr;;;;;;;;;;;;;;;;Final energy consumption by the industrial sector of synthetic fossil-derived liquids (coal to liquids),excluding transmission/distribution losses
 890;Final Energy|Industry|Liquids|Hydrogen synfuel;EJ/yr;;;;;;;;;;;;;;;;Final energy consumption by the industrial sector of hydrogen-derived liquid synfuels (e-fuels),excluding transmission/distribution losses
 891;Final Energy|Industry|Liquids|Oil;EJ/yr;;;;;;;;;;;;;;;;Final energy consumption by the industrial sector of traditional liquid petroleum oils (e.g. gasoline,diesel),excluding transmission/distribution losses
+;Final Energy|Industry|Non-ferrous metals;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial non-ferrous metals sector
 892;Final Energy|Industry|Non-ferrous metals|Electricity;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial non-ferrous metals sector of electricity,excluding transmission/distribution losses
 893;Final Energy|Industry|Non-ferrous metals|Gases;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial non-ferrous metals sector of gases,excluding transmission/distribution losses
 894;Final Energy|Industry|Non-ferrous metals|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial non-ferrous metals sector of gases|bioenergy,excluding transmission/distribution losses
@@ -976,6 +988,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 920;Final Energy|Industry|Other|Solids;EJ/yr;FE|Industry|Solids|other;FE|Industry|Other Industry|+|Solids;EJ/yr;EJ/yr;;;;;;;;;;;Everything except cement steel and chemicals;final energy consumption by the industrial other sector of solids, excluding transmission/distribution losses
 921;Final Energy|Industry|Other|Solids|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial other sector of solids|bioenergy,excluding transmission/distribution losses
 922;Final Energy|Industry|Other|Solids|Fossil;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial other sector of solids|fossil,excluding transmission/distribution losses
+;Final Energy|Industry|Plastics;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector 
 923;Final Energy|Industry|Plastics|Electricity;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector of electricity,excluding transmission/distribution losses
 924;Final Energy|Industry|Plastics|Gases;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector of gases,excluding transmission/distribution losses
 925;Final Energy|Industry|Plastics|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector of gases|bioenergy,excluding transmission/distribution losses
@@ -991,6 +1004,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 935;Final Energy|Industry|Plastics|Solids;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector of solids,excluding transmission/distribution losses
 936;Final Energy|Industry|Plastics|Solids|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector of solids|bioenergy,excluding transmission/distribution losses
 937;Final Energy|Industry|Plastics|Solids|Fossil;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial plastics sector of solids|fossil,excluding transmission/distribution losses
+;Final Energy|Industry|Pulp and Paper;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial pulp and paper sector 
 938;Final Energy|Industry|Pulp and Paper|Electricity;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial pulp and paper sector of electricity,excluding transmission/distribution losses
 939;Final Energy|Industry|Pulp and Paper|Gases;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial pulp and paper sector of gases,excluding transmission/distribution losses
 940;Final Energy|Industry|Pulp and Paper|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial pulp and paper sector of gases|bioenergy,excluding transmission/distribution losses
@@ -1009,7 +1023,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 953;Final Energy|Industry|Solids;EJ/yr;FE|Industry|Solids;FE|Industry|+|Solids;EJ/yr;EJ/yr;;;;;;;;;;;;final energy solid fuel consumption by the industrial sector (including coal and solid biomass)
 954;Final Energy|Industry|Solids|Biomass;EJ/yr;FE|Industry|Solids|Biomass;FE|Industry|Solids|+|Biomass;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industry sector of solid biomass
 955;Final Energy|Industry|Solids|Coal;EJ/yr;FE|Industry|Solids|Coal;FE|Industry|Solids|Coal;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industry sector of coal
-;Final Energy|Industry|Steel;EJ/yr;;FE|Industry|+++|Steel;;EJ/yr;;;;;;;;;;;;
+;Final Energy|Industry|Steel;EJ/yr;;FE|Industry|+++|Steel;;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial steel sector 
 956;Final Energy|Industry|Steel|Electricity;EJ/yr;FE|Industry|Electricity|Steel;FE|Industry|Steel|+|Electricity;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial steel sector of electricity,excluding transmission/distribution losses
 957;Final Energy|Industry|Steel|Gases;EJ/yr;FE|Industry|Gases|Steel;FE|Industry|Steel|+|Gases;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the industrial steel sector of gases,excluding transmission/distribution losses
 958;Final Energy|Industry|Steel|Gases|Bioenergy;EJ/yr;;;;;;;;;;;;;;;;final energy consumption by the industrial steel sector of gases|bioenergy,excluding transmission/distribution losses
@@ -1087,7 +1101,8 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1021;Final Energy|Transportation|Liquids|Oil;EJ/yr;FE|Transport|Liquids|Oil;FE|Transport|Liquids|Fossil|+|Oil;EJ/yr;EJ/yr;;;;;;;;;;;;final energy consumption by the transportation sector of liquid oil products (from conventional & unconventional oil)
 1022;Final Energy|Transportation|Maritime;EJ/yr;FE|Transport|Freight|Navigation;FE|Transport|Freight|Navigation;EJ/yr;EJ/yr;;;;;;;;;;;;Final energy consumed in the transport sector by maritime mode
 1022;Final Energy|Transportation|Maritime;EJ/yr;FE|Transport|Freight|International Shipping;FE|Transport|Freight|International Shipping;EJ/yr;EJ/yr;;;;;;;;;;;;Final energy consumed in the transport sector by maritime mode
-;Final Energy|Transportation|Maritime|Freight;EJ/yr;;FE|Transport|Freight|Navigation;;EJ/yr;;;;;;;;;;;;
+;Final Energy|Transportation|Maritime|Freight;EJ/yr;;FE|Transport|Freight|Navigation;;EJ/yr;;;;;;;;;;;;Final energy consumed in the transport sector by maritime freight mode
+;Final Energy|Transportation|Maritime|Passenger;EJ/yr;;;;;;;;;;;;;;;;Final energy consumed in the transport sector by maritime passenger mode
 1023;Final Energy|Transportation|Other;EJ/yr;FE|Transport|Liquids|Hydrogen;FE|Transport|Liquids|+|Hydrogen;EJ/yr;EJ/yr;;;;;;;;;;;“Green” synthetic fuels from hydrogen made from electrolysis + “blue” synfuels from fossil H2;final energy consumption by the transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
 1024;Final Energy|Transportation|Passenger;EJ/yr;FE|Transport|Pass|Electricity;FE|Transport|Pass|Electricity;EJ/yr;EJ/yr;;;;;;;;;;we sum the sub-categories explicitly, since there was a bug in the totals variable in REMIND;;final energy consumed for passenger transportation
 1024;Final Energy|Transportation|Passenger;EJ/yr;FE|Transport|Pass|Gases;FE|Transport|Pass|Gases;EJ/yr;EJ/yr;;;;;;;;;;we sum the sub-categories explicitly, since there was a bug in the totals variable in REMIND;;final energy consumed for passenger transportation
@@ -1126,6 +1141,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1051;Price|Final Energy|Transportation|Liquids|Bioenergy;US$2010/GJ;;;;;;;;;;;;;;;;Liquids|Bioenergy price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
 1052;Price|Final Energy|Transportation|Liquids|Fossil;US$2010/GJ;;;;;;;;;;;;;;;;Liquids|Fossil price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
 1053;Price|Final Energy|Transportation|Liquids|Hydrogen synfuel;US$2010/GJ;;;;;;;;;;;;;;;;Liquids|Hydrogen synfuel price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
+;Price|Final Energy|Transportation|Liquids|Fossil synfuel;US$2010/GJ;;Price|Final Energy|Transport|Liquids;;US$2005/GJ;;1.10774;;;;;;;;;;Liquids|Bioenergy price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices. Indexed
 1054;Primary Energy;EJ/yr;PE;PE;EJ/yr;EJ/yr;;;;;;;;;;;;total primary energy consumption (direct equivalent)
 1055;Primary Energy|Biomass;EJ/yr;PE|+|Biomass;PE|+|Biomass;EJ/yr;EJ/yr;;;;;;;;;;;;primary energy consumption of purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass
 1056;Primary Energy|Biomass|1st Generation;EJ/yr;PE|Biomass|1st Generation;PE|Biomass|1st Generation;EJ/yr;EJ/yr;;;;Demand|Bioenergy|++|1st generation;EJ/yr;;Demand|Bioenergy|++|1st generation;EJ/yr;;;;biomass primary energy from 1st generation biofuel crops (e.g.,sugar cane,rapeseed oil,maize,sugar beet)
@@ -1301,10 +1317,22 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1224;Export|Developing Country Share;%;;;;;;;;;;;;;;;;Developing countries’ and least developed countries’ share of global exports
 1225;Revenue|government;billion US$2010/yr;;;;;;;;;;;;;;;;government revenue
 1226;Revenue|government|Tax;billion US$2010/yr;;;;;;;;;;;;;;;;government revenue from taxes
+;Revenue|Government|Tax|Carbon;billion US$2010/yr;;Revenue|Government|Tax|Carbon;;billion US$2010/yr;;;;;;;;;;;;Total government revenue from carbon pricing (weighted aggregation of carbon price by region/sector multiplied by GHG emissions)
+;Revenue|Government|Tax|Carbon|Demand|Buildings;billion US$2010/yr;;Revenue|Government|Tax|Carbon|+|Demand|Buildings;;billion US$2010/yr;;;;;;;;;;;;Total government revenue from carbon pricing on buildings sector emissions (carbon price by region multiplied by GHG emissions)
+;Revenue|Government|Tax|Carbon|Demand|Industry;billion US$2010/yr;;Revenue|Government|Tax|Carbon|+|Demand|Industry;;billion US$2010/yr;;;;;;;;;;;;Total government revenue from carbon pricing on industry sector emissions (carbon price by region multiplied by GHG emissions)
+;Revenue|Government|Tax|Carbon|Demand|Transport;billion US$2010/yr;;Revenue|Government|Tax|Carbon|+|Demand|Transport;;billion US$2010/yr;;;;;;;;;;;;Total government revenue from carbon pricing on transport sector emissions (carbon price by region multiplied by GHG emissions)
+;Revenue|Government|Tax|Carbon|Supply;billion US$2010/yr;;Revenue|Government|Tax|Carbon|+|Supply;;billion US$2010/yr;;;;;;;;;;;;Total government revenue from carbon pricing on the supply sector emissions (carbon price by region multiplied by GHG emissions)
+;Revenue|Industry|Cement;USD2010/yr;;;;;;;;;;;;;;;;total revenue of the cement industry (production x price)
+;Revenue|Industry|Steel;USD2010/yr;;;;;;;;;;;;;;;;total revenue of the steel industry (production x price)
 1227;Tariffs|Average;%;;;;;;;;;;;;;;;;Weighted trade tariff-average (regional and global indicator relevant)
 1228;Tariffs|Average|Imports;%;;;;;;;;;;;;;;;;Average tariffs for imports (most relevant for developed countries)
 1229;Expenditure|Medical System|Incremental;billion US$2010/yr;;;;;;;;;;;;;;;;Incremental expenditure for the medical system
 1230;Investment|Medical System;billion US$2010/yr;;;;;;;;;;;;;;;;investment to medical system
+;Energy Expenditures|Industry|Cement;USD2010/yr;;;;;;;;;;;;;;;;total expenditures on energy in the cement industry (energy input x price) 
+;Energy Expenditures|Industry|Steel;USD2010/yr;;;;;;;;;;;;;;;;total expenditures on energy in the steel industry (energy input x price)
+;Energy Expenditures|Residential and Commercial|Cooling;USD2010/yr;;;;;;;;;;;;;;;;total expenditures on energy for cooling services (energy input x price)
+;Energy Expenditures|Residential and Commercial|Heating;USD2010/yr;;;;;;;;;;;;;;;;total expenditures on energy for heating services (energy input x price)
+;Energy Expenditures|Transportation;USD2010/yr;;;;;;;;;;;;;;;;total expenditures on energy for transportation (energy input x price)
 1231;Expenditure|household|Energy;billion US$2010/yr;;;;;;;;;;;;;;;;expenditure of households for energy.
 1232;Expenditure|household|Food;billion US$2010/yr;Household Expenditure|Food|Expenditure;Household Expenditure|Food|Expenditure;USD/capita;USD/capita;;;;Household Expenditure|Food|Expenditure;USD/capita;;Household Expenditure|Food|Expenditure;USD/capita;;;;expenditure of households for food.
 1233;Expenditure|household|Industry;billion US$2010/yr;;;;;;;;;;;;;;;;expenditure of households for industrial goods.
@@ -1360,6 +1388,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1283;Production|Chemicals;Mt/year;;;;;;;;;;;;;;;;production of chemicals (e.g. sulfuric acid)
 1284;Production|Chemicals|Other;Mt/year;;;;;;;;;;;;;;;;production of other chemicals not in the Chemicals categories
 1285;Production|Non-ferrous metals;Mt/year;;;;;;;;;;;;;;;;production of non-ferrous metals (e.g.,aluminum)
+;Production|Plastics;Mt/year;;;;;;;;;;;;;;;;production of plastics
 1286;Production|Pulp and Paper;Mt/year;;;;;;;;;;;;;;;;production of pulp and paper
 1287;Production|Steel;Mt/year;Production|Industry|Steel;Production|Industry|Steel;Mt/yr;Mt/yr;;;;;;;;;;;;production of steel
 1288;Specific Energy Consumption|Production|Cement;MJ/t;Specific Energy Consumption|Industry|Cement;FE|Industry|Specific Energy Consumption|Cement;MJ/t;GJ/t;;1000;;;;;;;;;;Specific energy consumption of Cement
