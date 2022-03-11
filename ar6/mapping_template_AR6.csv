@@ -154,7 +154,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 135;GDP|PPP;billion US$2010/yr;GDP|PPP;GDP|PPP;billion US$2005/yr;billion US$2005/yr;1.10774;1.10774;;Total income;million US$05 PPP/yr;1.11E-06;Total income;million US$05 PPP/yr;1.11E-06;;;GDP at purchasing power parity
 136;GINI;0;;;;;;;;;;;;;;;;GINI income ineqaulity index
 137;Import;billion US$2010/yr;TODO;TODO;billion US$2005/yr;billion US$2005/yr;1.10774;1.10774;;;;;;;;;;total imports measured in monetary quantities.
-138;Interest Rate|Real;%;Interest Rate t/(t-1)|Real;Interest Rate t/(t-1)|Real;;;100;100;;;;;;;;;time preference rate as component of the interest rate is exogenous;Real interest rate or return on capital that is relevant for energy system investments
+138;Interest Rate|Real;%;Interest Rate t/(t-1)|Real;Interest Rate t/(t-1)|Real;unitless;unitless;100;100;;;;;;;;;time preference rate as component of the interest rate is exogenous;Real interest rate or return on capital that is relevant for energy system investments
 139;Policy Cost|Additional Total Energy System Cost;billion US$2010/yr;Policy Cost|Additional Total Energy System Cost;Policy Cost|Additional Total Energy System Cost;billion US$2005/yr;billion US$2005/yr;1.10774;1.10774;;;;;;;;;;additional energy system cost associated with the policy
 140;Policy Cost|Area under MAC Curve;billion US$2010/yr;;;;;;;;;;;;;;;;total costs of the policy,i.e. the area under the Marginal Abatement Cost (MAC) curve
 141;Policy Cost|Consumption Loss;billion US$2010/yr;Policy Cost|Consumption + Current Account Loss;Policy Cost|Consumption + Current Account Loss;billion US$2005/yr;billion US$2005/yr;-1.10774;-1.10774;glo;;;;;;;;includes current account loss;consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
@@ -265,8 +265,8 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 ;Emissions|CH4|AFOLU|Agriculture|Livestock|Enteric Fermentation;Mt CH4/yr;Emi|CH4|Land Use|+|Enteric fermentation;Emissions|CH4|Land|Agriculture|+|Enteric fermentation;Mt CH4/yr;Mt CH4/yr;;;;Emissions|CH4|Land|Agriculture|+|Enteric fermentation;Mt CH4/yr;;Emissions|CH4|Land|Agriculture|+|Enteric fermentation;Mt CH4/yr;;;;
 ;Emissions|CH4|AFOLU|Agriculture|Livestock|Manure Management;Mt CH4/yr;Emi|CH4|Land Use|+|Animal waste management;Emissions|CH4|Land|Agriculture|+|Animal waste management;Mt CH4/yr;Mt CH4/yr;;;;Emissions|CH4|Land|Agriculture|+|Animal waste management;Mt CH4/yr;;Emissions|CH4|Land|Agriculture|+|Animal waste management;Mt CH4/yr;;;;
 ;Emissions|CH4|AFOLU|Agriculture|Rice;Mt CH4/yr;Emi|CH4|Land Use|+|Rice;Emissions|CH4|Land|Agriculture|+|Rice;Mt CH4/yr;Mt CH4/yr;;;;Emissions|CH4|Land|Agriculture|+|Rice;Mt CH4/yr;;Emissions|CH4|Land|Agriculture|+|Rice;Mt CH4/yr;;;;
-229;Emissions|CH4|AFOLU|Land;Mt CH4/yr;;Emi|CH4|+|Land-Use Change;;;;;;;;;;;;;;CH4|AFOL emissions from forestry and other land use
-;Emissions|CH4|AFOLU|Wetlands|Peatlands;Mt CH4/yr;;Emissions|CH4|Land|+|Peatland;;;;;;Emissions|CH4|Land|+|Peatland;Mt CH4/yr;;Emissions|CH4|Land|+|Peatland;Mt CH4/yr;;;;
+229;Emissions|CH4|AFOLU|Land;Mt CH4/yr;;Emi|CH4|+|Land-Use Change;;Mt CH4/yr;;;;;;;;;;;;CH4|AFOL emissions from forestry and other land use
+;Emissions|CH4|AFOLU|Wetlands|Peatlands;Mt CH4/yr;;Emissions|CH4|Land|+|Peatland;;Mt CH4/yr;;;;Emissions|CH4|Land|+|Peatland;Mt CH4/yr;;Emissions|CH4|Land|+|Peatland;Mt CH4/yr;;;;
 230;Emissions|CH4|Energy;Mt CH4/yr;Emi|CH4|Energy Supply and Demand;Emi|CH4|Energy Supply and Demand;Mt CH4/yr;Mt CH4/yr;;;;;;;;;;;;CH4 emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
 231;Emissions|CH4|Energy|Demand|Residential and Commercial;Mt CH4/yr;;;;;;;;;;;;;;;;CH4 emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b)
 232;Emissions|CH4|Energy|Demand|Residential and Commercial|Commercial;Mt CH4/yr;;;;;;;;;;;;;;;;CH4 emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b)
@@ -335,7 +335,7 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 295;Emissions|CO2|Energy|Demand|Industry|Other;Mt CO2/yr;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Other industry sector (IPCC category 1A2)
 296;Emissions|CO2|Energy|Demand|Industry|Plastics;Mt CO2/yr;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Plastics industry sector (IPCC category 1A2)
 297;Emissions|CO2|Energy|Demand|Industry|Pulp and Paper;Mt CO2/yr;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Pulp and Paper industry sector (IPCC category 1A2)
-298;Emissions|CO2|Energy|Demand|Industry|Steel;Mt CO2/yr;;Emi|CO2|Energy|Demand|Industry|++|Steel;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Steel industry sector (IPCC category 1A2)
+298;Emissions|CO2|Energy|Demand|Industry|Steel;Mt CO2/yr;;Emi|CO2|Energy|Demand|Industry|++|Steel;;Mt CO2/yr;;;;;;;;;;;;CO2 emissions from fuel combustion in the Steel industry sector (IPCC category 1A2)
 299;Emissions|CO2|Energy|Demand|Other Sector;Mt CO2/yr;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in other energy supply sectors (please provide a definition of other sources in this category in the 'comments' tab)
 300;Emissions|CO2|Energy|Demand|Transportation;Mt CO2/yr;Emi|CO2|Transport|Demand;Emi|CO2|Energy|Demand|+|Transport;Mt CO2/yr;Mt CO2/yr;;;;;;;;;;without bunkers;;CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
 301;Emissions|CO2|Energy|Demand|Transportation|Aviation;Mt CO2/yr;;;;;;;;;;;;;;;;carbon dioxide emissions from transport by aviation mode
