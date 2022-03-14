@@ -11,7 +11,7 @@ AR6_VAR <- "Variable"
 AR6_UNIT <- "Unit"
 FACTOR_COL <- "r30m44_factor"
 WEIGHT_COL <- NULL
-SPATIAL_COL <- "r21m42_spatial"
+SPATIAL_COL <- "r30m44_spatial"
 
 generateMapping <- function(template, mapping,
                             remind_var, remind_unit,
