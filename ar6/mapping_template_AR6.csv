@@ -1235,8 +1235,8 @@ idx;Variable;Unit;r21m42;r30m44;r21m42_unit;r30m44_unit;r21m42_factor;r30m44_fac
 1145;Secondary Energy|Electricity|Storage Losses;EJ/yr;;;;;;;;;;;;;;;;losses from electricity storage
 1146;Secondary Energy|Electricity|Transmission Losses;EJ/yr;;;;;;;;;;;;;;;;electricity losses from long-range high-voltage transmission
 1147;Secondary Energy|Electricity|Wind;EJ/yr;SE|Electricity|Wind;SE|Electricity|+|Wind;EJ/yr;EJ/yr;;;;;;;;;;;;net electricity production from wind energy (on- and offshore)
-1148;Secondary Energy|Electricity|Wind|Offshore;EJ/yr;;;;;;;;;;;;;;;;net electricity production from offshore wind energy
-1149;Secondary Energy|Electricity|Wind|Onshore;EJ/yr;;;;;;;;;;;;;;;;net electricity production from onshore wind energy
+1148;Secondary Energy|Electricity|Wind|Offshore;EJ/yr;;SE|Electricity|Wind|+|Offshore;;EJ/yr;;;;;;;;;;;;net electricity production from offshore wind energy
+1149;Secondary Energy|Electricity|Wind|Onshore;EJ/yr;;SE|Electricity|Wind|+|Onshore;;EJ/yr;;;;;;;;;;;;net electricity production from onshore wind energy
 1150;Secondary Energy|Gases;EJ/yr;SE|Gases;SE|Gases;EJ/yr;EJ/yr;1;1;;;;;;;;;;total production of gaseous fuels,including natural gas
 ;Secondary Energy|Gases;EJ/yr;SE|Gases|Waste;SE|Gases|+|Waste;EJ/yr;EJ/yr;-1;-1;;;;;;;;;;
 1151;Secondary Energy|Gases|Biomass;EJ/yr;SE|Gases|Biomass;SE|Gases|+|Biomass;EJ/yr;EJ/yr;;;;;;;;;;;;total production of biogas
