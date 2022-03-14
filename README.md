@@ -44,29 +44,30 @@ avoid confusion.
 Before submitting your data to the AR6 database please make sure that 
 - the policy costs in the reporting are calculated w.r.t. the appropriate reference run. For most runs, this will involve re-running the policy costs.
 
-### Columns of the `mapping_template.csv`
+### Columns of the `mapping_template_AR6.csv`
 
 - `idx`: Index as given by the AR6 submission template, this is just for reference
-- `Variable`: The AR6 reporting variable name as given by the submission template
+- `Variable_AR6`: The AR6 reporting variable name as given by the submission template
 - `Unit`: The AR6 reporting variable unit as given by the submission template
-- `r21m42`: The REMIND/MagPIE variable name
-- `r21m42_unit`: The REMIND/MagPIE
-- `r21m42_factor`: Conversion factor multiplied with the REMIND/MagPIE value to obtain the AR6 compatible value
-- `r21m42_spatial`: Restricts reporting to global level ("glo") or regional level ("reg"), empty values mean no restriction
-- `m42`: MagPIE specific variable name
-- `m42_unit`: MagPIE specific variable unit
-- `m42_factor`: Conversion factor for MagPIE value
+- `r30m44`: The REMIND/MagPIE variable name
+- `r30m44_unit`: The REMIND/MagPIE
+- `r30m44_factor`: Conversion factor multiplied with the REMIND/MagPIE value to obtain the AR6 compatible value
+- `r30m44_spatial`: Restricts reporting to global level ("glo") or regional level ("reg"), empty values mean no restriction
+- `m44`: MagPIE specific variable name
+- `m44_unit`: MagPIE specific variable unit
+- `m44_factor`: Conversion factor for MagPIE value
 - `internal_comment`: Comment for internal reference
 - `Comment`: Comment to be published with the AR6 submission template
 - `Definition`: Variable definition, initial values copied from the AR6 submission template.
 
+The corresponding columns for former REMIND v2.1, MAgPIE v4.2 are still available with the prefix `r21m42`.
 
 ### Generate AR6-compatible Output
 
 The workflow to generate AR6-compatible output is as follows:
 
 - the variable mappings are stored together with metadata in a
-  *template*. You can, e.g., copy the [ar6/mapping-template.csv](ar6/mapping-template.csv) and
+  *template*. You can, e.g., copy the [ar6/mapping_template_AR6.csv](ar6/mapping_template_AR6.csv) and
   adjust it to your needs.
 - from the template you generate a *mappingfile*.
 - use the mapping and REMIND and/or MAgPIE output with
