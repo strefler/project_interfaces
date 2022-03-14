@@ -9,7 +9,7 @@ REMIND_VAR <- "r30m44"
 REMIND_UNIT <- "r30m44_unit"
 AR6_VAR <- "Variable"
 AR6_UNIT <- "Unit"
-FACTOR_COL <- "r30m44_unit"
+FACTOR_COL <- "r30m44_factor"
 WEIGHT_COL <- NULL
 SPATIAL_COL <- "r21m42_spatial"
 
