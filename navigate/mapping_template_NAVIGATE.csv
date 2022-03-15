@@ -123,9 +123,9 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 109;2;carbon management;Carbon Removal|Other;Mt CO2/yr;;;;;;total non-fossil carbon dioxide sequestered through other techniques  (please provide a definition of other sources in this category in the 'comments' tab)
 110;1;climate;Forcing;W/m2;Forcing;W/m2;;;;radiative forcing from all greenhouse gases and forcing agents, including contributions from albedo change, nitrate, and mineral dust
 111;1;climate;Temperature|Global Mean;°C;Temperature|Global Mean;K;;;;change in global mean temperature relative to pre-industrial
-112;2;climate;Concentration|CH4;ppb;Concentration|CH4;;;;;atmospheric concentration of methane
-113;2;climate;Concentration|CO2;ppm;Concentration|CO2;;;;;atmospheric concentration of carbon dioxide
-114;2;climate;Concentration|N2O;ppb;Concentration|N2O;;;;;atmospheric concentration of nitrous oxide
+112;2;climate;Concentration|CH4;ppb;Concentration|CH4;ppb;;;;atmospheric concentration of methane
+113;2;climate;Concentration|CO2;ppm;Concentration|CO2;ppm;;;;atmospheric concentration of carbon dioxide
+114;2;climate;Concentration|N2O;ppb;Concentration|N2O;ppb;;;;atmospheric concentration of nitrous oxide
 115;2;climate;Forcing|Aerosol;W/m2;Forcing|Aerosol;W/m2;;;;total radiative forcing from aerosols
 116;2;climate;Forcing|Aerosol|BC;W/m2;Forcing|Aerosol|BC;W/m2;;;;total radiative forcing from black carbon
 117;2;climate;Forcing|Aerosol|Black and Organic Carbon;W/m2;;;;;;total radiative forcing from black and organic carbon
@@ -158,7 +158,7 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 144;1;economy;Export;billion US$2010/yr;;;;;;total exports measured in monetary quantities.
 145;1;economy;Import;billion US$2010/yr;;;;;;total imports measured in monetary quantities.
 146;2;economy;Capital Stock;billion US$2010/yr;;;;;;Macroeconomic capital stock
-147;2;economy;Interest Rate|Real;%;Interest Rate t/(t-1)|Real;;;;;Real interest rate or return on capital that is relevant for energy system investments
+147;2;economy;Interest Rate|Real;%;Interest Rate t/(t-1)|Real;%;;;;Real interest rate or return on capital that is relevant for energy system investments
 148;2;economy;Value Added|Industry|Chemicals;billion US$2010/yr;;;;;;value added of the chemical industries.
 149;2;economy;Value Added|Industry|Iron and Steel;billion US$2010/yr;;;;;;value added of iron and steel production
 150;2;economy;Value Added|Industry|Non-Metallic Minerals;billion US$2010/yr;;;;;;value added of non-metallic minerals industries
@@ -529,10 +529,10 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 508;2;energy (capacity);Capacity Additions|Electricity|Transmissions Grid;GWkm/yr;;;;;;Capacity additions of electricity storage (yearly average additions between previos and current model time step)
 509;2;energy (capacity);Capacity|Electricity|Storage Capacity;GWh;;;;;;Total installed capacity of operating electricity storage
 510;2;energy (capacity);Capacity|Electricity|Transmissions Grid;GWkm;;;;;;Total installed capacity of operating transmission grid
-511;1;energy (final);Final Energy|Non-Energy Use;EJ/yr;FE|Non-energy Use|Industry;;;;;final energy consumption by the non-combustion processes
-512;1;energy (final);Final Energy|Non-Energy Use|Solids;EJ/yr;FE|Non-energy Use|Industry|+|Solids;;;;;final energy consumption of solids by the non-combustion processes
-513;1;energy (final);Final Energy|Non-Energy Use|Liquids;EJ/yr;FE|Non-energy Use|Industry|+|Liquids;;;;;final energy consumption of liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids) by the non-combustion processes
-514;1;energy (final);Final Energy|Non-Energy Use|Gases;EJ/yr;FE|Non-energy Use|Industry|+|Gases;;;;;final energy consumption of gases (natural gas, biogas, coal-gas) by the non-combustion processes
+511;1;energy (final);Final Energy|Non-Energy Use;EJ/yr;FE|Non-energy Use|Industry;EJ/yr;;;;final energy consumption by the non-combustion processes
+512;1;energy (final);Final Energy|Non-Energy Use|Solids;EJ/yr;FE|Non-energy Use|Industry|+|Solids;EJ/yr;;;;final energy consumption of solids by the non-combustion processes
+513;1;energy (final);Final Energy|Non-Energy Use|Liquids;EJ/yr;FE|Non-energy Use|Industry|+|Liquids;EJ/yr;;;;final energy consumption of liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids) by the non-combustion processes
+514;1;energy (final);Final Energy|Non-Energy Use|Gases;EJ/yr;FE|Non-energy Use|Industry|+|Gases;EJ/yr;;;;final energy consumption of gases (natural gas, biogas, coal-gas) by the non-combustion processes
 515;1;energy (final);Final Energy|Non-Energy Use|Hydrogen;EJ/yr;;;;;;final energy consumption of hydrogen by the non-combustion processes
 516;2;energy (final);Final Energy|Non-Energy Use|Gases|Biomass;EJ/yr;;;;;;Final energy consumption of biogas by the non-combustion processes
 517;2;energy (final);Final Energy|Non-Energy Use|Gases|Electricity;EJ/yr;;;;;;Final energy consumption of synthetic e-fuel gas ("power-to-gas") by the non-combustion processes
@@ -646,13 +646,13 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 625;1;energy (final);Final Energy|Solar;EJ/yr;;;;;;final energy consumption of solar energy (e.g., from roof-top solar hot water collector systems)
 626;1;energy (final);Final Energy|Solids|Biomass;EJ/yr;FE|Solids|+|Biomass;EJ/yr;;;;final energy consumption of solid biomass (modern and traditional), excluding final energy consumption of bioliquids which are reported in the liquids category
 627;1;energy (final);Final Energy|Solids|Biomass|Traditional;EJ/yr;FE|Solids|Biomass|+|Traditional;EJ/yr;;;;final energy solid fuel consumption of traditional biomass
-628;1;energy (final);Final Energy|Solids|Fossil;EJ/yr;FE|Solids|+|Fossil;;;;;final energy consumption of fossil solids
-629;1;energy (final);Final Energy|Gases|Biomass;EJ/yr;FE|Gases|+|Biomass;;;;;final energy consumption of biogas
-630;1;energy (final);Final Energy|Gases|Electricity;EJ/yr;FE|Gases|+|Hydrogen;;;;;final energy consumption of synthetic e-fuel gas ("power-to-gas")
-631;1;energy (final);Final Energy|Gases|Fossil;EJ/yr;FE|Gases|+|Fossil;;;;;final energy consumption of synthetic or derived gases of fossil origin
-632;1;energy (final);Final Energy|Liquids|Biomass;EJ/yr;FE|Liquids|+|Biomass;;;;;final energy consumption of liquid biofuels
-633;1;energy (final);Final Energy|Liquids|Electricity;EJ/yr;FE|Liquids|+|Hydrogen;;;;;final energy consumption of synthetic liquid efuels ("power-to-liquid")
-634;1;energy (final);Final Energy|Liquids|Fossil;EJ/yr;FE|Liquids|+|Fossil;;;;;final energy consumption of liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
+628;1;energy (final);Final Energy|Solids|Fossil;EJ/yr;FE|Solids|+|Fossil;EJ/yr;;;;final energy consumption of fossil solids
+629;1;energy (final);Final Energy|Gases|Biomass;EJ/yr;FE|Gases|+|Biomass;EJ/yr;;;;final energy consumption of biogas
+630;1;energy (final);Final Energy|Gases|Electricity;EJ/yr;FE|Gases|+|Hydrogen;EJ/yr;;;;final energy consumption of synthetic e-fuel gas ("power-to-gas")
+631;1;energy (final);Final Energy|Gases|Fossil;EJ/yr;FE|Gases|+|Fossil;EJ/yr;;;;final energy consumption of synthetic or derived gases of fossil origin
+632;1;energy (final);Final Energy|Liquids|Biomass;EJ/yr;FE|Liquids|+|Biomass;EJ/yr;;;;final energy consumption of liquid biofuels
+633;1;energy (final);Final Energy|Liquids|Electricity;EJ/yr;FE|Liquids|+|Hydrogen;EJ/yr;;;;final energy consumption of synthetic liquid efuels ("power-to-liquid")
+634;1;energy (final);Final Energy|Liquids|Fossil;EJ/yr;FE|Liquids|+|Fossil;EJ/yr;;;;final energy consumption of liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
 635;3;energy (final);Final Energy|Agriculture;EJ/yr;;;;;;total final energy consumption by the agriculture sector, including fishing
 636;3;energy (final);Final Energy|Agriculture|Electricity;EJ/yr;;;;;;final energy consumption by the agriculture sector of electricity
 637;3;energy (final);Final Energy|Agriculture|Heat;EJ/yr;;;;;;final energy consumption by the agriculture sector of heat
@@ -671,12 +671,12 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 650;1;energy (final);Final Energy|Industry|Solids;EJ/yr;FE|w/o Non-energy Use|Industry|Solids;EJ/yr;;;;final energy solid fuel consumption by the industrial sector (including coal and solid biomass), excluding fuel use for autoproduction
 651;1;energy (final);Final Energy|Industry|Solids|Biomass;EJ/yr;;EJ/yr;;;;final energy consumption by the industrial sector of solid biomass (modern and traditional), excluding final energy consumption of bioliquids which are reported in the liquids category
 652;1;energy (final);Final Energy|Industry|Solids|Fossil;EJ/yr;;;;;;final energy consumption of fossil solids by the industrial sector
-653;1;energy (final);Final Energy|Industry|Gases|Biomass;EJ/yr;FE|w/o Non-energy Use|Industry|Gases|+|Biomass;;;;;final energy consumption by the industrial sector of biogas, excluding transmission/distribution losses
-654;1;energy (final);Final Energy|Industry|Gases|Electricity;EJ/yr;FE|w/o Non-energy Use|Industry|Gases|+|Hydrogen;;;;;final energy consumption by the industrial sector of synthetic e-fuel gas ("power-to-gas"), excluding transmission/distribution losses
-655;1;energy (final);Final Energy|Industry|Gases|Fossil;EJ/yr;FE|w/o Non-energy Use|Industry|Gases|+|Fossil;;;;;final energy consumption by the industrial sector of  synthetic or derived gases of fossil origin, excluding transmission/distribution losses
-656;1;energy (final);Final Energy|Industry|Liquids|Biomass;EJ/yr;FE|w/o Non-energy Use|Industry|Liquids|+|Biomass;;;;;final energy consumption by the industrial sector of liquid biofuels
-657;1;energy (final);Final Energy|Industry|Liquids|Electricity;EJ/yr;FE|w/o Non-energy Use|Industry|Liquids|+|Hydrogen;;;;;final energy consumption by the industrial sector of liquid efuels ("power-to-liquid")
-658;1;energy (final);Final Energy|Industry|Liquids|Fossil;EJ/yr;FE|w/o Non-energy Use|Industry|Liquids|+|Fossil;;;;;final energy consumption by the industrial sector of liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
+653;1;energy (final);Final Energy|Industry|Gases|Biomass;EJ/yr;FE|w/o Non-energy Use|Industry|Gases|+|Biomass;EJ/yr;;;;final energy consumption by the industrial sector of biogas, excluding transmission/distribution losses
+654;1;energy (final);Final Energy|Industry|Gases|Electricity;EJ/yr;FE|w/o Non-energy Use|Industry|Gases|+|Hydrogen;EJ/yr;;;;final energy consumption by the industrial sector of synthetic e-fuel gas ("power-to-gas"), excluding transmission/distribution losses
+655;1;energy (final);Final Energy|Industry|Gases|Fossil;EJ/yr;FE|w/o Non-energy Use|Industry|Gases|+|Fossil;EJ/yr;;;;final energy consumption by the industrial sector of  synthetic or derived gases of fossil origin, excluding transmission/distribution losses
+656;1;energy (final);Final Energy|Industry|Liquids|Biomass;EJ/yr;FE|w/o Non-energy Use|Industry|Liquids|+|Biomass;EJ/yr;;;;final energy consumption by the industrial sector of liquid biofuels
+657;1;energy (final);Final Energy|Industry|Liquids|Electricity;EJ/yr;FE|w/o Non-energy Use|Industry|Liquids|+|Hydrogen;EJ/yr;;;;final energy consumption by the industrial sector of liquid efuels ("power-to-liquid")
+658;1;energy (final);Final Energy|Industry|Liquids|Fossil;EJ/yr;FE|w/o Non-energy Use|Industry|Liquids|+|Fossil;EJ/yr;;;;final energy consumption by the industrial sector of liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
 659;1;energy (final);Final Energy|Industry|Non-Metallic Minerals;EJ/yr;;;;;;Final energy consumed by the non-metallic minerals sector, excluding feestocks
 660;2;energy (final);Final Energy|Industry|Non-Metallic Minerals|Electricity;EJ/yr;;;;;;Final energy consumption of electricity by the non metallic minerals sector
 661;2;energy (final);Final Energy|Industry|Non-Metallic Minerals|Gases;EJ/yr;;;;;;Final energy consumption of gases by the non-metallic minerals sector (natural gas, biogas, coal-gas), excluding transmission/distribution losses
