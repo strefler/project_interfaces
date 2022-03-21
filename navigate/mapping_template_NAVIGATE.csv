@@ -32,17 +32,26 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 17;1;agriculture;Price|Agriculture|Wheat|Index;Index (2020 = 1);;;;;;price index of wheat
 18;1;agriculture;Fertilizer|Nitrogen|Intensity;t N/ha/yr;;;;;;nitrogen fertilizer inputs in tonnes per hectare per year (or similar)
 19;1;agriculture;Fertilizer|Phosphorus|Intensity;t P/ha/yr;;;;;;phosphorus fertilizer inputs in tonnes per hectare per year (or similar)
-20;2;agriculture;Agricultural Demand|Energy|Crops|1st generation;million t DM/yr;;;;;;demand for modern primary 1st generation energy crops
-21;2;agriculture;Agricultural Demand|Energy|Crops|2nd generation;million t DM/yr;;;;;;demand for modern primary 2nd generation energy crops
-22;2;agriculture;Agricultural Demand|Energy|Residues;million t DM/yr;;;;;;demand of agricultural residues for modern bioenergy production
-23;2;agriculture;Agricultural Demand|Non-Energy|Crops|Feed;million t DM/yr;;;;;;total demand for feed (crops)
-24;2;agriculture;Agricultural Demand|Non-Energy|Crops|Food;million t DM/yr;;;;;;total demand for food (crops)
-25;2;agriculture;Agricultural Demand|Non-Energy|Crops|Other;million t DM/yr;;;;;;total demand for non-food and non-feed (crops)
-26;2;agriculture;Agricultural Demand|Non-Energy|Livestock;million t DM/yr;;;;;;total demand for livestock products
-27;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Food;million t DM/yr;;;;;;total demand for food livestock products
-28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;;;;;;total demand for non-food livestock products
+20;2;agriculture;Agricultural Demand|Energy|Crops|1st generation;million t DM/yr;Demand|Bioenergy|+|Secondary products;Mt DM/yr;;;;demand for modern primary 1st generation energy crops
+21;2;agriculture;Agricultural Demand|Energy|Crops|2nd generation;million t DM/yr;Demand|Bioenergy|+|Bioenergy crops;Mt DM/yr;;;;demand for modern primary 2nd generation energy crops
+22;2;agriculture;Agricultural Demand|Energy|Residues;million t DM/yr;Demand|Bioenergy|+|Crop residues;Mt DM/yr;;;;demand of agricultural residues for modern bioenergy production
+23;2;agriculture;Agricultural Demand|Non-Energy|Crops|Feed;million t DM/yr;Demand|Feed|+|Crops;Mt DM/yr;;;;total demand for feed (crops)
+24;2;agriculture;Agricultural Demand|Non-Energy|Crops|Food;million t DM/yr;Demand|Food|+|Crops;Mt DM/yr;;;;total demand for food (crops)
+25;2;agriculture;Agricultural Demand|Non-Energy|Crops|Other;million t DM/yr;Demand|Agricultural Supply Chain Loss|+|Crops;Mt DM/yr;;;;total demand for non-food and non-feed (crops)
+25;2;agriculture;Agricultural Demand|Non-Energy|Crops|Other;million t DM/yr;Demand|Domestic Balanceflow|+|Crops;Mt DM/yr;;;;total demand for non-food and non-feed (crops)
+25;2;agriculture;Agricultural Demand|Non-Energy|Crops|Other;million t DM/yr;Demand|Material|+|Crops;Mt DM/yr;;;;total demand for non-food and non-feed (crops)
+25;2;agriculture;Agricultural Demand|Non-Energy|Crops|Other;million t DM/yr;Demand|Processing|+|Crops;Mt DM/yr;;;;total demand for non-food and non-feed (crops)
+25;2;agriculture;Agricultural Demand|Non-Energy|Crops|Other;million t DM/yr;Demand|Seed|+|Crops;Mt DM/yr;;;;total demand for non-food and non-feed (crops)
+26;2;agriculture;Agricultural Demand|Non-Energy|Livestock;million t DM/yr;Demand|++|Livestock products;Mt DM/yr;;;;total demand for livestock products
+27;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Food;million t DM/yr;Demand|Food|+|Livestock products;Mt DM/yr;;;;total demand for food livestock products
+28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;Demand|Agricultural Supply Chain Loss|+|Livestock products;Mt DM/yr;;;;total demand for non-food livestock products
+28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;Demand|Domestic Balanceflow|+|Livestock products;Mt DM/yr;;;;total demand for non-food livestock products
+28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;Demand|Feed|+|Livestock products;Mt DM/yr;;;;total demand for non-food livestock products
+28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;Demand|Material|+|Livestock products;Mt DM/yr;;;;total demand for non-food livestock products
+28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;Demand|Processing|+|Livestock products;Mt DM/yr;;;;total demand for non-food livestock products
+28;2;agriculture;Agricultural Demand|Non-Energy|Livestock|Other;million t DM/yr;Demand|Seed|+|Livestock products;Mt DM/yr;;;;total demand for non-food livestock products
 29;2;agriculture;Agricultural Production|Energy|Crops|1st generation;million t DM/yr;;;;;;production for modern primary 1st generation energy crops
-30;2;agriculture;Agricultural Production|Energy|Crops|2nd generation;million t DM/yr;;;;;;production for modern primary 2nd generation energy crops
+30;2;agriculture;Agricultural Production|Energy|Crops|2nd generation;million t DM/yr;Production|+|Bioenergy crops;Mt DM/yr;;;;production for modern primary 2nd generation energy crops
 31;2;agriculture;Agricultural Production|Energy|Residues;million t DM/yr;Demand|Bioenergy|+|Crop residues;Mt DM/yr;;;;production of agricultural residues for modern bioenergy production
 32;2;agriculture;Agricultural Production|Non-Energy|Crops;million t DM/yr;Production|+|Crops;Mt DM/yr;;;;total production for food, non-food and feed products (crops)
 33;2;agriculture;Agricultural Production|Non-Energy|Crops|Feed;million t DM/yr;;;;;;total production for feed (crops)
