@@ -235,15 +235,15 @@ idx;Variable_AR6;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_un
 204;Emissions|BC|Industrial Processes;Mt BC/yr;;;;;;;;;;;;;;;;;BC emissions from industrial processes
 205;Emissions|BC|Other;Mt BC/yr;Emi|BC|Solvents;Mt BC/yr;;;;;;Emi|BC|Solvents;Mt BC/yr;;;;;;;;black carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab)
 206;Emissions|BC|Waste;Mt BC/yr;Emi|BC|Waste;Mt BC/yr;;;;;;Emi|BC|Waste;Mt BC/yr;;;;;;;;
-;Emissions|C2F6;kt CF4/yr;;;;;;;;;;;;;;;;;
+;Emissions|C2F6;kt C2F6/yr;;;;;;;;Emi|C2F6;kt C2F6/yr;;;;;;;;total emissions of C2F6
 207;Emissions|C2F6|AFOLU;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6 emissions from agriculture,forestry and other land use (IPCC category 3)
 208;Emissions|C2F6|AFOLU|Agriculture;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6|AFOLU|Agric emissions from agriculture
 209;Emissions|C2F6|AFOLU|Land;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6|AFOL emissions from forestry and other land use
 210;Emissions|C2F6|Energy;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6| emissions from forestry and other land use
 211;Emissions|C2F6|Industrial Processes;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6 emissions from industrial processes
 212;Emissions|C2F6|Waste;kt C2F6/yr;;;;;;;;;;;;;;;;;
-;Emissions|C6F14;kt C6F14/yr;;;;;;;;;;;;;;;;;total emissions of CF6F14
-;Emissions|CF4;kt CF4-equiv/yr;;;;;;;;;;;;;;;;;
+;Emissions|C6F14;kt C6F14/yr;;;;;;;;Emi|C6F14;kt C6F14/yr;;;;;;;;total emissions of CF6F14
+;Emissions|CF4;kt CF4-equiv/yr;;;;;;;;Emi|CF4;kt CF4/yr;;;;;;;;total emissions of CF4
 213;Emissions|CF4|AFOLU;kt CF4/yr;;;;;;;;;;;;;;;;;CF4 emissions from agriculture,forestry and other land use (IPCC category 3)
 214;Emissions|CF4|AFOLU|Agriculture;kt CF4/yr;;;;;;;;;;;;;;;;;CF4|AFOLU|Agric emissions from agriculture
 215;Emissions|CF4|AFOLU|Land;kt CF4/yr;;;;;;;;;;;;;;;;;CF4|AFOL emissions from forestry and other land use
