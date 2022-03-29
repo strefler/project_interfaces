@@ -26,11 +26,10 @@ idx;Variable_SHAPE;Unit;r30m44;r30m44_unit;r30m44_factor;r30m44_spatial;internal
 25;Expenditure Share|Food;%;SDG|SDG02|Food expenditure share;income;100;;;;Share of food expenditure in total income
 26;Material footprint;tDM/cap/yr;SDG|SDG12|Material footprint;tDM/capita/yr;;;;;Biomass usage per capita (excluding pasture + forestry)
 27;Land Cover|Forest|Share;%;SDG|SDG15|Forest share;share of total land;100;;;;Managed and unmanaged forests as share of total terrestrial land area (excluding surface water)
-28;Terrestrial biodiversity;-;Biodiversity|BII;unitless;;;;;Biodiversity Intactness Index (BII)
-29;Ocean|pH value;-;Ocean|pH value;-;;;;;Ocean acidification: pH value
-30;Ocean|Carbonate Saturation|Calcite;-;Ocean|Carbonate Saturation|Calcite;-;;;;;Saturation state of calcite (Omega_C)
-31;Ocean|Carbonate Saturation|Aragonite;-;Ocean|Carbonate Saturation|Aragonite;-;;;;;Saturation state of aragonite (Omega_A)
-32;Ocean|Net primary production;GtC/yr;Ocean|Net primary production;GtC/yr;;;;;Net primary production of biomass in oceans
-33;Ocean|New production;GtC/yr;Ocean|New production;GtC/yr;;;;;New production of biomass in oceans
-34;Ocean|Extension of suboxic zones;km³;Ocean|Extension of suboxic zones;km3;;;;;Extension of suboxic zones in oceans
-35;Political institutions|Equality before law and individual liberty;-;Political institutions|Equality before law and individual liberty;-;;;;;aggregated ‘Equality Before the Law and Individual Liberty' index (0-1) as defined by V-DEM
+28;Ocean|pH value;-;Ocean|pH value;-;;;;;Ocean acidification: pH value
+29;Ocean|Carbonate Saturation|Calcite;-;Ocean|Carbonate Saturation|Calcite;-;;;;;Saturation state of calcite (Omega_C)
+30;Ocean|Carbonate Saturation|Aragonite;-;Ocean|Carbonate Saturation|Aragonite;-;;;;;Saturation state of aragonite (Omega_A)
+31;Ocean|Net primary production;GtC/yr;Ocean|Net primary production;GtC/yr;;;;;Net primary production of biomass in oceans
+32;Ocean|New production;GtC/yr;Ocean|New production;GtC/yr;;;;;New production of biomass in oceans
+33;Ocean|Extension of suboxic zones;km³;Ocean|Extension of suboxic zones;km3;;;;;Extension of suboxic zones in oceans
+34;Political institutions|Equality before law and individual liberty;-;Political institutions|Equality before law and individual liberty;-;;;;;aggregated ‘Equality Before the Law and Individual Liberty' index (0-1) as defined by V-DEM
