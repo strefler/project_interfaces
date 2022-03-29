@@ -2043,6 +2043,6 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 1980;2;investment;Investment|Forestry;billion US$2010/yr;;;;;;Investment into growing forests
 1981;2;SDG;Terrestrial Biodiversity|MSA|Vertebrates;%;;;;;;Terrestrial biodiversity of vertebrate species measured in Mean Species Abundance (MSA)
 1982;2;SDG;Terrestrial Biodiversity|MSA|Plants;%;;;;;;Terrestrial biodiversity of plant species measured in Mean Species Abundance (MSA)
-1983;2;SDG;Terrestrial Biodiversity|BII;%;;;;;;Terrestrial biodiversity measured with Biodiversity Intactness Index (BII)
+1983;2;SDG;Terrestrial Biodiversity|BII;%;Biodiversity|BII;unitless;;;;Terrestrial biodiversity measured with Biodiversity Intactness Index (BII)
 1984;2;land cover;Land Cover|Protected Area;million ha;;;;;;Land-use coverage of officially protected area
 1985;2;land cover;Land Cover|Other Natural Land;million ha;;;;;;Other natural land cover that does not fit into any other category
