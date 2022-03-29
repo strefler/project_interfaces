@@ -19,11 +19,6 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 10;1;agriculture;Agricultural Production|Non-Energy;million t DM/yr;Production|+|Crops;Mt DM/yr;;;;total production for food, non-food and feed products (crops and livestock)
 10;1;agriculture;Agricultural Production|Non-Energy;million t DM/yr;Production|+|Livestock products;Mt DM/yr;;;;total production for food, non-food and feed products (crops and livestock)
 11;1;agriculture;Fertilizer Use|Nitrogen;Tg N/yr;Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer;Mt Nr/yr;;;;total nitrogen fertilizer use
-11;1;agriculture;Fertilizer Use|Nitrogen;Tg N/yr;Resources|Nitrogen|Cropland Budget|Inputs|+|Manure;Mt Nr/yr;;;;total nitrogen fertilizer use
-11;1;agriculture;Fertilizer Use|Nitrogen;Tg N/yr;Resources|Nitrogen|Cropland Budget|Inputs|+|Manure From Stubble Grazing;Mt Nr/yr;;;;total nitrogen fertilizer use
-11;1;agriculture;Fertilizer Use|Nitrogen;Tg N/yr;Resources|Nitrogen|Cropland Budget|Inputs|+|Recycled Aboveground Crop Residues;Mt Nr/yr;;;;total nitrogen fertilizer use
-11;1;agriculture;Fertilizer Use|Nitrogen;Tg N/yr;Resources|Nitrogen|Cropland Budget|Inputs|+|Biological Fixation Freeliving Microorganisms;Mt Nr/yr;;;;total nitrogen fertilizer use
-11;1;agriculture;Fertilizer Use|Nitrogen;Tg N/yr;Resources|Nitrogen|Cropland Budget|Inputs|+|Biological Fixation Symbiotic Crops;Mt Nr/yr;;;;total nitrogen fertilizer use
 12;1;agriculture;Fertilizer Use|Phosphorus;Tg P/yr;;;;;;total phosphorus fertilizer use
 13;1;agriculture;Price|Agriculture|Corn|Index;Index (2020 = 1);Prices|Index2020|Agriculture|Food products|Plant-based|Maize;1;;;;price index of corn
 14;1;agriculture;Price|Agriculture|Non-Energy Crops and Livestock|Index;Index (2020 = 1);Prices|Index2020|Agriculture|Food products;1;;;;weighted average price index of non-energy crops and livestock products
