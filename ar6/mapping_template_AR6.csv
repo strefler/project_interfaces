@@ -332,7 +332,7 @@ idx;Variable_AR6;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_un
 292;Emissions|CO2|Energy|Demand|Industry|Chemicals|Methanol;Mt CO2/yr;;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Chemicals|Methanol industry sector (IPCC category 1A2)
 293;Emissions|CO2|Energy|Demand|Industry|Chemicals|Other;Mt CO2/yr;;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Chemicals|Other industry sector (IPCC category 1A2)
 294;Emissions|CO2|Energy|Demand|Industry|Non-ferrous metals;Mt CO2/yr;;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Non-ferrous metals industry sector (IPCC category 1A2)
-295;Emissions|CO2|Energy|Demand|Industry|Other;Mt CO2/yr;;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Other industry sector (IPCC category 1A2)
+295;Emissions|CO2|Energy|Demand|Industry|Other;Mt CO2/yr;;;;;;;;Emi|CO2|Energy|Demand|Industry|++|Other Industry;Mt CO2/yr;;;;;;;;CO2 emissions from fuel combustion in the Other industry sector (IPCC category 1A2)
 296;Emissions|CO2|Energy|Demand|Industry|Plastics;Mt CO2/yr;;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Plastics industry sector (IPCC category 1A2)
 297;Emissions|CO2|Energy|Demand|Industry|Pulp and Paper;Mt CO2/yr;;;;;;;;;;;;;;;;;CO2 emissions from fuel combustion in the Pulp and Paper industry sector (IPCC category 1A2)
 298;Emissions|CO2|Energy|Demand|Industry|Steel;Mt CO2/yr;;;;;;;;Emi|CO2|Energy|Demand|Industry|++|Steel;Mt CO2/yr;;;;;;;;CO2 emissions from fuel combustion in the Steel industry sector (IPCC category 1A2)
