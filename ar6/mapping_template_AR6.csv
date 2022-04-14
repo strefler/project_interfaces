@@ -175,6 +175,7 @@ idx;Variable_AR6;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_un
 ;Price|Carbon|Demand|Residential and Commercial;US$2010/t CO2;;;;;;;;Price|Carbon|Demand|Buildings;US$2005/t CO2;1.10774;;;;;;;price of carbon for the residential and commerical sector
 ;Price|Carbon|Demand|Transportation;US$2010/t CO2;;;;;;;;Price|Carbon|Demand|Transport;US$2005/t CO2;1.10774;;;;;;;price of carbon for the transportation sector
 ;Price|Carbon|Supply;US$2010/t CO2;;;;;;;;Price|Carbon|Supply;US$2005/t CO2;1.10774;;;;;;;price of carbon for energy supply sectors (e.g. electricity)
+;Price|Final Energy|Industry|Electricity;US$2010/GJ;;;;;;;;Price|Final Energy|Industry|Electricity;US$2005/GJ;1.10774;;;;;;;Electricity price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
 ;Price|Final Energy|Industry|Gases|Bioenergy;US$2010/GJ;;;;;;;;Price|Final Energy|Industry|Gases;US$2005/GJ;1.10774;;;;;;;Gases|Bioenergy price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
 ;Price|Final Energy|Industry|Gases|Fossil;US$2010/GJ;;;;;;;;Price|Final Energy|Industry|Gases;US$2005/GJ;1.10774;;;;;;;Gases|Fossil price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
 ;Price|Final Energy|Industry|Hydrogen;US$2010/GJ;;;;;;;;Price|Final Energy|Industry|Hydrogen;US$2005/GJ;1.10774;;;;;;;Hydrogen price at the final level in the Industry sector. Prices should include taxes and the effect of carbon prices.
