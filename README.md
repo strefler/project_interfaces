@@ -153,4 +153,20 @@ To facilitate working on the template and enabling version control,
 the variable list is put into a CSV file together with the additional
 columns (`ar6/shape/shape-template.csv`).
 
+### Human-readable diffs
+
+The github diff on large semicolon-separated csv files are often completely unreadable.
+To get a nice output, save the old version of the mapping and the use [`remind2::compareScenConf`](https://github.com/pik-piam/remind2/blob/master/R/compareScenConf.R):
+```
+remind2::compareScenConf(fileList = c("oldfile.csv", "mappingfile.csv"), row.names = NULL)
+```
+and paste the text like that into the PR:
+````
+<details>
+  <summary>Click to expand diff of `mappingfile.csv`</summary>
+```
+paste text here
+```
+</details>
+````
 
