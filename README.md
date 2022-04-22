@@ -152,5 +152,3 @@ the output)
 To facilitate working on the template and enabling version control, 
 the variable list is put into a CSV file together with the additional
 columns (`ar6/shape/shape-template.csv`).
-
-
