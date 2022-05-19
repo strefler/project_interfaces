@@ -243,7 +243,7 @@ idx;Variable_AR6;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_un
 210;Emissions|C2F6|Energy;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6| emissions from forestry and other land use
 211;Emissions|C2F6|Industrial Processes;kt C2F6/yr;;;;;;;;;;;;;;;;;C2F6 emissions from industrial processes
 212;Emissions|C2F6|Waste;kt C2F6/yr;;;;;;;;;;;;;;;;;
-;Emissions|C6F14;kt C6F14/yr;;;;;;;;Emi|C6F14;kt C6F14/yr;;;;;;;;total emissions of CF6F14
+;Emissions|C6F14;kt C6F14/yr;Emi|C6F14;kt C6F14/yr;;;;;;Emi|C6F14;kt C6F14/yr;;;;;;;;total emissions of CF6F14
 ;Emissions|CF4;kt CF4-equiv/yr;;;;;;;;Emi|CF4;kt CF4/yr;;;;;;;;total emissions of CF4
 213;Emissions|CF4|AFOLU;kt CF4/yr;;;;;;;;;;;;;;;;;CF4 emissions from agriculture,forestry and other land use (IPCC category 3)
 214;Emissions|CF4|AFOLU|Agriculture;kt CF4/yr;;;;;;;;;;;;;;;;;CF4|AFOLU|Agric emissions from agriculture
@@ -1990,7 +1990,6 @@ idx;Variable_AR6;Unit;r21m42;r21m42_unit;r21m42_factor;r21m42_spatial;m42;m42_un
 ;Ocean|New production;GtC/yr;Ocean|New production;GtC/yr;;;;;;Ocean|New production;GtC/yr;;;;;;;;New production of biomass in oceans
 ;Ocean|Extension of suboxic zones;km³;Ocean|Extension of suboxic zones;km3;;;;;;Ocean|Extension of suboxic zones;km3;;;;;;;;Extension of suboxic zones in oceans
 ;Political institutions|Equality before law and individual liberty;-;Political institutions|Equality before law and individual liberty;-;;;;;;Political institutions|Equality before law and individual liberty;-;;;;;;;;aggregated ‘Equality Before the Law and Individual Liberty' index (0-1) as defined by V-DEM
-;Emi|C6F14;kt C6F14/yr;Emi|C6F14;kt C6F14/yr;;;;;;Emi|C6F14;kt C6F14/yr;;;;;;;;total emissions of CF6F14
 ;Primary Energy|Biomass|Electricity;EJ/yr;PE|Biomass|Heat;EJ/yr;;;;;;PE|Biomass|Heat;EJ/yr;;;;;;;;coal primary energy input to electricity generation
 ;Primary Energy|Coal|Electricity;EJ/yr;PE|Coal|Heat;EJ/yr;;;;;;PE|Coal|Heat;EJ/yr;;;;;;;;coal primary energy input to electricity generation
 ;Primary Energy|Gas|Electricity;EJ/yr;PE|Gas|Heat;EJ/yr;;;;;;PE|Gas|Heat;EJ/yr;;;;;;;;
