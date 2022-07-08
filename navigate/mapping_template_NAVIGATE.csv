@@ -362,6 +362,7 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 327;2;emissions (non-CO2);Emissions|N2O|AFOLU|Agriculture|Managed Soils;kt N2O/yr;Emi|N2O|Agriculture|+|Inorganic Fertilizers;kt N2O/yr;;;;N2O  emissions from soil management practices in the agriculture sector
 327;2;emissions (non-CO2);Emissions|N2O|AFOLU|Agriculture|Managed Soils;kt N2O/yr;Emi|N2O|Agriculture|+|Manure applied to Croplands;kt N2O/yr;;;;N2O  emissions from soil management practices in the agriculture sector
 327;2;emissions (non-CO2);Emissions|N2O|AFOLU|Agriculture|Managed Soils;kt N2O/yr;Emi|N2O|Agriculture|+|Decay of Crop Residues;kt N2O/yr;;;;N2O  emissions from soil management practices in the agriculture sector
+327;2;emissions (non-CO2);Emissions|N2O|AFOLU|Agriculture|Managed Soils;kt N2O/yr;Emi|N2O|Agriculture|+|Soil Organic Matter Loss;kt N2O/yr;;;;N2O  emissions from soil management practices in the agriculture sector
 327;2;emissions (non-CO2);Emissions|N2O|AFOLU|Agriculture|Managed Soils;kt N2O/yr;Emi|N2O|Agriculture|+|Pasture;kt N2O/yr;;;;N2O  emissions from soil management practices in the agriculture sector
 328;2;emissions (non-CO2);Emissions|N2O|AFOLU|Land;kt N2O/yr;Emi|N2O|+|Land-Use Change;kt N2O/yr;;;;N2O emissions from forestry and other land use
 329;2;emissions (non-CO2);Emissions|N2O|AFOLU|Land|Wetlands;kt N2O/yr;Emi|N2O|Land-Use Change|+|Peatland;kt N2O/yr;;;;N2O emissions from managed peatlands (drained and rewetted)
