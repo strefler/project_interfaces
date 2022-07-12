@@ -29,7 +29,7 @@ idx;Variable_SHAPE;Unit;r30m44;r30m44_unit;r30m44_factor;r30m44_spatial;internal
 ;Price|Agriculture|Livestock|Index;Index (2020 = 1);Prices|Index2020|Agriculture|Food products|Livestock;1;;;;;weighted average price index of livestock products
 24;Food Waste;kcal/cap/day;SDG|SDG12|Food waste;kcal/cap/day;;;;;Food waste per capita
 25;Expenditure Share|Food;%;SDG|SDG02|Food expenditure share;income;100;;;;Share of food expenditure in total income
-26;Material footprint;tDM/cap/yr;SDG|SDG12|Material footprint;tDM/capita/yr;;;;;Biomass usage per capita (excluding pasture + forestry)
+26;Agricultural Material Footprint;tDM/cap/yr;SDG|SDG12|Material footprint;tDM/capita/yr;;;;;Biomass usage per capita (excluding pasture + forestry)
 27;Land Cover|Forest|Share;%;SDG|SDG15|Forest share;share of total land;100;;;;Managed and unmanaged forests as share of total terrestrial land area (excluding surface water)
 28;Ocean|pH value;-;Ocean|pH value;-;;;;;Ocean acidification: pH value
 29;Ocean|Carbonate Saturation|Calcite;-;Ocean|Carbonate Saturation|Calcite;-;;;;;Saturation state of calcite (Omega_C)
