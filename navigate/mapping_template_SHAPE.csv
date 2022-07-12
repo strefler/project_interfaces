@@ -24,6 +24,7 @@ idx;Variable_SHAPE;Unit;r30m44;r30m44_unit;r30m44_factor;r30m44_spatial;internal
 21;Population|Prevalence of obesity;million;SDG|SDG03|Prevalence of obesity;million;;;;;Number of adults with BMI>30 and children with >2SD from reference BMI
 22;Population|Prevalence of obesity|Children;million;SDG|SDG03|Prevalence of obesity|Children;million;;;;;Number of obese children (+2SD from reference BMI, aged 0--14)
 23;Food|Availability;kcal/cap/day;SDG|SDG02|Food availability;kcal/cap/day;;;;;Food available for consumption per capita
+;Price|Agriculture|Livestock|Index;Index (2020 = 1);Prices|Index2020|Agriculture|Food products|Livestock;1;;;;;weighted average price index of livestock products
 24;Food Waste;kcal/cap/day;SDG|SDG12|Food waste;kcal/cap/day;;;;;Food waste per capita
 25;Expenditure Share|Food;%;SDG|SDG02|Food expenditure share;income;100;;;;Share of food expenditure in total income
 26;Material footprint;tDM/cap/yr;SDG|SDG12|Material footprint;tDM/capita/yr;;;;;Biomass usage per capita (excluding pasture + forestry)
