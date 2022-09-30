@@ -859,7 +859,7 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 820;2;energy (final);Final Energy|Residential and Commercial|Gases|Electricity;EJ/yr;;;;;;final energy consumption by the residential & commercial sector of synthetic e-fuel gas ("power-to-gas"), excluding transmission/distribution losses
 821;2;energy (final);Final Energy|Residential and Commercial|Gases|Fossil;EJ/yr;;;;;;final energy consumption by the residential & commercial sector of  synthetic or derived gases of fossil origin, excluding transmission/distribution losses
 822;2;energy (final);Final Energy|Residential and Commercial|Liquids|Biomass;EJ/yr;;;;;;final energy consumption by the residential & commercial sector of liquid biofuels
-823;2;energy (final);Final Energy|Residential and Commercial|Liquids|Electricity;EJ/yr;;;;;;final energy consumption by the residential & commercial sector of liquid efuels ("power-to-liquid")"
+823;2;energy (final);Final Energy|Residential and Commercial|Liquids|Electricity;EJ/yr;;;;;;final energy consumption by the residential & commercial sector of liquid efuels ("power-to-liquid")
 824;2;energy (final);Final Energy|Residential and Commercial|Liquids|Fossil;EJ/yr;;;;;;final energy consumption by the residential & commercial sector of liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
 825;1;energy (final);Final Energy|Transportation;EJ/yr;FE|Transport|w/o Bunkers;EJ/yr;;;;final energy consumed in the transportation sector, excluding bunker fuels, excluding pipelines
 826;1;energy (final);Final Energy|Transportation (w/ bunkers);EJ/yr;FE|Transport|w/o Bunkers;EJ/yr;;;;final energy consumed in the transportation sector, including bunker fuels, excluding pipelines
@@ -2000,22 +2000,22 @@ idx;Tier;Category;Variable_NAVIGATE;Unit;r30m44;r30m44_unit;r30m44_factor;intern
 1922;2;economy;Consumption|D2;%;;;;;;Share of  total consumption accruing to each Decile
 1923;2;economy;Income|D2;%;;;;;;Net income share of total income by Decile
 1924;2;economy;Consumption Share|Food|D2;%;;;;;;COICOP code: CP01 "Food"
-1925;2;economy;Consumption Share|Energy|Transportation|D2;%;;;;;;"COICOP code: CP07 "Transport"
+1925;2;economy;Consumption Share|Energy|Transportation|D2;%;;;;;;COICOP code: CP07 "Transport"
 1926;2;economy;Consumption Share|Energy|Energy Use|D2;%;;;;;;COICOP code: CP045 "Electricity, gas and other fuels"
 1927;2;economy;Consumption|D3;%;;;;;;Share of  total consumption accruing to each Decile
 1928;2;economy;Income|D3;%;;;;;;Net income share of total income by Decile
-1929;2;economy;Consumption Share|Food|D3;%;;;;;;"COICOP code: CP01 "Food"
+1929;2;economy;Consumption Share|Food|D3;%;;;;;;COICOP code: CP01 "Food"
 1930;2;economy;Consumption Share|Energy|Transportation|D3;%;;;;;;COICOP code: CP07 "Transport"
 1931;2;economy;Consumption Share|Energy|Energy Use|D3;%;;;;;;COICOP code: CP045 "Electricity, gas and other fuels"
 1932;2;economy;Consumption|D4;%;;;;;;Share of  total consumption accruing to each Decile
 1933;2;economy;Income|D4;%;;;;;;Net income share of total income by Decile
 1934;2;economy;Consumption Share|Food|D4;%;;;;;;COICOP code: CP01 "Food"
 1935;2;economy;Consumption Share|Energy|Transportation|D4;%;;;;;;COICOP code: CP07 "Transport"
-1936;2;economy;Consumption Share|Energy|Energy Use|D4;%;;;;;;"COICOP code: CP045 "Electricity, gas and other fuels"
+1936;2;economy;Consumption Share|Energy|Energy Use|D4;%;;;;;;COICOP code: CP045 "Electricity, gas and other fuels"
 1937;2;economy;Consumption|D5;%;;;;;;Share of  total consumption accruing to each Decile
 1938;2;economy;Income|D5;%;;;;;;Net income share of total income by Decile
-1939;2;economy;Consumption Share|Food|D5;%;;;;;;"COICOP code: CP01 "Food"
-1940;2;economy;Consumption Share|Energy|Transportation|D5;%;;;;;;"COICOP code: CP07 "Transport"
+1939;2;economy;Consumption Share|Food|D5;%;;;;;;COICOP code: CP01 "Food"
+1940;2;economy;Consumption Share|Energy|Transportation|D5;%;;;;;;COICOP code: CP07 "Transport"
 1941;2;economy;Consumption Share|Energy|Energy Use|D5;%;;;;;;COICOP code: CP045 "Electricity, gas and other fuels"
 1942;2;economy;Consumption|D6;%;;;;;;Share of  total consumption accruing to each Decile
 1943;2;economy;Income|D6;%;;;;;;Net income share of total income by Decile
